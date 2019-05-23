@@ -53,12 +53,9 @@ documents: ['Policy']
 
 1. In addition to normal annual leave, an employee will qualify for the following additional leave as recognition for continuous long service.
 
-
-|Year of Service|Days of Leave|
-|:--------------:|:------------:|
-|5 | 5|
-|10 | 10|
-|15 | 15|
+- 5 years of service &xrarr; 5 days of leave
+- 10 years of service &xrarr; 10 days of leave
+- 15 years of service &xrarr; 15 days of leave
 
 
 2. This leave will be credited once only on the date on which the various periods of continuous service are completed.
