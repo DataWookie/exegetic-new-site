@@ -34,6 +34,12 @@ Learn to build a variety of Linear Models using R.
 - Validating Model Assumptions
 	* Fit Diagnostics
 - Using [`{broom}`](https://github.com/tidyverse/broom)
+- Logistic Regression
+	* Odds, Log Odds and the Logit Function
+	* Example: Synthetic Data
+	* Principle of Parsimony
+	* Multicollinearity
+	* Example: Myopia Data
 - Generalised Linear Models
 	- Logistic regression
 		- Thresholding and classification
