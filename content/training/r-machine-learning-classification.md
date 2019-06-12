@@ -15,14 +15,13 @@ subjects_weight: 41
 - Naive Bayes
 	- Background on Bayesian Methods
 	- Probabilistic model
-	- Model evaluation (accuracy, confusion matrix, precision and recall)
 	- Flavours of Naive Bayes
 	- Laplace smoothing
 	- Document Classifier
 - Model Evaluation
 	* Confusion Matrix
 	* Accuracy
-	* Sensitivity
+	* Recall / Sensitivity
 	* Precision
 	* Specificity
 	* Positive/Negative Predictive Value
