@@ -41,8 +41,13 @@ Learn to build a variety of Linear Models using R.
 	* Multicollinearity
 	* Example: Myopia Data
 - Generalised Linear Models
-	- Logistic regression
+	- Logistic Regression
+		* Odds, Log Odds and the Logit Function
+		* Example: Synthetic Data
 		- Thresholding and classification
+		* Principle of Parsimony
+		* Multicollinearity
+		* Example: Myopia Data
 		- Beyond binary: One-versus-rest models
 		- Model evaluation
 	- Poisson regression
