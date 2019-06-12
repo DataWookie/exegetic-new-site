@@ -69,3 +69,7 @@ install.packages(c("shiny", "rmarkdown", "DT", "devtools", "flexdashboard",
                    "tidyverse", "tufte", "xaringan"),
                  repos = "http://cran.rstudio.com")
 ```
+
+## Prior Knowledge
+
+We assume that participants have prior experience with R, ideally having completed both the the [Introduction to R]({{< ref "r-introduction.md" >}}) and [Data Wrangling]({{< ref "r-data-wrangling.md" >}}) courses.

@@ -44,3 +44,7 @@ subjects_weight: 41
 	* Oversampling
 	* Undersampling
 	* Synthetic Data Generation
+
+## Prior Knowledge
+
+We assume that participants have prior experience with R, ideally having completed both the the [Introduction to R]({{< ref "r-introduction.md" >}}) and [Data Wrangling]({{< ref "r-data-wrangling.md" >}}) courses.

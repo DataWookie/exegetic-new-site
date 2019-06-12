@@ -55,4 +55,4 @@ After the course participants will be able to
 
 ## Prior Knowledge
 
-We assume that participants have at least some prior exposure to R, or at least to programming of some variety.
+We assume that participants have prior experience with R, ideally having completed both the the [Introduction to R]({{< ref "r-introduction.md" >}}) and [Data Wrangling]({{< ref "r-data-wrangling.md" >}}) courses.

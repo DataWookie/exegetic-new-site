@@ -64,3 +64,7 @@ Learn to build a variety of Linear Models using R.
 	* feature importance and feature selection;
 	* model evaluation (using cross validation and bootstrapping);
 	* model tuning.
+
+## Prior Knowledge
+
+We assume that participants have prior experience with R, ideally having completed both the the [Introduction to R]({{< ref "r-introduction.md" >}}) and [Data Wrangling]({{< ref "r-data-wrangling.md" >}}) courses.

@@ -36,3 +36,7 @@ This hands-on workshop will introduce the basic components of ggplot2 and show h
 - Extensions
 	- Labelling points with [ggrepel](https://github.com/slowkow/ggrepel)
 	- Animation with [gganimate](https://github.com/thomasp85/gganimate)
+
+## Prior Knowledge
+
+We assume that participants have prior experience with R, ideally having completed both the the [Introduction to R]({{< ref "r-introduction.md" >}}) and [Data Wrangling]({{< ref "r-data-wrangling.md" >}}) courses.
