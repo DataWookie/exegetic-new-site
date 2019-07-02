@@ -42,7 +42,6 @@ Sick leave is applicable to cases of temporary, short-term incapacity for reason
 1. Maternity leave may commence 4 weeks before confinement.
 2. You are entitled to 3 months paid maternity leave so long as you have been continuously working for Exegetic for a minimum of 1 year.
 3. Should you fall ill with any pregnancy-related illness within 4 weeks of your confinement date, then that date will mark the start of your maternity leave.
-<!-- 4. To qualify for paid maternity leave, you must have been working continuously for Exegetic for at least 1 year. -->
 
 ### Family Responsibility Leave
 
