@@ -1,6 +1,6 @@
 ---
 title: "Procedure – Leave"
-draft: true
+draft: false
 documents: ['Procedure']
 ---
 
