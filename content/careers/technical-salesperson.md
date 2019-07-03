@@ -32,10 +32,6 @@ responsibilities: [
 	]
 ---
 
-<!--
-https://www.cleverism.com/job-profiles/data-engineer/
--->
-
 We're looking for a Technical Salesperson. We'll rely on you to grow our client base by soliciting and obtaining new clients, understanding and interpreting technical requirements and providing technical information.
 
 As a Technical Salesperson you will be the key point of contact for clients and responsible for growing and maintaining our client base.

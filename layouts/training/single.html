@@ -4,13 +4,11 @@
       <h1>{{.Title}}</h1>
 
       <article>
-      <p><a href="/#contact">Contact us</a> to book <em>{{.Title}}</em> training.</p>
 
       {{.Content}}
 
-      Return to our <a href="/training/">list</a> of courses.
       </article>
-
+      <p><a class="btn btn-primary btn-lg btn-block" href="mailto:training@exegetic.biz?subject=Training Enquiry" role="button" style="margin-bottom: 1%; margin-top: 1%;">Book now!</a></p>
       <div class="boilerplate">
         <h2>Training Philosophy</h2>
 
@@ -34,18 +32,7 @@
           Pricing: https://getbootstrap.com/docs/4.0/examples/pricing/
         -->
       </div>
-
-      <p><a href="/#contact">Contact us</a> to book <em>{{.Title}}</em> training.</p>
-
-      <div class="jumbotron">
-        <h1 class="display-3">Remote Training Available</h1>
-        <p class="lead">We can provide remote training online, tailored to your specific needs.</p>
-        <hr class="my-4">
-        <!-- <p>Contact us to find out more about remote training.</p> -->
-        <!-- <p class="lead"> -->
-        <a class="btn btn-primary btn-lg" href="mailto:training@exegetic.biz?subject=Training Enquiry" role="button">Learn more</a>
-        <!-- </p> -->
-      </div>
+      <p>Return to our <a href="/training/">list</a> of courses.</p>
     </div>
   </section>
 {{ end }}

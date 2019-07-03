@@ -15,14 +15,13 @@ subjects_weight: 41
 - Naive Bayes
 	- Background on Bayesian Methods
 	- Probabilistic model
-	- Model evaluation (accuracy, confusion matrix, precision and recall)
 	- Flavours of Naive Bayes
 	- Laplace smoothing
 	- Document Classifier
 - Model Evaluation
 	* Confusion Matrix
 	* Accuracy
-	* Sensitivity
+	* Recall / Sensitivity
 	* Precision
 	* Specificity
 	* Positive/Negative Predictive Value
@@ -34,12 +33,6 @@ subjects_weight: 41
 	- Pruning
 	- Model parameters (preventing underfitting and overfitting)
 	- A variation: Conditional Inference Trees
-- Logistic Regression
-	* Odds, Log Odds and the Logit Function
-	* Example: Synthetic Data
-	* Principle of Parsimony
-	* Multicollinearity
-	* Example: Myopia Data
 - Support Vector Machine
 	- Maximum Margin Classifiers
 	- Support Vector Classifiers
