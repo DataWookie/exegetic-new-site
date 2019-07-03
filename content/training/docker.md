@@ -1,5 +1,5 @@
 ---
-title: "Docker: First Steps"
+title: "Docker"
 topic: true
 subjects: ['Docker']
 draft: false
@@ -17,6 +17,8 @@ Docker is a tool which makes it easier to create, deploy and run applications us
 This course will teach you everything that you need to know to start using Docker.
 
 ## Course Description
+
+### Day 1
 
 - What is Docker?
 	- Virtualisation
@@ -54,6 +56,47 @@ This course will teach you everything that you need to know to start using Docke
 	- Caching
 	- Cleaning up temporary files
 	- The build context and `.dockerignore`
+
+### Day 2
+
+- Dockerfile Revisited
+	- Best practices
+	- `ENV` - Default values for environment variables
+- Debugging
+	- Getting "inside" an image
+	- `docker exec`
+	- `docker attach`
+- Volumes
+	- Sharing data
+	- Volumes on the host
+	- Named volumes
+- Networking
+	- `docker network`
+	- Network drivers
+	- Bridge, Overlay and Host network
+- Sharing Images
+	- [Docker Hub](https://hub.docker.com/)
+	- Docker Registry
+	- `docker push` - publishing images
+	- `docker search` - finding images
+- Deploying
+- Compose
+	- Running multiple containers
+	- Compose file syntax
+	- Ports, volumes and links
+	- Commands and flags
+- Swarm
+	- Distributing containers
+	- Setup
+	- Deploying application on a cluster
+
+{{< comment >}}
+- Kubernetes
+	- Introduction
+
+- Projects
+	- Django/MySQL application using Docker Compose
+{{< /comment >}}
 
 <!--
 - Projects
