@@ -29,6 +29,8 @@ In this workshop you will learn how to build Shiny applications from scratch. Af
 
 ## Contents
 
+### Day 1
+
 - What is Shiny?
   - Samples from App Gallery
 - Components of a Shiny app
@@ -55,11 +57,19 @@ In this workshop you will learn how to build Shiny applications from scratch. Af
   - Shiny themes
   - HTML widgets
   - Javascript
+
+### Day 2
+
+- Modules
+- Testing
+  - {shinytest}
+  - {shinyloadtest}
 - Deploying
   - [shinyapps.io](https://www.shinyapps.io/)
   - Shiny Server
 - Scaling Shiny
   - [Shinyproxy](https://www.shinyproxy.io/)
+  - [{golem}](https://github.com/ThinkR-open/golem)
 
 ## Setup
 
