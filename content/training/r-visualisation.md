@@ -10,6 +10,21 @@ The [ggplot2](https://github.com/tidyverse/ggplot2) package has become the *de f
 
 This hands-on workshop will introduce the basic components of ggplot2 and show how they can be combined to form sophisticated visualisations. We'll then take a look at extensions for labelling points in congested scatterplots and producing animations.
 
+
+
+
+<!-- https://plotly-book.cpsievert.me/ -->
+
+[Plotly](https://github.com/ropensci/plotly) is an open source JavaScript library for creating interactive graphs and dashboards.
+
+In this course you'll learn how to easily create sophisticated interactive visualisations from within R using Plotly.
+
+**Need to separate out the two descriptions above, which were originally for separate ggplot and plotly courses.**
+
+## Course Description
+
+### Day 1: ggplot
+
 - Introduction
 	- Grammar of Graphics
 - Components of a plot
@@ -33,9 +48,32 @@ This hands-on workshop will introduce the basic components of ggplot2 and show h
 	- Builtin themes
 	- Other themes
 	- Customising
+
+### Day 2: ggplot Extensions & Plotly
+
 - Extensions
 	- Labelling points with [ggrepel](https://github.com/slowkow/ggrepel)
 	- Animation with [gganimate](https://github.com/thomasp85/gganimate)
+
+PLOTLY
+
+- Fundamentals
+	- ggplot to plotly with `ggplotly()`
+- Plot types
+	- Scatter and Line plots
+	- Box plots
+	- Histogram and Bar plots
+	- Heat maps and Contour plots
+	- Polar plots
+- Maps
+- Combining plots
+	- Sub-plots
+	- Inset plots
+	- Multiple axes
+- Custom controls
+- Dashboards
+- Animation
+- Exporting static images
 
 ## Prior Knowledge
 
