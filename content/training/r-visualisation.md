@@ -6,24 +6,18 @@ draft: false
 subjects_weight: 32
 ---
 
-The [ggplot2](https://github.com/tidyverse/ggplot2) package has become the *de facto* standard for making plots in R. It's possible to quickly put together a simple plot for exploratory purposes. However, with a bit of effort such a plot can be transformed into a work of art.
+This course will cover two libraries for creating visualisations with R:
 
-This hands-on workshop will introduce the basic components of ggplot2 and show how they can be combined to form sophisticated visualisations. We'll then take a look at extensions for labelling points in congested scatterplots and producing animations.
-
-
-
-
-<!-- https://plotly-book.cpsievert.me/ -->
-
-[Plotly](https://github.com/ropensci/plotly) is an open source JavaScript library for creating interactive graphs and dashboards.
-
-In this course you'll learn how to easily create sophisticated interactive visualisations from within R using Plotly.
-
-**Need to separate out the two descriptions above, which were originally for separate ggplot and plotly courses.**
+- {ggplot2} — static and dynamic visualisations
+- {plotly} — interactive visualisations.
 
 ## Course Description
 
-### Day 1: ggplot
+### Day 1: {ggplot2}
+
+The [ggplot2](https://github.com/tidyverse/ggplot2) package has become the *de facto* standard for making plots in R. It's possible to quickly put together a simple plot for exploratory purposes. However, with a bit of effort such a plot can be transformed into a work of art.
+
+This course will introduce the basic components of ggplot2 and show how they can be combined to form sophisticated visualisations. We'll then take a look at extensions for labelling points in congested scatterplots and producing animations.
 
 - Introduction
 	- Grammar of Graphics
@@ -48,14 +42,15 @@ In this course you'll learn how to easily create sophisticated interactive visua
 	- Builtin themes
 	- Other themes
 	- Customising
-
-### Day 2: ggplot Extensions & Plotly
-
 - Extensions
 	- Labelling points with [ggrepel](https://github.com/slowkow/ggrepel)
 	- Animation with [gganimate](https://github.com/thomasp85/gganimate)
 
-PLOTLY
+### Day 2: {plotly}
+
+<!-- https://plotly-book.cpsievert.me/ -->
+
+[Plotly](https://github.com/ropensci/plotly) is an open source JavaScript library for creating interactive graphs and dashboards. In this course you'll learn how to easily create sophisticated interactive visualisations from within R using Plotly.
 
 - Fundamentals
 	- ggplot to plotly with `ggplotly()`
