@@ -10,7 +10,7 @@ A Time Series model allows you to make predictions about the future based on obs
 
 > *Prediction is very difficult, especially if it's about the future.*<br>&mdash; Niels Bohr, Nobel Laureate (Physics)
 
-Niels Bohr was right: predicting the future is a tough problem. Some things, like lottery numbers, are inherently undepredictable. Others, like air temperatures and rainfall, are reasonably predictable. Time series analysis makes it possible to assess whether or not predictions are possible and, if they are, build a model which can generate informed predictions for the future with realistic estimates of uncertainty.
+Niels Bohr was right: predicting the future is a tough problem. Some things, like lottery numbers, are inherently unpredictable. Others, like air temperatures and rainfall, are reasonably predictable. Time series analysis makes it possible to assess whether or not predictions are possible and, if they are, build a model which can generate informed predictions for the future with realistic estimates of uncertainty.
 
 > *The best qualification of a prophet is to have a good memory.*<br>&mdash; George Savile
 
