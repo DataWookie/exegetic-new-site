@@ -1,5 +1,5 @@
 ---
-title: "Machine Learning: Time Series"
+title: "Forecasting & Time Series Analysis"
 topic: true
 subjects: ['R']
 subjects_weight: 43
@@ -16,12 +16,29 @@ Niels Bohr was right: predicting the future is a tough problem. Some things, lik
 
 This course will provide you with an understanding of the theory behind time series models and the ability to build such models in R. By the end of the course you'll be able to select the appropriate model for your data, train a model and start making predictions.
 
+### Why attend?
+
+1. Understand tools and methods of forecasting.
+2. Select appropriate forecasting techniques.
+3. Predict trends and estimate uncertainty.
+4. Use forecasting to improve decision-making and strategic planning.
+5. Evaluate and iteratively improve forecast accuracy.
+
+### Who should attend?
+
+Anybody interested in predicting the future will benefit from this course.
+
+- Analysts and strategic planners.
+- Managers (sales, marketing, product, business, financial, HR, inventory and supply chain).
+- Researchers.
+
 ## Course Content
+
+### Day 1
 
 - Introduction
 	* What is a Time Series?
 	* Examples
-	* Stationarity
 - Time Series Objects
 	* Base Representation
 		- Creating a `ts` object
@@ -30,6 +47,7 @@ This course will provide you with an understanding of the theory behind time ser
 	* Other Representations
 		- `xts`
 - Decomposition
+	* Stationarity
 	* Moving averages and smoothing
 	* Additive and Multiplicative Decomposition
 	* Trend
@@ -59,6 +77,9 @@ This course will provide you with an understanding of the theory behind time ser
 	- Simulation
 	- ACF and moving average
 	- Model estimation and forecasting
+
+### Day 2
+
 - Autoregressive (AR) Models
 	- Simulation
 	- PACF and autoregression
@@ -77,13 +98,12 @@ This course will provide you with an understanding of the theory behind time ser
 	- Non-linear and changing trends
 	- Multiple seasonalities
 	- Non-uniform sampling and missing data
+- Hierarchical Models
+	- Bottom-up approach
+	- Top-down approach
+	- Middle-out approach
+- Anomaly Detection
 
-## Course Duration
+## Prior Knowledge
 
-This course can be presented at either an Introductory or Advanced level.
-
-**Introductory Version** (duration: 1 day) is application oriented and shows how R can be used to solve Time Series problems without digging too deeply into the theoretical details.
-
-**Advanced Version** (duration: 2 days) delves into the theoretical details and explores the theory behind the models.
-
-Both versions cover a similar set of examples and exercises.
+We assume that participants have prior experience with R, ideally having completed both the the [Introduction to R]({{< ref "r-introduction.md" >}}) and [Data Wrangling]({{< ref "r-data-wrangling.md" >}}) courses.
