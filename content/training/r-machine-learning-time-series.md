@@ -104,6 +104,6 @@ Anybody interested in predicting the future will benefit from this course.
 	- Middle-out approach
 - Anomaly Detection
 
-## Prior Knowledge
+## Requirements
 
 We assume that participants have prior experience with R, ideally having completed both the the [Introduction to R]({{< ref "r-introduction.md" >}}) and [Data Wrangling]({{< ref "r-data-wrangling.md" >}}) courses.

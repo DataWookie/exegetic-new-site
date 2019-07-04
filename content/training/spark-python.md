@@ -32,11 +32,10 @@ All material will be available as Jupyter Notebooks.
 	- Unstructured Data
 	- Reading data from file
 	- Data distribution
-	- Operations
-		- Viewing
-		- Simple statistics
+	- Transformations
 		- Filtering
 		- Mapping
+	- Actions
 	- Persistence
 - Key-Value RDDs
 	- Creating
