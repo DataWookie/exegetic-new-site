@@ -12,7 +12,7 @@ https://docker-curriculum.com/
 https://medium.freecodecamp.org/a-beginner-friendly-introduction-to-containers-vms-and-docker-79a9e3e119b
 -->
 
-Docker is a tool which makes it easier to create, deploy and run applications using containers. A container encapsulates a complete execution environment. As a result the container can be run on any hardware or operating system that supports Docker.
+Docker is a tool for creating, deploying and running applications using containers. A container encapsulates a complete execution environment. As a result the container can be run on any hardware or operating system that supports Docker.
 
 This course will teach you everything that you need to know to start using Docker.
 
@@ -104,10 +104,15 @@ This course will teach you everything that you need to know to start using Docke
 	- Dynamic webapp
 -->
 
-## Prerequisites
 
-1. Follow [these instructions](https://docs.docker.com/install/) to install Docker.
-2. Create accounts on the following services:
+## Course Details
+
+Duration --- 2 days
+
+Requirements:
+
+  1. Follow [these instructions](https://docs.docker.com/install/) to install Docker.
+  2. Create accounts on the following services:
     - [AWS](http://aws.amazon.com/) and
     - [Docker Hub](https://hub.docker.com/).
-3. The [UNIX Essentials]({{< ref "unix-essentials.md" >}}) course is useful for understanding some of the details of a Dockerfile.
+  3. The [UNIX Essentials]({{< ref "unix-essentials.md" >}}) course is useful for understanding some of the details of a Dockerfile.
