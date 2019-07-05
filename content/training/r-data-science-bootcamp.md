@@ -32,7 +32,7 @@ The course is highly interactive and all practical exercises will be done in [R]
 ### Day 4
 
 - [Time Series]({{< relref "r-machine-learning-time-series.md" >}})
-- [Markdown]({{< relref "r-automated-reporting.md" >}}) for reproducibility and automated reporting
+- [Markdown]({{< relref "r-markdown-automated-reporting.md" >}}) for reproducibility and automated reporting
 
 ### Day 5
 
