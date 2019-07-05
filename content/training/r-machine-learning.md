@@ -145,7 +145,3 @@ Participants are assumed to have prior exposure to R, or at least to programming
 		* Gradient Boosting Machine
 		* XGBoost
 	- Heterogeneous Ensembles
-
-## Prior Knowledge
-
-We assume that participants have prior experience with R, ideally having completed both the the [Introduction to R]({{< ref "r-introduction.md" >}}) and [Data Wrangling]({{< ref "r-data-wrangling.md" >}}) courses.
