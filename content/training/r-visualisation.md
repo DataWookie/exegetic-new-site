@@ -1,5 +1,5 @@
 ---
-title: "Visualisation with ggplot2"
+title: "Visualisation"
 topic: true
 subjects: ['R']
 draft: false
@@ -8,12 +8,26 @@ subjects_weight: 32
 
 This course will cover two libraries for creating visualisations with R:
 
-- {ggplot2} — static and dynamic visualisations
-- {plotly} — interactive visualisations.
+- ggplot2 — static and dynamic visualisations
+- plotly — interactive visualisations.
 
-## Course Description
+## Details
 
-### Day 1: {ggplot2}
+**Duration** 2 days
+
+**Who should attend?** The course is aimed at students, academics and professionals who need to visualise data. It's assumed that participants already have some familiarity with R.
+
+**Objectives**
+
+Being able to communicate the results of an analysis is as important as doing the analysis itself. In this course you'll learn how to use two R packages (ggplot2 and plotly) to create effective, visually pleasing and reproducible visualisations.
+
+**Outcomes**
+
+Participants will be able to create static and animated visualisations with ggplot2 and interactive visualisations using plotly. They will also be able to customise the presentation characteristics of these visualisations.
+
+## Contents
+
+### Day 1: ggplot2
 
 The [ggplot2](https://github.com/tidyverse/ggplot2) package has become the *de facto* standard for making plots in R. It's possible to quickly put together a simple plot for exploratory purposes. However, with a bit of effort such a plot can be transformed into a work of art.
 
@@ -46,7 +60,7 @@ This course will introduce the basic components of ggplot2 and show how they can
 	- Labelling points with [ggrepel](https://github.com/slowkow/ggrepel)
 	- Animation with [gganimate](https://github.com/thomasp85/gganimate)
 
-### Day 2: {plotly}
+### Day 2: plotly
 
 <!-- https://plotly-book.cpsievert.me/ -->
 
