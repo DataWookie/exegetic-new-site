@@ -1,5 +1,5 @@
 ---
-title: "Markdown: Automated Reporting"
+title: "Markdown & Automated Reporting"
 topic: true
 subjects: ['R']
 subjects_weight: 100
@@ -13,7 +13,29 @@ https://github.com/rstudio/rstudio-conf/tree/master/2018/R_Markdown_Eight_Ways--
 https://github.com/rstudio-education/intro-shiny-rmarkdown
 -->
 
-## Course Content
+Do you spend a lot of time generating reports? Do you end up regenerating tables and figures when new data become available? Is this a complicated and error-prone process? If so, then this course is for you!
+
+Automating your reporting process will save you time and reduce errors.
+
+## Details
+
+**Duration** 1 day
+
+**Who should attend?** The course is aimed at students, academics and professionals who need to generate data-driven reports.
+
+**Objectives**
+
+Reports are an important artefact of research and analysis. Often these reports need to be frequently generated or updated. Ideally this should be done in a reproducible manner. It's is an ideal opportunity for automation! In this course you'll learn how to use R and Markdown to efficiently generate sophisticated and visually appealing reports.
+
+**Outcomes**
+
+Participants will be able to generate reports which include text, tables, figures, code and analytical results. They will also be able to flexibly style the reports.
+
+**Requirements**
+
+Participants are assumed to have prior exposure to R, or at least to programming of some variety. Ideally participants should have completed the [Data Wrangling]({{< ref "r-data-wrangling.md" >}}) and [Visualisation]({{< ref "r-visualisation.md" >}}) modules.
+
+## Contents
 
 <!--
 https://www.cultureofinsight.com/blog/2018/10/22/2018-08-20-automated-data-reports-with-r/
@@ -31,10 +53,7 @@ https://www.cultureofinsight.com/blog/2018/10/22/2018-08-20-automated-data-repor
 6. Build your own report
 -->
 
-Do you spend a lot of time generating reports? Do you end up regenerating tables and figures when new data become available? Is this a complicated and error-prone process? If so, then this course is for you!
-
-Automating your reporting process will save you time and reduce errors.
-
+<!--
 - Data Ingestion
   - Loading data from flat files
   - Database queries
@@ -52,7 +71,37 @@ Automating your reporting process will save you time and reduce errors.
 - Telegram
 - Deploying
   - Scheduling report generation
+-->
 
-## Prior Knowledge
+- What is Mark(up|down)?
+  - What's different about [R Markdown](https://github.com/rstudio/rmarkdown)?
+- Why Markdown?
+  - Why not Word or Google documents?
+- First Markdown File
+- Markdown Structure
+  - Paragraphs
+  - Headings
+  - Emphasis
+  - Lists and Checkboxes
+  - Links
+  - Images
+  - Block quotes
+  - Footnotes
+- YAML Header
+  - Output formats
+- Code
+  - Code blocks
+  - Including code and/or output (or neither!)
+  - Inline code
+- Generating References and a Bibliography
+- Topics:
+  - Presentations
+    - slidy
+    - [xaringan](https://github.com/yihui/xaringan)
 
-We assume that participants have at least some prior exposure to R, or at least to programming of some variety.
+<!--
+  - Building Dashboards with [flexdashboard](https://github.com/rstudio/flexdashboard)
+  - Writing a Book with [bookdown](https://github.com/rstudio/bookdown)
+  - Creating a Blog with [blogdown](https://github.com/rstudio/blogdown)
+  - Making Interactive Tutorials with [learnr](https://github.com/rstudio/learnr)
+-->

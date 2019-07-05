@@ -18,7 +18,7 @@ Machine Learning is a big (and rather hot!) topic. In this course you'll learn h
 
 **Outcomes**
 
-Participantes will be able to build Classification and Regression models on real world data. They will understand how the models work and how to interpret model predictions.
+Participants will be able to build Classification and Regression models on real world data. They will understand how the models work and how to interpret model predictions.
 
 **Requirements**
 

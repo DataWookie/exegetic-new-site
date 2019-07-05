@@ -22,7 +22,7 @@ The Shiny package makes it easy to create interactive web applications using R.
 
 ## Details
 
-**Duration** 3 days
+**Duration** 2 days
 
 **Who should attend?** The course is aimed at students, academics and professionals who want to build interactive web applications.
 
