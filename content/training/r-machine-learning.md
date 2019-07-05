@@ -26,7 +26,7 @@ Participants are assumed to have prior exposure to R, or at least to programming
 
 ## Contents
 
-### Day 1: Classifiction
+### Day 1: Classification
 
 - Introduction
 	- Model Optimisation
