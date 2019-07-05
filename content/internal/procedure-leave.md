@@ -7,7 +7,7 @@ documents: ['Procedure']
 ### General
 
 <!-- 1. Should you have any queries please consult the <a href="#">Leave - Policy</a>. -->
-1. To apply for leave complete a <a href="https://docs.google.com/spreadsheets/u/0/?ftv=1&folder=0AP56blNZjL2PUk9PVA&tgif=d">leave application</a>.
+1. To apply for leave, submit a <a href="https://docs.google.com/spreadsheets/u/0/?ftv=1&folder=0AP56blNZjL2PUk9PVA&tgif=d">leave application</a> to Exegetic's <a href="mailto:admin@exegetic.biz?subject=Annual Leave Application Status">admin</a>.
 2. A leave application must be received by Exegetic no later than 72 hours <strong>before</strong> your leave is scheduled to commence.
 3. In the unlikely event that you have not received a response after 24 hours of submitting your application please <a href="mailto:admin@exegetic.biz?subject=Annual Leave Application Status">query</a> it.
 
