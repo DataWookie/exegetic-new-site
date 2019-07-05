@@ -25,6 +25,10 @@ Being able to communicate the results of an analysis is as important as doing th
 
 Participants will be able to create static and animated visualisations with ggplot2 and interactive visualisations using plotly. They will also be able to customise the presentation characteristics of these visualisations.
 
+**Requirements**
+
+Participants are assumed to have prior experience with R, ideally having completed both the the [Introduction to R]({{< ref "r-introduction.md" >}}) and [Data Wrangling]({{< ref "r-data-wrangling.md" >}}) courses.
+
 ## Contents
 
 ### Day 1: ggplot2
@@ -83,7 +87,3 @@ This course will introduce the basic components of ggplot2 and show how they can
 - Dashboards
 - Animation
 - Exporting static images
-
-## Prior Knowledge
-
-We assume that participants have prior experience with R, ideally having completed both the the [Introduction to R]({{< ref "r-introduction.md" >}}) and [Data Wrangling]({{< ref "r-data-wrangling.md" >}}) courses.
