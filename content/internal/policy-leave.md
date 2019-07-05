@@ -43,6 +43,13 @@ Sick leave is applicable to cases of temporary, short-term incapacity for reason
 2. You are entitled to 3 months paid maternity leave so long as you have been continuously working for Exegetic for a minimum of 1 year.
 3. Should you fall ill with any pregnancy-related illness within 4 weeks of your confinement date, then that date will mark the start of your maternity leave.
 
+### Paternity Leave
+
+1. Paternity leave may commence on the expected date of confinement.
+2. You are entitled to 10 consecutive days paternity leave provided that you were employed 13 weeks prior to the date of application.
+3. Paternity leave is unpaid leave for which employees can claim up to 66% of their salary back from the Unemployment Insurance Fund (UIF).  
+4. You must notify Exegetic, using this <a href="https://docs.google.com/spreadsheets/u/0/?ftv=1&folder=0AP56blNZjL2PUk9PVA&tgif=d">form</a>, of the date on which you intend taking leave (to the extent you are able to). Such notice should be received by Exegetic no later than one month <strong>before</strong> the expected date.
+
 ### Family Responsibility Leave
 
 1. You are entitled to 3 days of family responsibility leave per year. 
