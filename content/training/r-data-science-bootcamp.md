@@ -27,14 +27,12 @@ The course is highly interactive and all practical exercises will be done in [R]
 
 ### Day 3
 
-- Machine Learning Concepts
-- [Classification Models]({{< relref "r-machine-learning-classification.md" >}})
-- [Linear Models]({{< relref "r-machine-learning-linear-models.md" >}})
+- [Machine Learning]({{< relref "r-machine-learning.md" >}}) (a subset of this content)
 
 ### Day 4
 
 - [Time Series]({{< relref "r-machine-learning-time-series.md" >}})
-- [Markdown]({{< relref "r-markdown.md" >}}) for reproducibility and automated reporting
+- [Markdown]({{< relref "r-automated-reporting.md" >}}) for reproducibility and automated reporting
 
 ### Day 5
 
