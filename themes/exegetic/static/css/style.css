@@ -58,6 +58,11 @@ h3 {
 	text-align: left;
 }
 
+article > ul, article > ol {
+	list-style: inside;
+    padding-left: 0;
+}
+
 /* ANCHORS ------------------------------------------------------------------------------------- */
 
 footer a {
