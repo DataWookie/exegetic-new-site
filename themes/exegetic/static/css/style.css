@@ -79,6 +79,22 @@ a .collapsed {
 	color: red;
 }
 
+/* TRAINING PROPOSAL --------------------------------------------------------------------------- */
+
+.proposal {
+	display: none;
+}
+
+@media print {
+	.proposal {
+		display: block;
+	}
+
+	nav, header, footer, a.btn {
+		display: none;
+	}
+}
+
 /* --------------------------------------------------------------------------------------------- */
 
 #content > section > div > h1 {
