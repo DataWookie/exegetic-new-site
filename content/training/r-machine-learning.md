@@ -4,27 +4,16 @@ topic: true
 subjects: ['R']
 draft: false
 subjects_weight: 41
+duration: 3 days
+who: |
+  The course is aimed at students, academics and professionals who want to use Machine Learning to build models and make predictions.
+objectives: |
+  Machine Learning is a big (and rather hot!) topic. In this course you'll learn how to apply Machine Learning to two types of problems: Classification and Regression. Although Machine Learning models are often treated as black boxes, you'll learn (in an unthreatening, low-math way) how these models work. You'll also learn how to appropriately prepare your data, how to build and test a model, and how to generate predictions.
+outcomes: |
+  Participants will be able to build Classification and Regression models on real world data. They will understand how the models work and how to interpret model predictions.
+requirements: |
+  Participants are assumed to have prior exposure to R, or at least to programming of some variety. Ideally participants should have completed the [Data Wrangling]({{< ref "r-data-wrangling.md" >}}) and [Visualisation]({{< ref "r-visualisation.md" >}}) modules.
 ---
-
-## Details
-
-**Duration** 3 days
-
-**Who should attend?** The course is aimed at students, academics and professionals who want to use Machine Learning to build models and make predictions.
-
-**Objectives**
-
-Machine Learning is a big (and rather hot!) topic. In this course you'll learn how to apply Machine Learning to two types of problems: Classification and Regression. Although Machine Learning models are often treated as black boxes, you'll learn (in an unthreatening, low-math way) how these models work. You'll also learn how to appropriately prepare your data, how to build and test a model, and how to generate predictions.
-
-**Outcomes**
-
-Participants will be able to build Classification and Regression models on real world data. They will understand how the models work and how to interpret model predictions.
-
-**Requirements**
-
-Participants are assumed to have prior exposure to R, or at least to programming of some variety. Ideally participants should have completed the [Data Wrangling]({{< ref "r-data-wrangling.md" >}}) and [Visualisation]({{< ref "r-visualisation.md" >}}) modules.
-
-## Contents
 
 ### Day 1: Classification
 

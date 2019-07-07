@@ -3,19 +3,18 @@ title: "Git: Getting Started"
 topic: true
 subjects: ['Version Control']
 draft: false
+intro: |
+  A Version Control system is a fundamental tool for developers, analysts and reseachers. It provides the following benefits:
+
+    - a complete history of revisions (and the ability to revert to older versions);
+    - backups; and
+    - enables collaboration.
+
+  Git is the most pervasive Version Control system today. It works well on all projects, from a few files and a single developer to thousands of files and hundreds of developers.
+duration: 1 day
+outcomes: |
+  After this course you'll be familiar with how Git works and primed to start using it on your own projects.
 ---
-
-A Version Control system is a fundamental tool for developers, analysts and reseachers. It provides the following benefits:
-
-- a complete history of revisions (and the ability to revert to older versions);
-- backups; and
-- enables collaboration.
-
-Git is the most pervasive Version Control system today. It works well on all projects, from a few files and a single developer to thousands of files and hundreds of developers.
-
-After this course you'll be familiar with how Git works and primed to start using it on your own projects.
-
-## Course Description
 
 - Why Version Control?
 	- Version control systems
@@ -55,7 +54,3 @@ After this course you'll be familiar with how Git works and primed to start usin
 - UIs
 	- Command Line versus UI
 	- [GitKraken](https://www.gitkraken.com/)
-
-## Course Details
-
-Duration --- 1 day

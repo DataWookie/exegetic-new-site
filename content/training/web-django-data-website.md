@@ -6,4 +6,8 @@ subjects_weight: 21
 draft: true
 ---
 
+<!--
+	https://tutorial.djangogirls.org/en/
+-->
+
 ## Course Description

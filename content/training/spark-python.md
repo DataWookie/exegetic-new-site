@@ -3,27 +3,28 @@ title: "Spark: Big Data from Python"
 topic: true
 subjects: ['Spark']
 draft: false
+intro: |
+  Apache Spark is a fast, general-purpose system for cluster computing on large datasets.
+
+  This course uses Python to interact with Spark.
+
+  The first part of the course is an introduction to working with Spark. It will enable you to
+
+  - load structured or unstructured data into Spark;
+  - understand the way that data are distributed across a Spark cluster;
+  - apply transformations and actions to the data.
+
+  In the second part of the course you'll learn how to build Machine Learning models on large datasets using Spark. You'll be able to
+
+  - create classification and regression models;
+  - use pipelines to streamline your workflow; and
+  - combine pipelines with cross-validation and grid-search to optimise model parameters.
+
+  All material will be available as Jupyter Notebooks.
+duration: 2 days
+requirements: |
+  A working knowledge of Python will be helpful.
 ---
-
-Apache Spark is a fast, general-purpose system for cluster computing on large datasets.
-
-This course uses Python to interact with Spark.
-
-The first part of the course is an introduction to working with Spark. It will enable you to
-
-- load structured or unstructured data into Spark;
-- understand the way that data are distributed across a Spark cluster;
-- apply transformations and actions to the data.
-
-In the second part of the course you'll learn how to build Machine Learning models on large datasets using Spark. You'll be able to
-
-- create classification and regression models;
-- use pipelines to streamline your workflow; and
-- combine pipelines with cross-validation and grid-search to optimise model parameters.
-
-All material will be available as Jupyter Notebooks.
-
-## Course Description
 
 ### Day 1
 
@@ -78,7 +79,3 @@ All material will be available as Jupyter Notebooks.
 - Pipelines
 - Cross-validation
 - Grid search
-
-## Requirements
-
-A working knowledge of Python will be helpful (but not essential).

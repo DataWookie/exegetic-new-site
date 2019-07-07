@@ -3,15 +3,16 @@ title: "Data Science Bootcamp"
 subjects: ['R', 'Data Science']
 subjects_weight: 1
 draft: false
+intro: |
+  Our Data Science Bootcamp is a full week of Data Science learning and covers the topics listed below.
+
+  The course is highly interactive and all practical exercises will be done in [R](https://www.r-project.org/).
+duration: 5 days
 ---
 
 <!--
 https://datasciencedojo.com/bootcamp/curriculum/
 -->
-
-Our Data Science Bootcamp is a full week of Data Science learning and covers the topics listed below.
-
-The course is highly interactive and all practical exercises will be done in [R](https://www.r-project.org/).
 
 ### Day 1
 

@@ -4,32 +4,18 @@ topic: true
 subjects: ['R']
 draft: false
 subjects_weight: 32
+intro: |
+  This course will cover two *libraries* for creating visualisations with R:
+  
+    - ggplot2 — static and dynamic visualisations
+    - plotly — interactive visualisations.
+duration: 2 days
+who: The course is aimed at students, academics and professionals who need to visualise data. It's assumed that participants already have some familiarity with R.
+objectives: Being able to communicate the results of an analysis is as important as doing the analysis itself. In this course you'll learn how to use two R packages (ggplot2 and plotly) to create effective, visually pleasing and reproducible visualisations.
+outcomes: Participants will be able to create static and animated visualisations with ggplot2 and interactive visualisations using plotly. They will also be able to customise the presentation characteristics of these visualisations.
+requirements: |
+  Participants are assumed to have prior experience with R, ideally having completed both the the [Introduction to R]({{< ref "r-introduction.md" >}}) and [Data Wrangling]({{< ref "r-data-wrangling.md" >}}) courses.
 ---
-
-This course will cover two libraries for creating visualisations with R:
-
-- ggplot2 — static and dynamic visualisations
-- plotly — interactive visualisations.
-
-## Details
-
-**Duration** 2 days
-
-**Who should attend?** The course is aimed at students, academics and professionals who need to visualise data. It's assumed that participants already have some familiarity with R.
-
-**Objectives**
-
-Being able to communicate the results of an analysis is as important as doing the analysis itself. In this course you'll learn how to use two R packages (ggplot2 and plotly) to create effective, visually pleasing and reproducible visualisations.
-
-**Outcomes**
-
-Participants will be able to create static and animated visualisations with ggplot2 and interactive visualisations using plotly. They will also be able to customise the presentation characteristics of these visualisations.
-
-**Requirements**
-
-Participants are assumed to have prior experience with R, ideally having completed both the the [Introduction to R]({{< ref "r-introduction.md" >}}) and [Data Wrangling]({{< ref "r-data-wrangling.md" >}}) courses.
-
-## Contents
 
 ### Day 1: ggplot2
 

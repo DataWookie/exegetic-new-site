@@ -5,7 +5,59 @@
 
       <article>
 
-      {{.Content}}
+      	{{ if .Params.intro }}
+      	<div>
+      	{{ .Params.intro | markdownify }}
+      	</div>
+      	{{ end }}
+
+      	<h2>Details</h2>
+
+      	{{ if .Params.duration }}
+      	<div>
+          <strong>Duration</strong> {{ .Params.duration | markdownify }}
+		    </div>
+      	{{ end }}
+
+      	{{ if .Params.why }}
+      	<div>
+          <strong>Why attend?</strong><br>{{ .Params.why | markdownify }}
+		    </div>
+      	{{ end }}
+
+        {{ if .Params.who }}
+        <div>
+          <strong>Who should attend?</strong><br>{{ .Params.who | markdownify }}
+        </div>
+        {{ end }}
+
+      	{{ if .Params.objectives }}
+      	<div>
+          <strong>Objectives</strong><br>{{ .Params.objectives | markdownify }}
+		    </div>
+      	{{ end }}
+
+      	{{ if .Params.outcomes }}
+      	<div>
+          <strong>Outcomes</strong><br>{{ .Params.outcomes | markdownify }}
+		    </div>
+      	{{ end }}
+
+      	{{ if .Params.requirements }}
+      	<div>
+          <strong>Requirements</strong><br>{{ .Params.requirements | markdownify }}
+		    </div>
+      	{{ end }}
+
+        {{ if .Params.setup }}
+        <div>
+          <strong>Setup</strong><br>{{ .Params.setup | markdownify }}
+        </div>
+        {{ end }}
+
+      	<h2>Contents</h2>
+
+      	{{.Content}}
 
       </article>
       <p><a class="btn btn-primary btn-lg btn-block" href="mailto:training@exegetic.biz?subject=Training Enquiry" role="button" style="margin-bottom: 1%; margin-top: 1%;">Book now!</a></p>
