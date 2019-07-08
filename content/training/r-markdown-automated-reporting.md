@@ -4,6 +4,22 @@ topic: true
 subjects: ['R']
 subjects_weight: 100
 draft: true
+intro: |
+  Do you spend a lot of time generating reports? Do you end up regenerating tables and figures when new data become available? Is this a complicated and error-prone process? If so, then this course is for you!
+
+  Automating your reporting process will save you time and reduce errors.
+duration: 1 day
+who: The course is aimed at students, academics and professionals who need to generate data-driven reports.
+objectives: Reports are an important artefact of research and analysis. Often these reports need to be frequently generated or updated. Ideally this should be done in a reproducible manner. It's is an ideal opportunity for automation! In this course you'll learn how to use R and Markdown to efficiently generate sophisticated and visually appealing reports.
+outcomes: Participants will be able to generate reports which include text, tables, figures, code and analytical results. They will also be able to flexibly style the reports.
+setup: |
+  - Participants are assumed to have prior exposure to R, or at least to programming of some variety. Ideally participants should have completed the [Data Wrangling]({{< ref "r-data-wrangling.md" >}}) and [Visualisation]({{< ref "r-visualisation.md" >}}) modules.
+  - Install a Markdown editor. These are some options:
+
+    - [Remarkable](https://remarkableapp.github.io/index.html)
+    - [MarkdownPad](http://markdownpad.com/)
+
+      If all else fails you can use the [Dillinger](https://dillinger.io/) online editor.
 ---
 
 <!--
@@ -12,30 +28,6 @@ https://github.com/rstudio/rstudio-conf/tree/master/2018/Multilingual_Rmarkdown-
 https://github.com/rstudio/rstudio-conf/tree/master/2018/R_Markdown_Eight_Ways--Mine_Cetinkaya_Rundel
 https://github.com/rstudio-education/intro-shiny-rmarkdown
 -->
-
-Do you spend a lot of time generating reports? Do you end up regenerating tables and figures when new data become available? Is this a complicated and error-prone process? If so, then this course is for you!
-
-Automating your reporting process will save you time and reduce errors.
-
-## Details
-
-**Duration** 1 day
-
-**Who should attend?** The course is aimed at students, academics and professionals who need to generate data-driven reports.
-
-**Objectives**
-
-Reports are an important artefact of research and analysis. Often these reports need to be frequently generated or updated. Ideally this should be done in a reproducible manner. It's is an ideal opportunity for automation! In this course you'll learn how to use R and Markdown to efficiently generate sophisticated and visually appealing reports.
-
-**Outcomes**
-
-Participants will be able to generate reports which include text, tables, figures, code and analytical results. They will also be able to flexibly style the reports.
-
-**Requirements**
-
-Participants are assumed to have prior exposure to R, or at least to programming of some variety. Ideally participants should have completed the [Data Wrangling]({{< ref "r-data-wrangling.md" >}}) and [Visualisation]({{< ref "r-visualisation.md" >}}) modules.
-
-## Contents
 
 <!--
 https://www.cultureofinsight.com/blog/2018/10/22/2018-08-20-automated-data-reports-with-r/
