@@ -103,6 +103,12 @@ a .collapsed {
 	margin-bottom: 0;
 }
 
+/* LISTS --------------------------------------------------------------------------------------- */
+
+ul ul, ol ul, ol ol, ol ol ul {
+  margin-bottom: 1rem !important;
+}
+
 /* SERVICES ------------------------------------------------------------------------------------ */
 
 #services > div > div > div > div {
