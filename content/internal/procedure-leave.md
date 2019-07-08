@@ -27,3 +27,4 @@ documents: ['Procedure']
  - who a client should contact if there's something that needs urgent attention
 3. Update your status on Slack to read either "Off sick" or "Vacationing" and ensure the "clear after" is set correctly. 
 4. Inform the colleague whom you've listed as your emergency work contact that they might receive additional emails in your absence.
+5. Send a message in the "general" Slack channel informing your colleagues that you'll be away. Also, mention what would be the best form of communication in case something urgent comes up. 
