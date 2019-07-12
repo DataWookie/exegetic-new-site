@@ -97,12 +97,12 @@ a .collapsed {
 
 	.proposal-title-page {
 		display: block;
-		text-align: justify;
-		padding-bottom: 50%; 
+		text-align: justify; 
 		padding-top: 50%;
+		page-break-after: always;
 	}
 
-	img, nav, header, footer, a.btn, .boilerplate, .traininglist {
+	img, nav, header, footer, a.btn, .boilerplate {
 		display: none;
 	}
 

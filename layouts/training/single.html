@@ -3,7 +3,8 @@
     <div class="container">
 
 
-     <div class="proposal-only" style="padding-top: 50%; page-break-after: always;">
+     <div class="proposal-only proposal-title-page">
+        <!-- <img src="/img/proposal.svg" class="row align-items-right"> -->
         <div class="row align-items-center">
             <img style="max-width: 80%; display: block; margin-left: auto; margin-right: auto;" src="/img/exegetic-banner-black.svg">
         </div>
@@ -17,8 +18,8 @@
 
 
       <article>
-        <div class="proposal-only">
-          <h2> 1. Introduction</h2>
+        <div class="proposal-only" style="page-break-after: always;">
+          <h2>1. Introduction</h2>
           <p>Exegetic Analytics is a Data Science consultancy specialising in data acquisition and augmentation, data preparation, predictive analytics and machine learning. Our services are used by a range of industries from Education to Security, Food Delivery to Politics. Our consultants are based in Durban and Cape Town and we engage with clients all over the world. Our products and services are used by a multitude of industries including Aerospace, Education, Finance, Food and Transport.</p>
           <p>Exegetic Analytics also offers training, with experienced and knowledgeable facilitators. Our courses focus on practical applications, working through examples and exercises based on real-world datasets.</p>
           <p>All of our training packages include access to:</p>
@@ -35,6 +36,8 @@
             <li><a href="https://www.vantagedata.co.za/">Vantage Data</a></li>
             <li><a href="https://www.da.org.za/">Democratic Alliance</a></li>
           </ul>
+          <h3><strong>Contact Us</strong></h3>
+          <p>If this proposal is of interest to you or you would like to hear more about what we do you can get in touch on <a href="mailto:training@exegetic.biz?subject=Training Enquiry">training@exegetic.biz</a> or +27 (0)73 805 7439.</p>
         </div> 
 
 
@@ -45,10 +48,9 @@
       	{{ .Params.intro | markdownify }}
       	</div>
         {{ end }}
-        <h2 class="proposal-only">Details</h2>
-        <h2 class="proposal-only"> Course Details</h2>
-
-        <div class="proposal-only">
+        <h2 class="web-only">Details</h2>
+        <h3 class="proposal-only">Details</h3>
+        <div class="">
       	{{ if .Params.duration }}
       	<div>
           <strong>Duration</strong> {{ .Params.duration | markdownify }}
@@ -91,19 +93,15 @@
         </div>
         {{ end }}
         </div>
+        <p class="proposal-only">Return to our <a href="/training/">list</a> of courses.</p>
         </div>
 
-        <div style="page-break-after: always;">
-        <h2 class="web">Course Description</h2>
+        <div>
+        <h2 class="web-only">Description</h2>
       	<h2 class="proposal-only">3. Course Content</h2>
         {{.Content}}
         </div> 
 
-
-        <div class="proposal-only">
-        <h2>4. Contact Us</h2>
-        <p>If this proposal is of interest to you or you would like to hear more about what we do you can get in touch on <a href="mailto:training@exegetic.biz?subject=Training Enquiry">training@exegetic.biz</a> or +27 (0)73 805 7439.</p>
-        </div>
 
 
       </article>
@@ -131,7 +129,7 @@
           Pricing: https://getbootstrap.com/docs/4.0/examples/pricing/
         -->
       </div>
-      <div class="traininglist">
+      <div class="web-only">
       <p>Return to our <a href="/training/">list</a> of courses.</p>
       </div>
     </div>
