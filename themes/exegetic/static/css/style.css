@@ -81,18 +81,47 @@ a .collapsed {
 
 /* TRAINING PROPOSAL --------------------------------------------------------------------------- */
 
-.proposal {
+.proposal-only {
 	display: none;
 }
 
 @media print {
-	.proposal {
-		display: block;
-	}
 
-	nav, header, footer, a.btn {
+	.web-only {
 		display: none;
 	}
+	.proposal-only {
+		display: block;
+		text-align: justify;
+	}
+
+	.proposal-title-page {
+		display: block;
+		text-align: justify;
+		padding-bottom: 50%; 
+		padding-top: 50%;
+	}
+
+	img, nav, header, footer, a.btn, .boilerplate, .traininglist {
+		display: none;
+	}
+
+	.section {
+		padding-top: 0%;
+		padding-bottom: 0%;
+	}
+
+	li {
+		break-inside: avoid;
+		page-break-inside: avoid;
+	  }
+	
+	@page {
+		size: auto;
+		margin-left: 1.5cm;
+		margin-right: 1.5cm
+	}
+
 }
 
 /* --------------------------------------------------------------------------------------------- */

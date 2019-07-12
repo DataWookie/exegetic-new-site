@@ -1,10 +1,24 @@
 {{ define "main" }}
   <section class="section subject">
     <div class="container">
-      <h1>{{.Title}}</h1>
+
+
+     <div class="proposal-only" style="padding-top: 50%; page-break-after: always;">
+        <div class="row align-items-center">
+            <img style="max-width: 80%; display: block; margin-left: auto; margin-right: auto;" src="/img/exegetic-banner-black.svg">
+        </div>
+        <h1 style="text-align: center;">{{.Title}}</h1>
+        <hr style="border: 7% solid #000;">
+        <h1 style="text-align: center;">Training Proposal</h1>
+     </div>
+
+
+     <h1 class="web-only">{{.Title}}</h1>
+
 
       <article>
-        <div class="proposal">
+        <div class="proposal-only">
+          <h2> 1. Introduction</h2>
           <p>Exegetic Analytics is a Data Science consultancy specialising in data acquisition and augmentation, data preparation, predictive analytics and machine learning. Our services are used by a range of industries from Education to Security, Food Delivery to Politics. Our consultants are based in Durban and Cape Town and we engage with clients all over the world. Our products and services are used by a multitude of industries including Aerospace, Education, Finance, Food and Transport.</p>
           <p>Exegetic Analytics also offers training, with experienced and knowledgeable facilitators. Our courses focus on practical applications, working through examples and exercises based on real-world datasets.</p>
           <p>All of our training packages include access to:</p>
@@ -13,16 +27,28 @@
             <li> detailed course material which participants will have continued access to even once the training has concluded.
           </ul>
           <p>For more information about what we do, you can refer to our <a href="https://www.exegetic.biz">website</a>. A complete list of our current training courses can be found <a href="https://www.exegetic.biz/training/">here</a>.</p>
-        </div>
+          <p> These are some of the companies who have benefitted from our trainning:</p>
+          <!-- <img style="max-width: 80%; display: block; margin-left: auto; margin-right: auto; padding-top: 0.5%; page-break-after: always;" src="/img/training-clients.png"> -->
+          <ul>
+            <li><a href="http://ixperience.co.za/">iXperience</a></li>
+            <li><a href="https://www.investec.com/en_za.html">Investec</a></li>
+            <li><a href="https://www.vantagedata.co.za/">Vantage Data</a></li>
+            <li><a href="https://www.da.org.za/">Democratic Alliance</a></li>
+          </ul>
+        </div> 
 
+
+        <div style="page-break-after: always;">
+        <h2 class="proposal-only">2. Course Description</h2>
       	{{ if .Params.intro }}
       	<div>
       	{{ .Params.intro | markdownify }}
       	</div>
-      	{{ end }}
+        {{ end }}
+        <h2 class="proposal-only">Details</h2>
+        <h2 class="proposal-only"> Course Details</h2>
 
-      	<h2>Details</h2>
-
+        <div class="proposal-only">
       	{{ if .Params.duration }}
       	<div>
           <strong>Duration</strong> {{ .Params.duration | markdownify }}
@@ -64,10 +90,21 @@
           <strong>Setup</strong><br>{{ .Params.setup | markdownify }}
         </div>
         {{ end }}
+        </div>
+        </div>
 
-      	<h2>Contents</h2>
+        <div style="page-break-after: always;">
+        <h2 class="web">Course Description</h2>
+      	<h2 class="proposal-only">3. Course Content</h2>
+        {{.Content}}
+        </div> 
 
-      	{{.Content}}
+
+        <div class="proposal-only">
+        <h2>4. Contact Us</h2>
+        <p>If this proposal is of interest to you or you would like to hear more about what we do you can get in touch on <a href="mailto:training@exegetic.biz?subject=Training Enquiry">training@exegetic.biz</a> or +27 (0)73 805 7439.</p>
+        </div>
+
 
       </article>
       <p><a class="btn btn-primary btn-lg btn-block" href="mailto:training@exegetic.biz?subject=Training Enquiry" role="button" style="margin-bottom: 1%; margin-top: 1%;">Book now!</a></p>
@@ -94,7 +131,9 @@
           Pricing: https://getbootstrap.com/docs/4.0/examples/pricing/
         -->
       </div>
+      <div class="traininglist">
       <p>Return to our <a href="/training/">list</a> of courses.</p>
+      </div>
     </div>
   </section>
 {{ end }}
