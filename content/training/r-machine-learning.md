@@ -78,8 +78,7 @@ requirements: |
 		* Formulae
 			* Simple Formulae
 			* Interactions
-		* Example: Prostate Cancer Data
-		* Example: Prostate Cancer Data with Interactions
+		* Example: Prostate Cancer with Interactions
 		* Polynomial regression
 		* LOESS
 	- Validating Model Assumptions
@@ -88,27 +87,14 @@ requirements: |
 	- Logistic Regression
 		* Odds, Log Odds and the Logit Function
 		* Example: Synthetic Data
+		* Thresholding and classification
 		* Principle of Parsimony
 		* Multicollinearity
 		* Example: Myopia Data
-	- Generalised Linear Models
-		- Logistic Regression
-			* Odds, Log Odds and the Logit Function
-			* Example: Synthetic Data
-			- Thresholding and classification
-			* Principle of Parsimony
-			* Multicollinearity
-			* Example: Myopia Data
-			- Beyond binary: One-versus-rest models
-			- Model evaluation
-		- Poisson regression
+		* Beyond binary: One-versus-rest models
 	- Feature Importance
 	- Feature Selection
 	  	* Stepwise (forward selection and backward elimination)
-	- Regularisation
-		* Lasso and Ridge Regression
-	- Generalized Additive Models
-	- Mixed Effects Models
 	- Using [`{caret}`](http://topepo.github.io/caret/index.html)
 		* pre-processing;
 		* train/test splitting;
@@ -130,7 +116,3 @@ requirements: |
 	- Homogeneous and Heterogeneous Ensembles
 	- Bagging
 		* Random Forests
-	- Boosting
-		* Gradient Boosting Machine
-		* XGBoost
-	- Heterogeneous Ensembles
