@@ -6,7 +6,7 @@
      <div class="proposal-only proposal-title-page">
         <!-- <img src="/img/proposal.svg" class="row align-items-right"> -->
         <div class="row align-items-center">
-            <img style="max-width: 90%; display: block; margin-left: auto; margin-right: auto; padding-bottom: 65%;" src="/img/exegetic-banner-black.svg">
+            <img style="max-width: 90%; display: block; margin-left: auto; margin-right: auto; padding-bottom: 50%;" src="/img/exegetic-banner-black.svg">
         </div>
         <h1 style="text-align: center;">{{.Title}}</h1>
         <hr style="border: 7% solid #000;">
@@ -52,7 +52,7 @@
         {{ end }}
         <h2 class="web-only">Details</h2>
         <h3 class="proposal-only" style="font-size: 1.45em;">Details</h3>
-        <div>
+        <div style="">
       	{{ if .Params.duration }}
       	<div>
           <strong>Duration</strong> {{ .Params.duration | markdownify }}

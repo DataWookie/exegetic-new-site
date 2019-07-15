@@ -90,6 +90,7 @@ a .collapsed {
 	.web-only {
 		display: none;
 	}
+
 	.proposal-only {
 		display: block;
 		text-align: justify;
@@ -114,19 +115,17 @@ a .collapsed {
 	li {
 		break-inside: avoid;
 		page-break-inside: avoid;
-		font-size: 20px;
-		line-height: 24px;
 	  }
-	
-	p {
+
+	body {
 		font-size: 20px;
 		line-height: 24px;
 	}
-	
+
 	@page {
 		size: auto;
-		margin-left: 1.5cm;
-		margin-right: 1.5cm
+		margin-left: 1cm;
+		margin-right: 1cm
 	}
 
 }
