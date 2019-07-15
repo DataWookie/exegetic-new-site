@@ -37,6 +37,12 @@ Sick leave is applicable to cases of temporary, short-term incapacity for reason
 3. If you are sick the day before or after a weekend (or a public holiday) you may be required to produce a medical certificate.
 4. Should you be absent for more than 2 successive days or on more than two occasions during a six week period, you will not be entitled to sick leave unless you produce a medical certificate stating that you were unable to work for the duration of your absence on account of sickness or injury. The certificate must clearly state that you are unfit for work and give the dates for which you are booked off.
 
+### Conference Leave
+
+1. If you would like to attend a workshop or conference during working hours please apply for <a href="https://docs.google.com/spreadsheets/u/0/?ftv=1&folder=0AP56blNZjL2PUk9PVA&tgif=d">conference leave</a>. 
+2. Should your leave be accepted, please comply with the <a href="https://www.exegetic.biz/internal/procedure-leave/"> pre-leave responsibilities</a>.
+
+
 ### Maternity Leave
 
 1. Maternity leave may commence 4 weeks before confinement.

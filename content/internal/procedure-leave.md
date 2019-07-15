@@ -6,7 +6,6 @@ documents: ['Procedure']
 
 ### General
 
-<!-- 1. Should you have any queries please consult the <a href="#">Leave - Policy</a>. -->
 1. To apply for leave, submit a <a href="https://docs.google.com/spreadsheets/u/0/?ftv=1&folder=0AP56blNZjL2PUk9PVA&tgif=d">leave application</a> to Exegetic's <a href="mailto:admin@exegetic.biz?subject=Annual Leave Application Status">admin</a>.
 2. A leave application must be received by Exegetic no later than 72 hours <strong>before</strong> your leave is scheduled to commence.
 3. In the unlikely event that you have not received a response after 24 hours of submitting your application please <a href="mailto:admin@exegetic.biz?subject=Annual Leave Application Status">query</a> it.
@@ -25,6 +24,6 @@ documents: ['Procedure']
  - your "First day" as well as your "Last day"
  - a subject line which details when your leave starts and ends
  - who a client should contact if there's something that needs urgent attention
-3. Update your status on Slack to read either "Off sick" or "Vacationing" and ensure the "clear after" is set correctly. 
+3. Update your status on Slack to read "Off sick", "At a conference" or "Vacationing" and ensure the "clear after" is set correctly. 
 4. Inform the colleague whom you've listed as your emergency work contact that they might receive additional emails in your absence.
 5. Send a message in the "general" Slack channel informing your colleagues that you'll be away. Also, mention what would be the best form of communication in case something urgent comes up. 
