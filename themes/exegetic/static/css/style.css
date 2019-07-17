@@ -85,6 +85,10 @@ a .collapsed {
 	display: none;
 }
 
+.detail {
+	padding-left: 0%;
+}
+
 @media print {
 
 	.web-only {
