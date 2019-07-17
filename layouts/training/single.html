@@ -40,8 +40,7 @@
           <p class="proposal-only" >Take a look at our full <a href="/training/">list</a> of courses to see what other training we have on offer.</p>
           <h3><strong>Contact Us</strong></h3>
           <p>If this proposal is of interest to you or you would like to hear more about what we do you can get in touch on <a href="mailto:training@exegetic.biz?subject=Training Enquiry">training@exegetic.biz</a> or +27 (0)73 805 7439.</p>
-        </div> 
-
+        </div>
 
         <div style="page-break-after: always;">
         <h2 class="proposal-only">2. Course Description</h2>
@@ -51,51 +50,45 @@
       	</div>
         {{ end }}
         <h2 class="web-only">Details</h2>
-        <h3 class="proposal-only" style="font-size: 1.45em;">Details</h3>
-        <div style="">
-      	{{ if .Params.duration }}
-      	<div>
-          <strong>Duration</strong> {{ .Params.duration | markdownify }}
-		    </div>
-      	{{ end }}
-
-      	{{ if .Params.why }}
-      	<div>
-          <strong>Why attend?</strong><br>{{ .Params.why | markdownify }}
-		    </div>
-      	{{ end }}
-
-        {{ if .Params.who }}
-        <div>
-          <strong>Who should attend?</strong><br>{{ .Params.who | markdownify }}
-        </div>
-        {{ end }}
-
-      	{{ if .Params.objectives }}
-      	<div>
-          <strong>Objectives</strong><br>{{ .Params.objectives | markdownify }}
-		    </div>
-      	{{ end }}
-
-      	{{ if .Params.outcomes }}
-      	<div>
-          <strong>Outcomes</strong><br>{{ .Params.outcomes | markdownify }}
-		    </div>
-      	{{ end }}
-
-      	{{ if .Params.requirements }}
-      	<div>
-          <strong>Requirements</strong><br>{{ .Params.requirements | markdownify }}
-		    </div>
-      	{{ end }}
-
-        {{ if .Params.setup }}
-        <div>
-          <strong>Setup</strong><br>{{ .Params.setup | markdownify }}
-        </div>
-        {{ end }}
+        <h3 class="proposal-only">Details</h3>
+        <div class="">
         </div>
         </div>
+
+        <!-- LIST ------------------------------------------------------------------------------------------------- -->
+
+        <dl class="row">
+            {{ if .Params.duration }}
+            <dt class="col-sm-2">Duration</dt>
+            <dd class="col-sm-10">{{ .Params.duration | markdownify }}</dd>
+            {{ end }}
+            {{ if .Params.why }}
+            <dt class="col-sm-2">Why attend?</dt>
+            <dd class="col-sm-10">{{ .Params.why | markdownify }}</dd>
+            {{ end }}
+            {{ if .Params.who }}
+            <dt class="col-sm-2">Who should attend?</dt>
+            <dd class="col-sm-10">{{ .Params.who | markdownify }}</dd>
+            {{ end }}
+            {{ if .Params.objectives }}
+            <dt class="col-sm-2">Objectives</dt>
+            <dd class="col-sm-10">{{ .Params.objectives | markdownify }}</dd>
+            {{ end }}
+            {{ if .Params.outcomes }}
+            <dt class="col-sm-2">Outcomes</dt>
+            <dd class="col-sm-10">{{ .Params.outcomes | markdownify }}</dd>
+            {{ end }}
+            {{ if .Params.requirements }}
+            <dt class="col-sm-2">Requirements</dt>
+            <dd class="col-sm-10">{{ .Params.requirements | markdownify }}</dd>
+            {{ end }}
+            {{ if .Params.setup }}
+            <dt class="col-sm-2">Setup</dt>
+            <dd class="col-sm-10">{{ .Params.setup | markdownify }}</dd>
+            {{ end }}
+        </dl>
+
+        <!-- ------------------------------------------------------------------------------------------------------ -->
 
         <div>
         <h2 class="web-only">Description</h2>
