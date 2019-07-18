@@ -16,9 +16,7 @@ outcomes: |
   - import their data into R from CSV files and spreadsheets;
   - manipulate and summarise the data; and
   - generate attractive and informative visualisations.
-setup: |
-  - Assumes no prior knowledge of R or programming.
-  - Bring a laptop.
+setup: Bring a laptop.
 ---
 
 - Introduction
