@@ -116,6 +116,23 @@ SubscribersGeocode
 - Use meaningful names and rather spend more than less time choosing a meaningful name.
 - Follow convention: camelCase, underscore_case, PascalCase, etc.
 
+### Plots and Graphs
+
+- Title plots Y vs X (by Z if using legend).
+- X and Y axis are labelled by dimension with units.
+- Dependent variable on y-axis
+- Export the image with the same name as the image title.
+
+### Scripts
+
+- Use one script per logical piece of work.
+- Give it a descriptive and project-relevant name.
+- Keep SQL scripts within python and R scripts unless it is heavily reused so that one does not have to unecessarily keep files in step.
+
+### Unused code
+
+- Before merging code, remove any unused code and comments.
+
 ## Markdown <a name="markdown"></a>
 
 Markdown's code policy section was compiled by taking liberally from loopback's [Markdown style guide](https://loopback.io/doc/en/contrib/Markdown-style-guide.html). Please visit the link for more guidelines and to further clarify the guidelines below.
@@ -263,6 +280,16 @@ from mypkg.sibling import example
 
 # No:  
 import sys, os
+```
+
+### Method chaining
+
+- Method chaining is simply being able to add a second method to whatever the first method returns.
+- Use method chaining to make work readable and avoid having to name intermediate steps.
+
+```
+foo = foo()
+foo.line().my_print().bar()
 ```
 
 ### Class names
