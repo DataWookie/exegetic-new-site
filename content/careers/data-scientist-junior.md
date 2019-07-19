@@ -1,6 +1,6 @@
 ---
 title: "Junior Data Scientist"
-draft: true
+draft: false
 requirements_technical: [
 	"Degree in a relevant field",
 	"Experience with Exploratory Data Analysis and visualisation",
@@ -25,7 +25,7 @@ responsibilities: [
 	"Clean, wrangle and curate data",
 	"Build Machine Learning models, APIs, dashboards and data-driven apps",
 	"Speak at meetups and conferences",
-	"Prepare the present training",
+	"Prepare and present training",
 	"Figure out what it means (practically) to be a Data Scientist",
 	"Massively expand your expertise"
 	]

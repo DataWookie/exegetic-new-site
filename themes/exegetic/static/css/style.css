@@ -1,3 +1,10 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+code {
+	font-family: 'Roboto Mono', monospace;
+}
+
 /* BOOTSTRAP ----------------------------------------------------------------------------------- */
 
 .container {
@@ -36,6 +43,8 @@ body > nav > div > a > img {
 .h2, h2 {
 }
 h3 {
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .section {
@@ -140,5 +149,38 @@ button.subject {
 .subject .boilerplate {
 	margin-top: 1rem;
 	margin-bottom: 1rem;
+	padding: 4rem 2rem 4rem 2rem;
 	background-color: #e9ecef;
 }
+
+/*==========  Non-Mobile First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {}
+
+/* Custom */
+@media only screen and (max-width : 575px) {
+	#services{
+		display: none;
+	}
+
+	#about{
+		padding-bottom: 10%;
+	}
+
+	#contact{
+		padding-top: 0;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {}

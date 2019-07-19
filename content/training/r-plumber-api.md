@@ -1,5 +1,6 @@
 ---
-title: "Building an API with R and Plumber"
+title: "Plumber — Building an API"
+topic: true
 subjects: ['R']
 subjects_weight: 120
 draft: false
@@ -24,6 +25,7 @@ draft: false
   - Types of output (mostly JSON but also HTML, JPG, PNG and PDF)
   - Serving static files
   - Dealing with Errors
+- Documentation
 - Security
 - Deploying an API
   - DigitalOcean and AWS

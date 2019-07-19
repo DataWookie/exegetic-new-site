@@ -1,6 +1,6 @@
 ---
 title: "Senior Data Scientist"
-draft: true
+draft: false
 requirements_technical: [
 	"MSc or PhD in a relevant field",
 	"3+ years practical experience",
@@ -11,7 +11,7 @@ requirements_technical: [
 	"Proficient with Git",
 	"* Comfortable in a UNIX environment and with shell scripting",
 	"* Knowledge of distributed and cloud computing",
-	"* Exposure to web scraping",
+	"* Exposure to web scraping and web APIs",
 	"* Familiarity with applied optimisation techniques"
 	]
 requirements_other: [
@@ -39,7 +39,7 @@ responsibilities: [
 	"Clean, wrangle and curate data",
 	"Build Machine Learning models, APIs, dashboards and data-driven apps",
 	"Speak at meetups and conferences",
-	"Prepare the present training",
+	"Prepare and present training",
 	"Lead team and client meetings",
 	"Mentor Junior Data Scientists and support all colleagues",
 	"Maintain and expand expertise (stay at the leading edge!)",
@@ -47,7 +47,7 @@ responsibilities: [
 	]
 ---
 
-We're looking for an experienced Data Scientist. Somebody who enjoys collaborating with colleagues. Somebody who is hunting for new and better ways to do things. Somebody who wants to teach and learn.
+We're looking for an experienced Data Scientist. Somebody who enjoys collaborating with colleagues. Somebody who is hunting for new and better ways to do things. Somebody who wants to mentor and learn.
 
 As a Senior Data Scientist you will take responsibility for client projects, and drive them from inception to completion. You will work in a multidisciplinary environment using a range of contemporary and bleeding edge Data Science tools and technologies.
 
