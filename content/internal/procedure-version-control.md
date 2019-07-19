@@ -196,7 +196,7 @@ If a branch has been worked on for an extended period of time, one should ensure
 
 Code should be thoroughly tested before a request is initiated, with tests conducted in an *empty* environment.
 
-* In R, from RStudio terminal, clean all objects from the workspace.  
+* In R, from RStudio terminal, clean all objects from the workspace:
 
        ```{r}
        $ rm(list=list())
@@ -205,12 +205,39 @@ Code should be thoroughly tested before a request is initiated, with tests condu
     + Restart your R session with `Ctrl`+`Shift`+`F10`. 
     
     
-* In Python when using the VSCode IDE:
+* In Python, when using the VSCode IDE:
 
     + clear all variables by restarting the IPython kernel (top right of the interactive window).
     + Run the entire script by right-clicking and selection "Run All Cells".
 
-Once the code has been tested, create a merge request on [Gitlab](https://gitlab.com/exegetic) or [Github](https://github.com/datawookie/www-exegetic-biz) by:
+Once the code has been tested, ensure that the feature branch is still relevant by:
+
+* Checking out develop.
+
+      ```{r}
+       $ git checkout develop
+       ``` 
+
+* Pulling the changes in the remote branch of the repository into the local copy.
+
+      ```{r}
+       $ git pull origin develop
+       ``` 
+
+* Merge the changes into the feature branch:
+
+      ```{r}
+       $ git checkout <feature_branch_name>
+       $ git merge develop
+       ```
+
+* Resolve any merge conflicts and push back to the remote repository.
+
+      ```{r}
+       $ git push <feature_branch_name>
+       ```
+
+Finally, create a merge request on [Gitlab](https://gitlab.com/exegetic) or [Github](https://github.com/datawookie/www-exegetic-biz) by:
 
 * Navigate to the merge request tab.
 * Select the source branch to be merged and the destination branch, which is usually *develop*.
@@ -219,6 +246,6 @@ Once the code has been tested, create a merge request on [Gitlab](https://gitlab
 
 ## README
 
-A `README` serves to describe the package, setup instructions, files  and any requirements the package may have. 
+A `README` serves to describe the package, setup instructions, files and any requirements the package may have. 
 
 
