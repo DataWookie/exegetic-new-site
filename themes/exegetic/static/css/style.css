@@ -184,3 +184,24 @@ button.subject {
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {}
+
+/* --------------------------------------------------------------------------------------------- */
+/* Custom styles for images in blog posts */
+
+img[src$='#center']
+{
+    display: block;
+    margin: 0.7rem auto;
+}
+
+img[src$='#floatleft']
+{
+    float:left;
+    margin: 0.7rem;   
+}
+
+img[src$='#floatright']
+{
+    float:right;
+    margin: 0.7rem;
+}
