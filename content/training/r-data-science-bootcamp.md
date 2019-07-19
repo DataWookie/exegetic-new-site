@@ -23,7 +23,7 @@ The course is highly interactive and all practical exercises will be done in [R]
 ### Day 2
 
 - [Data Wrangling]({{< relref "r-data-wrangling.md" >}}) &mdash; Preparing data for analysis
-- [Visualisation]({{< relref "r-visualisation-ggplot2.md" >}}) &mdash; Making plots and figures
+- [Visualisation]({{< relref "r-visualisation.md" >}}) &mdash; Making plots and figures
 
 ### Day 3
 
