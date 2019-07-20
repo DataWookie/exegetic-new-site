@@ -4,17 +4,13 @@ topic: true
 subjects: ['R']
 subjects_weight: 120
 draft: true
-intro: 
+intro: INTRO TEXT 
 duration: 2 days
-who: 
-objectives: 
-outcomes: 
+who: WHO IS THIS FOR?
+objectives: WHAT DO WE AIM TO TEACH?
+outcomes: WHAT SHOULD THEY BE ABLE TO DO AFTERWARDS?
 requirements: Participants should have a solid understanding and experience in R. They should be comfortable using the pipe `%>%` operator and with manipulating data using `dplyr` verbs.
 ---
-
-{{< comment >}}
-RECREATE THIS AND USE AS ADVERTISING: https://twitter.com/simongerman600/status/1130550011102670848/photo/1
-{{< /comment >}}
 
 - Spatial Concepts
 - Packages for spatial data
