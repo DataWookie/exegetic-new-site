@@ -3,7 +3,7 @@ title: "Markdown & Automated Reporting"
 topic: true
 subjects: ['R']
 subjects_weight: 100
-draft: true
+draft: false
 intro: |
   Do you spend a lot of time generating reports? Do you end up regenerating tables and figures when new data become available? Is this a complicated and error-prone process? If so, then this course is for you!
 
