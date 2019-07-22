@@ -3,7 +3,7 @@ title: "Building R Packages"
 topic: true
 subjects: ['R']
 subjects_weight: 24
-draft: true
+draft: false
 intro: |
   An R package is simply a group of related functions. Packages make it easier to organise and share code. It sounds complicated, but it's not.
 
