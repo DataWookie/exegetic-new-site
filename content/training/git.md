@@ -1,5 +1,5 @@
 ---
-title: "Git: Getting Started"
+title: "Git"
 topic: true
 subjects: ['Version Control']
 draft: false
