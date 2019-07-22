@@ -21,13 +21,13 @@ This procedure refers to how we project manage clients and projects associated w
     - **Priority** (the next tasks that need to be picked up in the project)
     - **Current** (the tasks that individuals are currently working on)
     - **Awaiting** feedback (this is to take note of tasks that are awaiting feedback from external sources, ie. the client, and the work is therefore on hold until such feedback or clarification has been received)
-    - **Review** (when a piece of work is under review, whether peer review or a pull request has been made)
+    - **Review** (when a piece of work is under review, whether peer review or a pull request has been made. Furthermore, assign a *sub-task* to the person whose review your require.)
     - **Deployed/complete** (when a task has been completed and/or the work has been merged into the `master` branch and deployed to live)
 - Generally, cards move from left to right from one column to the next, but can move back and forth.
 - The Lead on the project is mostly respnsible for adding cards to the backlog and assigning team members to each task.
 - The person working on the card must then take ownership of the task and manage the progress of the card from one state to the next on the Asana board.
-- When requesting a *peer review* of the piece of work, you must tag the person on the card. 
-- When requesting a *final review* of the work, you must tag to Lead on the card and create a merge request for the feature branch into `develop` on Gitlab.
+- When requesting a *peer review* of the piece of work, create a sub-task and assign to the relevant person.  
+- When requesting a *final review* of the work, create a sub-task and assign to the relevant person and create a merge request for the feature branch into `develop` on Gitlab.
 
 ### Task details
 
