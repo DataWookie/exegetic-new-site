@@ -4,7 +4,7 @@ draft: true
 documents: ['Procedure']
 ---
 
-This procedure refers to how we project manage clients and projects associated with clients. Refer to <a href="https://www.exegetic.biz/internal/procedure-clients/">Clients Procedure</a>) for onboarding and setting up for a new client. 
+This procedure refers to how we project manage clients and projects associated with clients. Refer to <a href="https://www.exegetic.biz/internal/procedure-clients/">Procedure - Clients</a> for onboarding and setting up a new client. 
 
 ## Internal structure
 
@@ -29,9 +29,10 @@ This procedure refers to how we project manage clients and projects associated w
 - When requesting a *peer review* of the piece of work, you must tag the person on the card. 
 - When requesting a *final review* of the work, you must tag to Lead on the card and create a merge request for the feature branch into `develop` on Gitlab.
 
-## Task details
+### Task details
 
 Where necessary, include the following information on the Asana card for a task that supports the overall project:
+
 - A brief description of the context or background motivating for why this work is needed. This is especially relevant if the Lead is giving tasks to Juniors and the context needs to be explicitly documented so that everyone has the information.
 - The requirements of what is needed for the piece of work.
 - Links to any background documents or mockups.
