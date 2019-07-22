@@ -3,7 +3,7 @@ title: "Machine Learning"
 topic: true
 subjects: ['R']
 draft: false
-subjects_weight: 41
+subjects_weight: 40
 duration: 3 days
 who: |
   The course is aimed at students, academics and professionals who want to use Machine Learning to build models and make predictions.
@@ -95,14 +95,8 @@ requirements: |
 	- Feature Importance
 	- Feature Selection
 	  	* Stepwise (forward selection and backward elimination)
-	- Using [`{caret}`](http://topepo.github.io/caret/index.html)
-		* pre-processing;
-		* train/test splitting;
-		* feature importance and feature selection;
-		* model evaluation (using cross validation and bootstrapping);
-		* model tuning.
 
-### Day 3: Validation & Ensembles
+### Day 3: Caret, Validation & Ensembles
 
 - Validation
 	- Why Validation?
@@ -111,6 +105,12 @@ requirements: |
 	- Leave-One-Out Cross-Validation
 	- Bootstrap
 	- Model Tuning / Parameter Selection
+- Using [`{caret}`](http://topepo.github.io/caret/index.html)
+	* Pre-processing;
+	* Train/test splitting;
+	* Feature importance and feature selection;
+	* Model evaluation (using cross validation and bootstrapping);
+	* Model tuning.
 - Ensembles
 	- The Idea: "Wisdom of the Crowd"
 	- Homogeneous and Heterogeneous Ensembles
