@@ -4,11 +4,20 @@ topic: true
 subjects: ['R']
 subjects_weight: 120
 draft: true
-intro: INTRO TEXT 
+intro: 
 duration: 2 days
 who: R users interested in analysing spatial data.
-objectives: WHAT DO WE AIM TO TEACH?
-outcomes: WHAT SHOULD THEY BE ABLE TO DO AFTERWARDS?
+objectives: In this course, you'll learn how to read, explore, analyse, manipulate and enhance spatial data in R, create insightful maps and understand some interesting, relevant applications.
+outcomes: |
+  After this course, you will
+
+  - have an understanding of the R spatial ecosystem;
+  - be able to import, wrangle and perform analyses with various types of spatial data;
+  - understand coordinate reference systems and how to transform spatial data between projections;
+  - create static and dynamic, interactive maps;
+  - be able to geocode addresses into locations; and 
+  - be able to spin up and use OSRM for spatial optimization and routing problems in R.
+
 requirements: Participants should have a solid understanding and experience in R. They should be comfortable using the pipe `%>%` operator and with manipulating data using `dplyr` verbs. They should have some experience with basic plotting using `ggplot`.
 ---
 
