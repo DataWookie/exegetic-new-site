@@ -13,7 +13,7 @@ intro: |
     - enables collaboration.
 
   Git is the most pervasive Version Control system today. It works well on all projects, from a few files and a single developer to thousands of files and hundreds of developers.
-duration: 2 day
+duration: 1 day
 outcomes: |
   After this course you'll be familiar with how Git works and primed to start using it on your own projects.
 ---
