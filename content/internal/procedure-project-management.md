@@ -33,7 +33,9 @@ This procedure refers to how we project manage clients and projects associated w
 
 Where necessary, include the following information on the Asana card for a task that supports the overall project:
 - A brief description of the context or background motivating for why this work is needed. This is especially relevant if the Lead is giving tasks to Juniors and the context needs to be explicitly documented so that everyone has the information.
-- The name of the git branch where the work has been implemented.
+- The requirements of what is needed for the piece of work.
+- Links to any background documents or mockups.
+- The name of the git branch where the work has been implemented. 
 
 ## Time management
 
