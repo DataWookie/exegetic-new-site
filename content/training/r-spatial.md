@@ -47,3 +47,7 @@ requirements: Participants should have a solid understanding and experience in R
 - Routing with Open Source Routing Machine (OSRM)
 - Other useful packages:
   - `countrycode` - for dealing with country names and codes
+- Showcase of applications
+  - Transportation
+  - Geomarketing
+  - Ecology
