@@ -4,7 +4,7 @@ draft: true
 documents: ['Procedure']
 ---
 
-This procedure refers to how we project manage clients and projects associated with clients. Refer to <a href="https://www.exegetic.biz/internal/procedure-clients/">Procedure - Clients</a> for onboarding and setting up a new client. 
+This procedure refers to how we project manage our work for clients, specifically how we work internally as a team to collaborate and achieve the desired outcomes. Refer to <a href="https://www.exegetic.biz/internal/procedure-clients/">Procedure - Clients</a> for onboarding and setting up a new client. 
 
 ## Internal structure
 
@@ -28,15 +28,17 @@ This procedure refers to how we project manage clients and projects associated w
 - The person working on the card must then take ownership of the task and manage the progress of the card from one state to the next on the Asana board.
 - When requesting a *peer review* of the piece of work, create a sub-task and assign to the relevant person.  
 - When requesting a *final review* of the work, create a sub-task and assign to the relevant person and create a merge request for the feature branch into `develop` on Gitlab.
+- When you have requested a review from someone, and they are busy reviewing, and possibly making edits to the code, **do not** work on the branch and edit the code yourself in parallel. Wait for final feedback and for the reviewer to tell you they have finished and the task is either ready for deployment or needs further revisions based on feedback.
 
 ### Task details
 
 Where necessary, include the following information on the Asana card for a task that supports the overall project:
 
-- A brief description of the context or background motivating for why this work is needed. This is especially relevant if the Lead is giving tasks to Juniors and the context needs to be explicitly documented so that everyone has the information.
+- A brief description of the context or background motivating for why this work is needed. This is especially relevant if the Lead is giving tasks to Juniors and the context needs to be explicitly documented so that everyone has the necessary information.
 - The requirements of what is needed for the piece of work.
 - Links to any background documents or mockups.
 - The name of the git branch where the work has been implemented. 
+- A due date.
 
 ## Time management
 
