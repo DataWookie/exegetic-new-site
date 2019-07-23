@@ -9,62 +9,64 @@ description: "We offer a wide range of Data Science courses. If we don't have ex
 <div id="testimonial">    				
 	<div class="container">
 		<div class="row">
-			<div>
+			<div class="col-md-12 text-center">
                 <div class="quote"><i class="fa fa-quote-left fa-4x"></i></div>
-				<div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="5000">
-                  <ol class="carousel-indicators">
-				    <li data-target="#fade-quote-carousel" data-slide-to="0" class="active"></li>
-				    <li data-target="#fade-quote-carousel" data-slide-to="1"></li>
-				    <li data-target="#fade-quote-carousel" data-slide-to="2"></li>
-                    <li data-target="#fade-quote-carousel" data-slide-to="3"></li>
-                    <li data-target="#fade-quote-carousel" data-slide-to="4"></li>
-                    <li data-target="#fade-quote-carousel" data-slide-to="5"></li>
-				  </ol>
-				  <div class="carousel-inner">
-				    <div class="item">
-				    	<blockquote>
-				    		<p>I really enjoyed the interactive training: concepts introduced and then made to practice. The fact that I can review/redo my exercises in my own time makes it a very useful experience. The references to outside help and add-ons are also very useful. It was also great to learn from other participants.</p>
-                        </blockquote>	
-                        <p style="text-align: center;">- Brenda, International Analyst, Prudential</p>
-				    </div>
-				    <div class="item">
-				    	<blockquote>
-				    		<p>It was so applied, diverse and well presented. I really enjoyed this course.</p>
-                        </blockquote>
-                        <p style="text-align: center;">- Lucy, Research Officer, University of Cape Town</p>
-				    </div>
-				    <div class="active item">
-				    	<blockquote>
-				    		<p>Both Megan and Andrew are wonderful trainers. Andrew's excitement in explaining concepts was much appreciated - he's very good at conveying what the code means and what it achieves, so it was quick to grasp some of the concepts. Also, nothing appeared too difficult, but all achievable with practice/help function.</p>
-                        </blockquote>
-                        <p style="text-align: center;">- Lauren, Business Analyst, Woolworths</p>
-				    </div>
-                    <div class="item">
-    			    	<blockquote>
-				    		<p>I really enjoyed the training and I’m looking forward to a more advanced course. It was a great introduction to R and Data Science.</p>
-                        </blockquote>
-                        <p style="text-align: center;">- Deveshnie, Data Analyst, Derivco</p>
-				    </div>
-                    <div class="item">
-    			    	<blockquote>
-				    		<p>My thesis-writing experience has completely turned around. It went from being this scary insecure experience to a really confident one because I feel so much more equipped to delve into my data. I really can't thank you guys enough!</p>
-                        </blockquote>
-                        <p style="text-align: center;">- Astrid, PhD Student, University of Cape Town</p>
-				    </div>
-                    <div class="item">
-    			    	<blockquote>
-				    		<p>Introduction to data science with R was the best training course I have attended thus far in my career. Andrew and Megan are exceptional speakers and patient teachers. Despite the large volume of content, the training was continually interactive. This ensured that each attendee received individual attention, and were able to keep up with the pace.</p>
-                        </blockquote>
-                        <p style="text-align: center;">- Sulona, Mathematician, Derivco</p>
-				    </div>
-				  </div>
-				</div>
-			</div>							
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+						<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+						<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+					    	<blockquote>
+					    		<p>I really enjoyed the interactive training: concepts introduced and then made to practice. The fact that I can review/redo my exercises in my own time makes it a very useful experience. The references to outside help and add-ons are also very useful. It was also great to learn from other participants.</p>
+	                        </blockquote>	
+	                        <p style="text-align: center;">- Brenda, International Analyst, Prudential</p>
+						</div>
+						<div class="carousel-item">
+					    	<blockquote>
+					    		<p>It was so applied, diverse and well presented. I really enjoyed this course.</p>
+	                        </blockquote>
+	                        <p style="text-align: center;">- Lucy, Research Officer, University of Cape Town</p>
+						</div>
+						<div class="carousel-item">
+					    	<blockquote>
+					    		<p>Both Megan and Andrew are wonderful trainers. Andrew's excitement in explaining concepts was much appreciated - he's very good at conveying what the code means and what it achieves, so it was quick to grasp some of the concepts. Also, nothing appeared too difficult, but all achievable with practice/help function.</p>
+	                        </blockquote>
+	                        <p style="text-align: center;">- Lauren, Business Analyst, Woolworths</p>
+						</div>
+						<div class="carousel-item">
+	    			    	<blockquote>
+					    		<p>I really enjoyed the training and I’m looking forward to a more advanced course. It was a great introduction to R and Data Science.</p>
+	                        </blockquote>
+	                        <p style="text-align: center;">- Deveshnie, Data Analyst, Derivco</p>
+						</div>
+						<div class="carousel-item">
+	    			    	<blockquote>
+					    		<p>My thesis-writing experience has completely turned around. It went from being this scary insecure experience to a really confident one because I feel so much more equipped to delve into my data. I really can't thank you guys enough!</p>
+	                        </blockquote>
+	                        <p style="text-align: center;">- Astrid, PhD Student, University of Cape Town</p>
+						</div>
+						<div class="carousel-item">
+	    			    	<blockquote>
+					    		<p>Introduction to data science with R was the best training course I have attended thus far in my career. Andrew and Megan are exceptional speakers and patient teachers. Despite the large volume of content, the training was continually interactive. This ensured that each attendee received individual attention, and were able to keep up with the pace.</p>
+	                        </blockquote>
+	                        <p style="text-align: center;">- Sulona, Mathematician, Derivco</p>
+						</div>
+					</div>
+					<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+            	</div>
+            </div>							
 		</div>
 	</div>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-	<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 </div>
 
 These are the training courses we currently offer.
@@ -73,3 +75,4 @@ If none of these meet your needs, then we can construct a course which meets you
 
 <i class="fas fa-tag"></i> &mdash; a focused topic<br>
 <i class="fas fa-list"></i> &mdash; a course consisting of multiple topics
+

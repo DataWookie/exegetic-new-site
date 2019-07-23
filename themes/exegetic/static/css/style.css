@@ -79,7 +79,7 @@ a .collapsed {
 	color: red;
 }
 
-/* TRAINING LIST PAGE */
+/* TRAINING LIST ------------------------------------------------------------------------------- */
   
   .quote {
 	color: rgba(0,0,0,.1);
@@ -87,6 +87,10 @@ a .collapsed {
 	margin-bottom: 1.5%;
   }
   
+.carousel-item {
+	height: 240px;
+}
+
   #fade-quote-carousel.carousel {
   padding-bottom: 60px;
   }
@@ -110,7 +114,6 @@ a .collapsed {
   border: none;
   }
   #fade-quote-carousel blockquote {
-	text-align: center;
 	border: none;
   }
 
