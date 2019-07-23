@@ -3,6 +3,8 @@ title: "Git"
 topic: true
 subjects: ['Version Control']
 draft: false
+who: |
+  The course is for students, academics and professionals. Version Control is not just for developers. It's an indispensable tool for anybody who creates content on a computer (for example, source code, documents, presentations or web sites). It also facilitates collaboration between mutliple people working on the same set of files.
 intro: |
   A Version Control system is a fundamental tool for developers, analysts and reseachers. It provides the following benefits:
 
