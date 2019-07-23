@@ -24,6 +24,7 @@ requirements: |
 		- Transformations
 			- `log()` and `sqrt()`
 			- Box-Cox
+		- [`{recipes}`](https://github.com/tidymodels/recipes)
 - Classification
 	- k-Nearest Neighbours (kNN)
 		- How it works
@@ -116,3 +117,5 @@ requirements: |
 	- Homogeneous and Heterogeneous Ensembles
 	- Bagging
 		* Random Forests
+- Machine Learning at Scale
+	- Building many models (automation)

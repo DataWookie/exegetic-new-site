@@ -30,30 +30,30 @@ requirements: Participants should have a solid understanding and experience in R
 - Coordinate Reference Systems
 	- PROJ4
 - Working with Raster Data
-	- `raster`
+	- `{raster}`
+	- `{ceramic}` for satellite imagery
 	- Changing projection
 	- Multi-band
 	- Calculations
 - Working with Vector Data
 	- Shapefiles
 	- GeoJSON
-	- `sf`
+	- `{sf}`
 	- Geometry types
 	- Manipulating spatial data using `dplyr`
 - Data Translation
-	- `rgdal`
+	- `{rgdal}`
 - Cartography
-	- Static maps with `ggplot` and `tmap`
-	- Animated maps with `gganimate`
-	- Interactive maps with `leaflet` (and embedding in `shiny`)
+	- Types of maps
+	- Static maps with `{ggplot2}` and `{tmap}`
+	- Animated maps with `{gganimate}`
+	- Interactive maps with `{plotly}` and `{leaflet}` (and embedding in Shiny)
 	- Choropleths
-  		- `ggplot`
-  		- `plotly`
   	- OpenStreetMap
 - Geocoding
 - Routing with Open Source Routing Machine (OSRM)
 - Other useful packages:
-  - `countrycode` - for dealing with country names and codes
+  - `{countrycode}` - for dealing with country names and codes
 - Showcase of applications
   - Transportation
   - Geomarketing
