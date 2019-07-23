@@ -43,15 +43,13 @@ requirements: Participants should have a solid understanding and experience in R
 - Data Translation
 	- `rgdal`
 - Cartography
-	- Types of maps
-	- Choropleths
-  		- ggplot
-  		- plotly
-  	- OpenStreetMap
-- Visualisation
 	- Static maps with `ggplot` and `tmap`
 	- Animated maps with `gganimate`
-	- ineractive maps with `leaflet` (and embedding in `shiny`)
+	- Interactive maps with `leaflet` (and embedding in `shiny`)
+	- Choropleths
+  		- `ggplot`
+  		- `plotly`
+  	- OpenStreetMap
 - Geocoding
 - Routing with Open Source Routing Machine (OSRM)
 - Other useful packages:
