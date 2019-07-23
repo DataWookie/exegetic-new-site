@@ -51,45 +51,38 @@
         {{ end }}
         <h2 class="web-only">Details</h2>
         <h3 class="proposal-only">Details</h3>
-        <div class="">
-        </div>
+        <dl class="row">
+          {{ if .Params.duration }}
+          <dt class="col-sm-2 detail">Duration</dt>
+          <dd class="col-sm-10">{{ .Params.duration | markdownify }}</dd>
+          {{ end }}
+          {{ if .Params.why }}
+          <dt class="col-sm-2 detail">Why attend?</dt>
+          <dd class="col-sm-10">{{ .Params.why | markdownify }}</dd>
+          {{ end }}
+          {{ if .Params.who }}
+          <dt class="col-sm-2 detail">Who should attend?</dt>
+          <dd class="col-sm-10">{{ .Params.who | markdownify }}</dd>
+          {{ end }}
+          {{ if .Params.objectives }}
+          <dt class="col-sm-2 detail">Objectives</dt>
+          <dd class="col-sm-10">{{ .Params.objectives | markdownify }}</dd>
+          {{ end }}
+          {{ if .Params.outcomes }}
+          <dt class="col-sm-2 detail">Outcomes</dt>
+          <dd class="col-sm-10">{{ .Params.outcomes | markdownify }}</dd>
+          {{ end }}
+          {{ if .Params.requirements }}
+          <dt class="col-sm-2 detail">Requirements</dt>
+          <dd class="col-sm-10">{{ .Params.requirements | markdownify }}</dd>
+          {{ end }}
+          {{ if .Params.setup }}
+          <dt class="col-sm-2 detail">Setup</dt>
+          <dd class="col-sm-10">{{ .Params.setup | markdownify }}</dd>
+          {{ end }}
+      </dl>
         <p class="proposal-only">Return to our <a href="/training/">list</a> of courses.</p>
         </div>
-
-        <!-- LIST ------------------------------------------------------------------------------------------------- -->
-
-        <dl class="row">
-            {{ if .Params.duration }}
-            <dt class="col-sm-2 detail">Duration</dt>
-            <dd class="col-sm-10">{{ .Params.duration | markdownify }}</dd>
-            {{ end }}
-            {{ if .Params.why }}
-            <dt class="col-sm-2 detail">Why attend?</dt>
-            <dd class="col-sm-10">{{ .Params.why | markdownify }}</dd>
-            {{ end }}
-            {{ if .Params.who }}
-            <dt class="col-sm-2 detail">Who should attend?</dt>
-            <dd class="col-sm-10">{{ .Params.who | markdownify }}</dd>
-            {{ end }}
-            {{ if .Params.objectives }}
-            <dt class="col-sm-2 detail">Objectives</dt>
-            <dd class="col-sm-10">{{ .Params.objectives | markdownify }}</dd>
-            {{ end }}
-            {{ if .Params.outcomes }}
-            <dt class="col-sm-2 detail">Outcomes</dt>
-            <dd class="col-sm-10">{{ .Params.outcomes | markdownify }}</dd>
-            {{ end }}
-            {{ if .Params.requirements }}
-            <dt class="col-sm-2 detail">Requirements</dt>
-            <dd class="col-sm-10">{{ .Params.requirements | markdownify }}</dd>
-            {{ end }}
-            {{ if .Params.setup }}
-            <dt class="col-sm-2 detail">Setup</dt>
-            <dd class="col-sm-10">{{ .Params.setup | markdownify }}</dd>
-            {{ end }}
-        </dl>
-
-        <!-- ------------------------------------------------------------------------------------------------------ -->
 
         <div>
         <h2 class="web-only">Description</h2>
