@@ -79,6 +79,41 @@ a .collapsed {
 	color: red;
 }
 
+/* TRAINING LIST PAGE */
+  
+  .quote {
+	color: rgba(0,0,0,.1);
+	text-align: center;
+	margin-bottom: 1.5%;
+  }
+  
+  #fade-quote-carousel.carousel {
+  padding-bottom: 60px;
+  }
+  #fade-quote-carousel.carousel .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+	  -ms-transition-property: opacity;
+		  transition-property: opacity;
+  }
+  #fade-quote-carousel.carousel .carousel-inner .active {
+  opacity: 1;
+  -webkit-transition-property: opacity;
+	  -ms-transition-property: opacity;
+		  transition-property: opacity;
+  }
+  #fade-quote-carousel.carousel .carousel-indicators {
+  bottom: 10px;
+  }
+  #fade-quote-carousel.carousel .carousel-indicators > li {
+  background-color: #3a5a79ff;
+  border: none;
+  }
+  #fade-quote-carousel blockquote {
+	text-align: center;
+	border: none;
+  }
+
 /* TRAINING PROPOSAL --------------------------------------------------------------------------- */
 
 .proposal-only {
@@ -178,6 +213,7 @@ ul ul, ol ul, ol ol {
 	margin-top: 0.5rem;
 	text-align: center;
 }
+
 
 /* --------------------------------------------------------------------------------------------- */
 
