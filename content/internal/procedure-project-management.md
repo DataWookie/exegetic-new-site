@@ -1,6 +1,6 @@
 ---
 title: "Procedure – Project Management"
-draft: true
+draft: false
 documents: ['Procedure']
 ---
 
