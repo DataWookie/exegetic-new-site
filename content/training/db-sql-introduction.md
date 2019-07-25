@@ -4,6 +4,7 @@ topic: true
 subjects: ['Database']
 subjects_weight: 10
 draft: false
+duration: 1 day
 ---
 
 <!--
@@ -12,8 +13,6 @@ https://www.stat.berkeley.edu/~spector/sql.pdf
 https://www.datacamp.com/courses/intro-to-sql-for-data-science
 https://www.pluralsight.com/courses/introduction-to-sql
 -->
-
-## Course Description
 
 ### Data Query
 

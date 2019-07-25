@@ -4,9 +4,10 @@ topic: true
 subjects: ['R']
 subjects_weight: 120
 draft: false
+intro: |
+  [Plumber](https://www.rplumber.io/) is a package which makes it possible to expose R functions as API endpoints. This makes building an API simple and fun.
+duration: 1 day
 ---
-
-[Plumber](https://www.rplumber.io/) is a package which makes it possible to expose R functions as API endpoints. This makes building an API simple and fun.
 
 - What is a REST API?
 - A Quick API

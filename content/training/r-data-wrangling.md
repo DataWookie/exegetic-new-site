@@ -4,6 +4,13 @@ topic: true
 subjects: ['R']
 subjects_weight: 21
 draft: false
+duration: 1 day
+who: |
+  The course is aimed at students, academics and professionals who conduct data analysis using other tools like Excel. It's assumed that participants already have some familiarity with R.
+objectives: |
+  R is a phenomenal tool for working with data. Being able to lay out the steps in an analysis as a script means that the analysis is repeatable and can also be version controlled.  One of the first steps in any analysis is the preparation of the data. Three R packages (dplyr, tidyr and purrr) expose an wide range of functionality to aid in the data preparation process.
+outcomes: |
+  Participants will be able to apply a selection of "tidy" operations on data using the dplyr, tidyr and purrr packages.
 ---
 
 <!--
@@ -48,8 +55,6 @@ draft: false
  
  - Hadley Wickham. [Tidy data](https://www.jstatsoft.org/index.php/jss/article/view/v059i10/v59i10.pdf). The Journal of Statistical Software, vol. 59, 2014.
 -->
-
-## Contents
 
 - Loading data from files
 	- CSV using base and [readr](https://github.com/tidyverse/readr)

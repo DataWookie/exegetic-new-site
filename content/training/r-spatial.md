@@ -10,6 +10,7 @@ draft: true
 - Choropleths
   - ggplot
   - plotly
+- Geocoding
 - Routing with OSRM
 - KML
 

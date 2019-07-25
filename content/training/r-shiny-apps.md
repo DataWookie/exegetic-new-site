@@ -4,6 +4,31 @@ topic: true
 subjects: ['R']
 subjects_weight: 120
 draft: false
+intro: |
+  The Shiny package makes it easy to create interactive web applications using R.
+duration: 2 days
+who: |
+  The course is aimed at students, academics and professionals who want to build interactive web applications.
+objectives: >
+  An interactive web application is a great way to allow people to interact with data. The conventional approach to developing such an application requires knowledge of a range of web development tools. However, the Shiny package makes it possible to easily build a web application using only R. This allows you to focus on the data and user experience.
+outcomes: |
+  Participants will:
+
+  - understand the structure of a Shiny application (UI and server);
+  - be able to assemble an attractive UI;
+  - understand reactivity and how the UI and server communicate with each other; and
+  - know how to deploy a Shiny application.
+requirements: |
+  Participants are assumed to have prior exposure to R, or at least to programming of some variety. Ideally participants should have completed the [Data Wrangling]({{< ref "r-data-wrangling.md" >}}) and [Visualisation]({{< ref "r-visualisation.md" >}}) modules.
+setup: |
+  ```r
+  install.packages(
+    c("shiny", "rmarkdown", "DT", "devtools", "flexdashboard",
+      "gapminder", "rticles", "shinydashboard", "shinythemes",
+      "tidyverse", "tufte", "xaringan"),
+    repos = "http://cran.rstudio.com"
+  )
+  ```
 ---
 
 <!--
@@ -18,16 +43,7 @@ https://github.com/rstudio-education/intro-shiny-rmarkdown
 https://shiny.rstudio.com/articles/debugging.html
 -->
 
-The Shiny package makes it easy to create interactive web applications using R.
-
-In this workshop you will learn how to build Shiny applications from scratch. After the workshop you will:
-
-- understand the structure of a Shiny application (UI and server);
-- be able to assemble an attractive UI;
-- understand reactivity and how the UI and server communicate with each other; and
-- know how to deploy a Shiny application.
-
-## Contents
+### Day 1
 
 - What is Shiny?
   - Samples from App Gallery
@@ -55,17 +71,16 @@ In this workshop you will learn how to build Shiny applications from scratch. Af
   - Shiny themes
   - HTML widgets
   - Javascript
+
+### Day 2
+
+- Modules
+- Testing
+  - {shinytest}
+  - {shinyloadtest}
 - Deploying
   - [shinyapps.io](https://www.shinyapps.io/)
   - Shiny Server
 - Scaling Shiny
   - [Shinyproxy](https://www.shinyproxy.io/)
-
-## Setup
-
-```
-install.packages(c("shiny", "rmarkdown", "DT", "devtools", "flexdashboard",
-                   "gapminder", "rticles", "shinydashboard", "shinythemes", 
-                   "tidyverse", "tufte", "xaringan"),
-                 repos = "http://cran.rstudio.com")
-```
+  - [{golem}](https://github.com/ThinkR-open/golem)

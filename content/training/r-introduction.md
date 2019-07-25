@@ -4,9 +4,10 @@ topic: true
 subjects: ['R']
 subjects_weight: 20
 draft: false
+intro: |
+  This is a short introduction to R. It covers the fundamental features of the language and serves as a foundation for the rest of our R courses.
+duration: 1/2 day
 ---
-
-This is a short introduction to R. It introduces the fundamental features of the language and serves as a foundation for the rest of our R courses.
 
 - Variables
 	- Atomic data types
@@ -18,6 +19,9 @@ This is a short introduction to R. It introduces the fundamental features of the
 	- Using builtin functions
 	- Getting help
 	- Writing your own functions
+- Tidy Utensils
+	- `{magrittr}`
+	- `{tibble}`
 - Loading Data
 	- `{readr}` — CSV
 	- `{readxl}` — Excel (XLS and XLSX)
@@ -27,8 +31,3 @@ This is a short introduction to R. It introduces the fundamental features of the
 		- Filtering rows
 	- `{tidyr}`
 		- Pivoting
-- Plotting
-	- `{ggplot2}`
-		- Scatter and line plots
-		- Simple styling
-		- Facets

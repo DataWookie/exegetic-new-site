@@ -4,48 +4,26 @@ draft: true
 documents: ['Policy']
 ---
 
+## Table of contents
+1. [General](#general)
+2. [Markdown](#markdown)
+3. [R](#r)
+4. [Python](#python)
+5. [SQL](#sql)
+
 Good coding style is like correct punctuation: you can manage without it, butitsuremakesthingseasiertoread. The standards below were taken from various sources. Please go through these and implement the coding standards of your relevant language. The aim of this document is to provide consistency across our various projects and undertakings. Following coding standards will make you, your colleagues, and every future version thereof, happier.
 
-
-
-## Markdown
-
-Markdown's code policy section was compiled by taking liberally from loopback's [Markdown style guide](https://loopback.io/doc/en/contrib/Markdown-style-guide.html). Please visit the link for more guidelines and to further clarify the guidelines below.
-
-
-### Indentation, headers and whitespaces
-
-- Markdown files don't use extra indentation.
-- Always insert an open line between a section heading and the section content.
-- Always insert two blank lines in between sections.
-
-### Links
-
-- Always use absolute URLs, not relative URLs.
-
-```
-# Yes: 
-[`automigrate.js`](https://github.com/strongloop/loopback-example-database/blob/postgresql/bin/automigrate.js).
-
-# No: 
-[`automigrate.js`](bin/automigrate.js).
-```
-
-
-## General
-
+## General <a name="general"></a>
 
 ### Source file encoding
 
 - Use UTF-8 for all languages.
-
 
 ### Line length
 
 - Line length is arbitrary.
 - Whichever line length you prefer, keep it consistent across languages.
 - Up to 120 characters are allowed.
-
 
 ### File header guidelines
 
@@ -64,7 +42,6 @@ Markdown's code policy section was compiled by taking liberally from loopback's 
 # =================================================================================================
 ```
 
-
 ### Section header guidelines
 
 - Use headers to document and separate your code as it aids in the readability and interpretability of your code.
@@ -72,7 +49,6 @@ Markdown's code policy section was compiled by taking liberally from loopback's 
 ```
 # LIBRARIES ----------------------------------------------------------------------------------------
 ```
-
 
 ### Commenting guidelines
 
@@ -85,7 +61,6 @@ Markdown's code policy section was compiled by taking liberally from loopback's 
 # Load data from google drive.
 ```
 
-
 ### Architecture
 
 Writing code without thinking of its architecture is useless in the same way as dreaming about your desires without a plan of achieving them. Think long-term about your intended code, for example.
@@ -96,12 +71,10 @@ Writing code without thinking of its architecture is useless in the same way as 
 - How it will be tested and debugged.
 - How it will be updated.
 
-
 ### Package and module names 
 
 - Packages (R) and modules (Python) should have short, all-lowercase names.
 - The use of underscores are discouraged.
-
 
 ### Function, variable and object names
 
@@ -125,13 +98,11 @@ djm1
 SubscribersGeocode
 ```
 
-
 ### Hard-coding
 
-- *verb* `COMPUTING` fix (data or parameters) in a program in such a way that they cannot be altered without modifying the program.
+- The definition of hard-coding, is to fix data or parameters in a program in such a way that they cannot be altered without modifying the program.
 - Get into a habit of not hard-coding.
 - Code should be transferable.
-
 
 ### Duplication
 
@@ -139,19 +110,37 @@ SubscribersGeocode
 - Duplication leads to unnecessary maintenance.
 - If you are repeating your code, you likely need a function.
 
-
 ### Legibility
 
 - Write clean, readable code.
 - Use meaningful names and rather spend more than less time choosing a meaningful name.
 - Follow convention: camelCase, underscore_case, PascalCase, etc.
 
+## Markdown <a name="markdown"></a>
 
-## R
+Markdown's code policy section was compiled by taking liberally from loopback's [Markdown style guide](https://loopback.io/doc/en/contrib/Markdown-style-guide.html). Please visit the link for more guidelines and to further clarify the guidelines below.
+
+### Indentation, headers and whitespaces
+
+- Markdown files don't use extra indentation.
+- Always insert an open line between a section heading and the section content.
+
+### Links
+
+- Always use absolute URLs, not relative URLs.
+
+```
+# Yes: 
+[`automigrate.js`](https://github.com/strongloop/loopback-example-database/blob/postgresql/bin/automigrate.js).
+
+# No: 
+[`automigrate.js`](bin/automigrate.js).
+```
+
+## R <a name="r"></a>
 
 R's code policy section was compiled by taking liberally from Hadley's [Advanced R style guide](http://adv-r.had.co.nz/Style.html), the [tidyverse style guide](https://style.tidyverse.org/), and
 Google's [R style guide](https://google.github.io/styleguide/Rguide.xml). Please visit the links for more guidelines and to further clarify the guidelines below.
-
 
 ### File names
 
@@ -163,7 +152,6 @@ Google's [R style guide](https://google.github.io/styleguide/Rguide.xml). Please
 1-parse.R
 2-explore.R
 ```
-
 
 ### Spacing
 
@@ -181,7 +169,6 @@ average<-mean(feet/12+inches,na.rm=TRUE)
 
 For all the use cases of how to use spaces, go to the [syntax, spacing](http://adv-r.had.co.nz/Style.html) section of Hadley's (You know who Hadley is, right?) style guide.
 
-
 ### Curly braces
 
 - An opening curly brace should never go on its own line and should always be followed by a new line.
@@ -196,7 +183,6 @@ if (y == 0) {
 }
 ```
 
-
 ### Assignment
 
 - Use '<-', not '=', for assignment.
@@ -209,6 +195,21 @@ x <- 5
 x = 5
 ```
 
+### Line Breaks
+
+- Variable name assignments take place on the same line.
+- Insert a new line after every pipe (%>%).
+
+```
+# Yes:
+subscribers <- fetch_subscribers()
+subscribers <- subscribers %>% 
+  select(date, customer_id, active, phone_number) %>% 
+  arrange(date)
+
+# No:
+subscribers <- fetch_subscribers() %>% select(date, customer_id, active, phone_number) %>% arrange(date)
+```
 
 ### Indentation
 
@@ -225,12 +226,9 @@ long_function_name <- function(a = "a long argument",
 }
 ```
 
-
-
-## Python
+## Python <a name="python"></a>
 
 Python's code policy section was compiled by taking liberally from the PEP 8 [Python style guide](https://www.python.org/dev/peps/pep-0008/). Please visit the link for more guidelines and to further clarify the guidelines below.
-
 
 ### Line Breaks
 
@@ -246,12 +244,10 @@ income = (gross_wages
           - student_loan_interest)
 ```
 
-
 ### Blank lines
 
 - Surround top-level function and class definitions with two blank lines.
 - Method definitions inside a class are surrounded by a single blank line.
-
 
 ### Imports
 
@@ -269,11 +265,9 @@ from mypkg.sibling import example
 import sys, os
 ```
 
-
 ### Class names
 
 - Class names should normally use the CapWords convention.
-
 
 ### Type variable names
 
@@ -287,7 +281,6 @@ from typing import TypeVar
 VT_co = TypeVar('VT_co', covariant=True)
 KT_contra = TypeVar('KT_contra', contravariant=True)
 ```
-
 
 ### Spacing
 
@@ -322,11 +315,9 @@ hypot2 = x * x + y * y
 c = (a + b) * (a - b)
 ```
 
-
 ### Assignment
 
 - Use '=' for assignment.
-
 
 ### Indentation
 
@@ -344,34 +335,34 @@ def long_function_name(
     print(var_one)
 ```
 
-## SQL
+## SQL <a name="sql"></a>
 
-SQL's code policy section was compiled by taking liberally from [Simon Holywell's style guide](https://www.sqlstyle.guide/). Please visit the link for more guidelines and to further clarify the guidelines below.
-
+SQL's code policy section was compiled by taking liberally from [Simon Holywell's style guide](https://www.sqlstyle.guide/) and [Firefox's SQL style guide](https://docs.telemetry.mozilla.org/concepts/sql_style.html#left-align-root-keywords). Please visit the links for more guidelines and to further clarify the guidelines below.
 
 ### General
 
 - Use consistent and descriptive identifiers and names.
-- Make judicious use of white space and indentation to make code easier to read.
+- Make use of white space and indentation to make code easier to read.
 - Store ISO-8601 compliant time and date information (YYYY-MM-DD HH:MM:SS.SSSSS).
 - Try to use only standard SQL functions instead of vendor specific functions for reasons of portability.
 - Keep code succinct and devoid of redundant SQL, such as unnecessary quoting or parentheses or 'WHERE' clauses that can otherwise be derived.
 - Include comments in SQL code where necessary.
-- Use the C-style opening /* and closing */ where possible, otherwise precede comments with '--' and finish them with a new line.
+- Precede comments with '--' and finish them with a new line.
 
 ```
-/* Updating the file record after writing to the file */
-UPDATE file_system
-   SET file_modified_date = '1980-02-22 13:19:01.00000',
-       file_size = 209732
- WHERE file_name = '.vimrc';
+-- Updating the file record after writing to the file
+UPDATE 
+  file_system
+SET 
+  file_modified_date = '1980-02-22 13:19:01.00000',
+  file_size = 209732
+ WHERE
+  file_name = '.vimrc';
  ```
 
 - Avoid CamelCase - it's difficult to scan quickly.
 - Avoid descriptive prefixes or Hungarian notation such as 'sp_' or 'tbl'.
 - Avoid plurals - use the more natural collective term where possible instead.
-- Avoid quoted identifiers - if you must use them then stick to SQL92 double quotes for portability (you may need to configure your SQL server to support this depending on the vendor).
-
 
 ### Table naming conventions
 
@@ -381,8 +372,7 @@ UPDATE file_system
 - Never give a table the same name as one of its columns and vice versa.
 - Avoid, where possible, concatenating two table names together to create the name of a relationship table - rather than `cars_mechanics` use `services`.
 
-
-### General naming conventions 
+### General naming conventions
 
 - Ensure the name is unique and does not exist as a reserved keyword.
 - Keep the length to a maximum of 30 bytes—in practice - this is 30 characters unless you are using multi-byte character set.
@@ -391,72 +381,23 @@ UPDATE file_system
 - Avoid the use of multiple consecutive underscores — these can be hard to read.
 - Avoid abbreviations and if you have to use them, make sure they are commonly understood.
 
+### Line spacing and Indentation
 
-### Spaces
-
-- Spaces should be used to line up the code so that the root keywords all end on the same character boundary.
-- Right align commands, left align actual column names and implementation specific details.
-- This forms a river down the middle making it easy for the reader's eye to scan over the code and separate the keywords from the implementation detail.
-- Rivers are bad in typography, but helpful here.
-- Use spaces before and after equal signs (=), after commas ',', Surrounding apostrophes (') where not within parentheses or with a trailing comma or semicolon.
-
-```
-(SELECT f.species_name,
-        AVG(f.height) AS average_height, AVG(f.diameter) AS average_diameter
-   FROM flora AS f
-  WHERE f.species_name = 'Banksia'
-     OR f.species_name = 'Sheoak'
-     OR f.species_name = 'Wattle'
-  GROUP BY f.species_name, f.observation_date)
-  ```
-
-
-### Line spacing
-
-- Keep all the keywords aligned to the righthand side and the values left aligned.
-- Always include newlines/vertical space before 'AND' or 'OR'.
-- After semicolons to separate queries for easier reading.
-- After each keyword definition.
-- After a comma when separating multiple columns into logical groups.
-- To separate code into related sections - helps to ease the readability of large chunks of code.
+- Keep all the commands left-alligned.
+- Have each commmand on a new line for legibility.
+- Don't include multiple arguments on one line.
+- Have 'AND' or 'OR' on a single line.
+- Indent 'AND' or 'OR'.
 
 ```
-SELECT a.title,
-       a.release_date, a.recording_date, a.production_date -- grouped dates together
-  FROM albums AS a
- WHERE a.title = 'Charcoal Lane'
-    OR a.title = 'The New Danger';
-```
-
-
-### Indentation
-
-- Joins should be indented to the other side of the river and grouped with a new line where necessary.
-
-```
-SELECT r.last_name
-  FROM riders AS r
-       INNER JOIN bikes AS b
-       ON r.bike_vin_num = b.vin_num
-          AND b.engine_tally > 2
-
-       INNER JOIN crew AS c
-       ON r.crew_chief_last_name = c.last_name
-          AND c.chief = 'Y';
-```
-
-- Subqueries should also be aligned to the right side of the river and then laid out using the same style as any other query.
-
-```
-SELECT r.last_name,
-       (SELECT MAX(YEAR(championship_date))
-          FROM champions AS c
-         WHERE c.last_name = r.last_name
-           AND c.confirmed = 'Y') AS last_championship_year
-  FROM riders AS r
- WHERE r.last_name IN
-       (SELECT c.last_name
-          FROM champions AS c
-         WHERE YEAR(championship_date) > '2008'
-           AND c.confirmed = 'Y');
+SELECT
+  OrderInDriverID AS driver_id,
+  UserName AS agent_name,
+  Timestamp AS timestamp
+FROM
+  biWarehouse.dbo.DriverNotifications
+WHERE
+  timestamp >= @date_begin
+  AND
+  timestamp < @date_end
 ```

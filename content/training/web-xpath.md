@@ -3,11 +3,12 @@ title: "XPath"
 topic: true
 subjects: ['Web Development']
 subjects_weight: 12
+intro: |
+  This short course gives an overview of XPath and is important background for our Web Development and Web Scraping courses.
+duration: 1/2 day
 ---
 
 <!-- http://tyrex.inria.fr/courses/mosig/xpath.pdf -->
-
-This short course gives an overview of XPath and is important background for our Web Development and Web Scraping courses.
 
 - What is XPath?
 - XPath Expressions
