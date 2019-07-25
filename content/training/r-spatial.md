@@ -4,7 +4,7 @@ topic: true
 subjects: ['R']
 subjects_weight: 120
 draft: true
-intro: 
+intro: INTRODUCTION  TEXT
 duration: 2 days
 who: R users interested in analysing spatial data.
 objectives: In this course, you'll learn how to read, explore, analyse, manipulate and enhance spatial data in R, create insightful maps and understand some interesting, relevant applications.

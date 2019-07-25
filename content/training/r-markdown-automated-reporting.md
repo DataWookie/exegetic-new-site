@@ -22,6 +22,67 @@ setup: |
       If all else fails you can use the [Dillinger](https://dillinger.io/) online editor.
 ---
 
+{{< comment >}}
+# Automated Reporting
+
+This course will explore how you can use R to generate automated documents and reports. Once the report has been set up, it can be readily refreshed whenever new data becomes available.
+
+This has numerous advantages:
+
+- save time constructing reports;
+- repeatability;
+- consistency between reports.
+
+## Introduction to Mark(up|down)
+
+- What is Markup?
+- What is Markdown?
+
+## R Markdown
+
+- Code blocks
+- Code block options
+- Inline code
+
+## Generating Your First Document
+
+- Creating structure
+- Sourcing data
+- Adding plots
+
+For this exercise the data will come from a CSV file.
+
+## A More Advanced Document
+
+- Working with the YAML header
+- Connecting to the data source
+- Tables
+- Maths
+- References
+
+For this exercise the data will come from a Google Sheet. This document will be dynamic in the sense that updates to the Google Sheet will be reflected in the document.
+
+## Pimping Your Document
+
+- Themes
+- Custom CSS
+
+## Automation
+
+- Introduction to `chron`
+- Scheduling document creation
+- Dissemination
+
+Three modes of dissemination will be considered: web server, email and RPubs.
+
+## Extensions to R Markdown
+
+- Presentations
+- Journal articles and conference papers
+- Bookdown
+- Blogdown
+{{< /comment >}}
+
 <!--
 https://github.com/rstudio/rstudio-conf/tree/master/2017/Advanced%20R%20Markdown%20-%20Yihui%20Xie
 https://github.com/rstudio/rstudio-conf/tree/master/2018/Multilingual_Rmarkdown--Aaron_Berg
