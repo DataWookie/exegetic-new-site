@@ -209,6 +209,7 @@ Code should be thoroughly tested before a request is initiated, with tests condu
 
     + clear all variables by restarting the IPython kernel (top right of the interactive window).
     + Run the entire script by right-clicking and selection "Run All Cells".
+    + If there is data, pulled from a SQL query and stored locally, the notebook depends on - ensure the notebooks runs after a fresh clean and pull of the data. 
 
 Once the code has been tested, ensure that the feature branch is still relevant by:
 
