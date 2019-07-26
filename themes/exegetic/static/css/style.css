@@ -153,8 +153,9 @@ a .collapsed {
 
 	@page {
 		size: auto;
-		margin-left: 1cm;
-		margin-right: 1cm
+		margin-top: 1.3cm;
+		margin-left: 1.5cm;
+		margin-right: 1.5cm;
 	}
 
 }
