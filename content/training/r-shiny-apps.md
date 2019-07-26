@@ -45,6 +45,8 @@ https://shiny.rstudio.com/articles/debugging.html
 
 ### Day 1
 
+### Day 1
+
 - What is Shiny?
   - Samples from App Gallery
 - Components of a Shiny app
@@ -84,3 +86,12 @@ https://shiny.rstudio.com/articles/debugging.html
 - Scaling Shiny
   - [Shinyproxy](https://www.shinyproxy.io/)
   - [{golem}](https://github.com/ThinkR-open/golem)
+
+## Setup
+
+```
+install.packages(c("shiny", "rmarkdown", "DT", "devtools", "flexdashboard",
+                   "gapminder", "rticles", "shinydashboard", "shinythemes", 
+                   "tidyverse", "tufte", "xaringan"),
+                 repos = "http://cran.rstudio.com")
+```
