@@ -196,19 +196,16 @@ If a branch has been worked on for an extended period of time, one should ensure
 
 Code should be thoroughly tested before a request is initiated, with tests conducted in an *empty* environment.
 
-* In R, from RStudio terminal, clean all objects from the workspace:
+* In R, from RStudio terminal, ensure that your environment is clean by:
 
-       ```{r}
-       $ rm(list=list())
-       ``` 
-
-    + Restart your R session with `Ctrl`+`Shift`+`F10`. 
+    + Restarting your R session with `Ctrl`+`Shift`+`F10`. 
     
     
-* In Python, when using the VSCode IDE:
+* In Python, when using a notebook:
 
-    + clear all variables by restarting the IPython kernel (top right of the interactive window).
-    + Run the entire script by right-clicking and selection "Run All Cells".
+    + clear all variables by restarting the IPython kernel.
+    + If there is data, pulled from a SQL query and stored locally, that the notebook depends on, refresh the data with a new SQL query.
+    + Run the entire script.
 
 Once the code has been tested, ensure that the feature branch is still relevant by:
 
@@ -246,6 +243,6 @@ Finally, create a merge request on [Gitlab](https://gitlab.com/exegetic) or [Git
 
 ## README
 
-A `README` serves to describe the package, setup instructions, files and any requirements the package may have. 
+A markdown file, usually `README.md`, serves to describe the package, setup instructions, files and any requirements the package may have. 
 
 
