@@ -159,6 +159,16 @@ a .collapsed {
 
 }
 
+#description {
+	width: 100%;
+}
+#description th, #description td {
+	vertical-align: top;
+}
+#description th {
+	padding-right: 15px;
+}
+
 /* --------------------------------------------------------------------------------------------- */
 
 #content > section > div > h1 {

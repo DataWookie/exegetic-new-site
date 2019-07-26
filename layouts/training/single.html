@@ -50,37 +50,50 @@
       	</div>
         {{ end }}
         <h2 class="web-only">Details</h2>
-        <h3 class="proposal-only">Details</h3>
-        <dl class="row">
+        <table id="description">
           {{ if .Params.duration }}
-          <dt class="col-sm-2 detail">Duration</dt>
-          <dd class="col-sm-10">{{ .Params.duration | markdownify }}</dd>
+          <tr>
+            <th>Duration</th>
+            <td>{{ .Params.duration | markdownify }}</td>
+          </tr>
           {{ end }}
           {{ if .Params.why }}
-          <dt class="col-sm-2 detail">Why attend?</dt>
-          <dd class="col-sm-10">{{ .Params.why | markdownify }}</dd>
-          {{ end }}
+          <tr>
+            <th>Why attend?</th>
+            <td>{{ .Params.why | markdownify }}</td>
+          </tr>
+          {{ end }}          
           {{ if .Params.who }}
-          <dt class="col-sm-2 detail">Who should attend?</dt>
-          <dd class="col-sm-10">{{ .Params.who | markdownify }}</dd>
+          <tr>
+            <th>Who should attend?</th>
+            <td>{{ .Params.who | markdownify }}</td>
+          </tr>
           {{ end }}
           {{ if .Params.objectives }}
-          <dt class="col-sm-2 detail">Objectives</dt>
-          <dd class="col-sm-10">{{ .Params.objectives | markdownify }}</dd>
+          <tr>
+            <th>Objectives</th>
+            <td>{{ .Params.objectives | markdownify }}</td>
+          </tr>
           {{ end }}
           {{ if .Params.outcomes }}
-          <dt class="col-sm-2 detail">Outcomes</dt>
-          <dd class="col-sm-10">{{ .Params.outcomes | markdownify }}</dd>
+          <tr>
+            <th>Outcomes</th>
+            <td>{{ .Params.outcomes | markdownify }}</td>
+          </tr>
           {{ end }}
           {{ if .Params.requirements }}
-          <dt class="col-sm-2 detail">Requirements</dt>
-          <dd class="col-sm-10">{{ .Params.requirements | markdownify }}</dd>
+          <tr>
+            <th>Requirements</th>
+            <td>{{ .Params.requirements | markdownify }}</td>
+          </tr>
           {{ end }}
           {{ if .Params.setup }}
-          <dt class="col-sm-2 detail">Setup</dt>
-          <dd class="col-sm-10">{{ .Params.setup | markdownify }}</dd>
+          <tr>
+            <th>Setup</th>
+            <td>{{ .Params.setup | markdownify }}</td>
+          </tr>
           {{ end }}
-      </dl>
+        </table>
         <p class="proposal-only">Return to our <a href="/training/">list</a> of courses.</p>
         </div>
 
