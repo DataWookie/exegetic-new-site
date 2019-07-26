@@ -4,6 +4,9 @@ topic: true
 subjects: ['R']
 subjects_weight: 21
 draft: false
+duration: 1/2 day
+objectives: |
+  This course covers a range of options for getting data into R. You'll also learn about options for exporting data from R.
 ---
 
 <!--
@@ -48,12 +51,6 @@ draft: false
  
  - Hadley Wickham. [Tidy data](https://www.jstatsoft.org/index.php/jss/article/view/v059i10/v59i10.pdf). The Journal of Statistical Software, vol. 59, 2014.
 -->
-
-This course covers a range of options for getting data into R.
-
-You'll also learn about options for exporting data from R.
-
-## Contents
 
 - Data from File
 	- CSV using base and [readr](https://github.com/tidyverse/readr)

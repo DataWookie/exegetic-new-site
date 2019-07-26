@@ -11,3 +11,6 @@ draft: true
 In this course you'll learn how to build Machine Learning models on AWS.
 
 - Deploying models
+
+- SageMaker
+	- Introduction to [SageMaker](https://aws.amazon.com/sagemaker/)

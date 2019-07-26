@@ -3,9 +3,10 @@ title: "CSS"
 topic: true
 subjects: ['Web Development']
 subjects_weight: 10
+intro: |
+  This short course gives an overview of Cascading Style Sheets (CSS) and is important background for our Web Development and Web Scraping courses.
+duration: 1/2 day
 ---
-
-This short course gives an overview of Cascading Style Sheets (CSS) and is important background for our Web Development and Web Scraping courses.
 
 - What is CSS?
 - CSS rules: selectors and declarations

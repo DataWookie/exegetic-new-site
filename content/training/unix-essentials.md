@@ -4,9 +4,10 @@ topic: true
 subjects: ['UNIX']
 subjects_weight: 1
 draft: false
+intro: |
+  This course will be based on BASH in a Linux environment, but most of it will port well to other shells and flavours of UNIX.
+duration: 1 day
 ---
-
-This course will be based on BASH in a Linux environment, but most of it will port well to other shells and flavours of UNIX.
 
 - Introduction
 	- How is UNIX different from Windows?
