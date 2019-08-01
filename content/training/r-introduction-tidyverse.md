@@ -12,11 +12,11 @@ duration: 1 day
 who: This course is suitable for anybody who uses a spreadsheet to work with data. No prior programming knowledge required.
 objectives: Learn to use the Tidyverse for basic data analysis and visualisation.
 outcomes: |
-  Participantes will be comfortable using packages from the Tidyverse to work with with data. Specifically they will be able to:
+  Participants will be comfortable using packages from the Tidyverse to work with with data. Specifically they will be able to:
 
-  - import data from CSV and spreadsheets
-  - perform an array of data cleaning and manipulation operations
-  - create attractive visualisations
+  - import data from CSV and spreadsheets;
+  - perform an array of data cleaning and manipulation operations; and
+  - create attractive visualisations.
 setup: A laptop with recent versions of R and RStudio.
 ---
 
