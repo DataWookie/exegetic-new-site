@@ -83,7 +83,7 @@ a .collapsed {
   
 #testimonial {
 	margin-bottom: 2%;
-	/* padding-top: 2%; */
+	margin-top: 3%;
 	background-color: #b3b3b3ff !important;
 	box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
 	border-radius: 8px;
@@ -93,14 +93,11 @@ a .collapsed {
 	text-align:center;
 }
 
-.carousel-control-prev, .carousel-control-next {
-	margin-top: -19px!important;
-}
-
 /*Adjusted in Media Queries*/
 .carousel-item {
 	text-align: left;
 	height: 180px;
+	padding-top: 3.5%;
 }
 /*Adjusted in Media Queries*/
 
