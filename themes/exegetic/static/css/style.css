@@ -82,39 +82,36 @@ a .collapsed {
 /* TRAINING LIST ------------------------------------------------------------------------------- */
   
 #testimonial {
-	margin-bottom: 2%;
-	margin-top: 3%;
-	background-color: #b3b3b3ff !important;
+	background-color: #8b919699 !important;
 	box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
 	border-radius: 8px;
 }
 
-.training-feedback {
-	text-align:center;
-}
+/*.training-feedback {
+	text-align: center;
+}*/
 
 /*Adjusted in Media Queries*/
 .carousel-item {
 	text-align: left;
 	height: 240px;
-	/*padding-top: 3.5%;*/
 }
 /*Adjusted in Media Queries*/
 
-/*#carouselExampleIndicators > div > div > div > div {
-	width: 100%;
-}*/
-
-#carouselExampleIndicators > div > div > div > div > p {
-	margin-bottom: 0;
+#testimonialCarousel > div > div > div > div > .blockquote {
 	font-style: italic;
+	font-size: 1.125rem;
+}
+#testimonialCarousel > div > div > div > div > p {
+	margin-bottom: 0;
+	/*font-style: italic;*/
 }
 
 .carousel-control-prev-icon {
-	margin-right: 20%;
+	margin-right: 40%;
 }
 .carousel-control-next-icon {
-	margin-left: 20%;
+	margin-left: 40%;
 }
 
 /* TRAINING PROPOSAL --------------------------------------------------------------------------- */
@@ -280,7 +277,7 @@ button.subject {
 @media only screen and (max-width : 990px) {
 	.carousel-item {
 		text-align: left;
-		height: 195px;
+		height: 320px;
 	}
 }
 
@@ -288,7 +285,7 @@ button.subject {
 @media only screen and (max-width : 767px) {
 	.carousel-item {
 		text-align: left;
-		height: 240px;
+		height: 350px;
 	}
 }
 
