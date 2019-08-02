@@ -7,10 +7,6 @@ code {
 
 /* BOOTSTRAP ----------------------------------------------------------------------------------- */
 
-.container {
-	padding-left: 0;
-	padding-right: 0;
-}
 .row {
 	margin-left: 0;
 	margin-right: 0;
@@ -79,6 +75,51 @@ a .collapsed {
 	color: red;
 }
 
+/* TRAINING LIST ------------------------------------------------------------------------------- */
+  
+#testimonial {
+	background-color: #8b919699 !important;
+	box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
+	border-radius: 8px;
+}
+
+/*.training-feedback {
+	text-align: center;
+}*/
+
+/*Adjusted in Media Queries*/
+.carousel-item {
+	text-align: left;
+	height: 240px;
+}
+/*Adjusted in Media Queries*/
+
+.carousel-inner {
+	padding-left: 2.5rem!important;
+	padding-right: 2.5rem!important;
+}
+
+#testimonialCarousel {
+	padding-left: 2.5rem!important;
+	padding-right: 2.5rem!important;
+}
+
+#testimonialCarousel > div > div > div > div > .blockquote {
+	font-style: italic;
+	font-size: 1rem;
+}
+#testimonialCarousel > div > div > div > div > p {
+	margin-bottom: 0;
+	font-size: 1rem;
+}
+
+.carousel-control-prev-icon {
+	margin-right: 40%;
+}
+.carousel-control-next-icon {
+	margin-left: 40%;
+}
+
 /* TRAINING PROPOSAL --------------------------------------------------------------------------- */
 
 .proposal-only {
@@ -128,10 +169,21 @@ a .collapsed {
 
 	@page {
 		size: auto;
-		margin-left: 1cm;
-		margin-right: 1cm
+		margin-top: 1.3cm;
+		margin-left: 1.5cm;
+		margin-right: 1.5cm;
 	}
 
+}
+
+#description {
+	width: 100%;
+}
+#description th, #description td {
+	vertical-align: top;
+}
+#description th {
+	padding-right: 15px;
 }
 
 /* --------------------------------------------------------------------------------------------- */
@@ -178,6 +230,7 @@ ul ul, ol ul, ol ol {
 	margin-top: 0.5rem;
 	text-align: center;
 }
+
 
 /* --------------------------------------------------------------------------------------------- */
 
@@ -227,13 +280,45 @@ button.subject {
 @media only screen and (max-width : 1200px) {}
 
 /* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {}
+@media only screen and (max-width : 990px) {
+	.carousel-item {
+		text-align: left;
+		height: 280px;
+	}
+
+	.carousel-inner {
+		padding-left: 2rem!important;
+		padding-right: 2rem!important;
+	}
+	
+	#testimonialCarousel {
+		padding-left: 2rem!important;
+		padding-right: 2rem!important;
+	}
+}
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {}
+@media only screen and (max-width : 767px) {
+
+	.carousel-inner {
+		padding-left: 1.8rem!important;
+		padding-right: 1.8rem!important;
+	}
+	
+	#testimonialCarousel {
+		padding-left: 1.8rem!important;
+		padding-right: 1.8rem!important;
+	}
+}
 
 /* Custom */
 @media only screen and (max-width : 575px) {
+
+	.carousel-item {
+		text-align: left;
+		height: 270px;
+	}
+
 	#services{
 		display: none;
 	}
@@ -248,10 +333,55 @@ button.subject {
 }
 
 /* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {}
+@media only screen and (max-width : 480px) {
+
+	.carousel-inner {
+		padding-left: 1.6rem!important;
+		padding-right: 1.6rem!important;
+	}
+	
+	#testimonialCarousel {
+		padding-left: 1.6rem!important;
+		padding-right: 1.6rem!important;
+	}
+
+	#testimonialCarousel > div > div > div > div > .blockquote {
+		font-style: italic;
+		font-size: 0.95rem;
+	}
+	#testimonialCarousel > div > div > div > div > p {
+		margin-bottom: 0;
+		font-size: 0.95rem;
+	}
+}
 
 /* Custom, iPhone Retina */
-@media only screen and (max-width : 320px) {}
+@media only screen and (max-width : 320px) {
+
+	.carousel-item {
+		text-align: left;
+		height: 270px;
+	}
+
+	.carousel-inner {
+		padding-left: 0.7rem!important;
+		padding-right: 0.7rem!important;
+	}
+	
+	#testimonialCarousel {
+		padding-left: 0.7rem!important;
+		padding-right: 0.7rem!important;
+	}
+
+	#testimonialCarousel > div > div > div > div > .blockquote {
+		font-style: italic;
+		font-size: 0.79rem;
+	}
+	#testimonialCarousel > div > div > div > div > p {
+		margin-bottom: 0;
+		font-size: 0.79rem;
+	}
+}
 
 /* --------------------------------------------------------------------------------------------- */
 /* Custom styles for images in blog posts */

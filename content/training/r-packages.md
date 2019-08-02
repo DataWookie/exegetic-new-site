@@ -27,10 +27,13 @@ requirements: Participants should be familiar with R and comfortable writing the
 
 - Why Write R Packages?
     - Listing `installed.packages()`
-    - Loading a package: `library()` versus `required()`
+    - Loading a package: `library()` versus `require()`
     - Installing
         - CRAN
         - GitHub
+    - Package Management
+        - `{packrat}`
+        - `{checkpoint}`
 - A Simple Package
     - The anatomy of a package
         - `README.md`
