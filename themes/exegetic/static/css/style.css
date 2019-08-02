@@ -96,10 +96,18 @@ a .collapsed {
 /*Adjusted in Media Queries*/
 .carousel-item {
 	text-align: left;
-	height: 180px;
-	padding-top: 3.5%;
+	height: 240px;
+	/*padding-top: 3.5%;*/
 }
 /*Adjusted in Media Queries*/
+
+/*#carouselExampleIndicators > div > div > div > div {
+	width: 100%;
+}*/
+
+#carouselExampleIndicators > div > div > div > div > p {
+	margin-bottom: 0;
+}
 
 /* TRAINING PROPOSAL --------------------------------------------------------------------------- */
 

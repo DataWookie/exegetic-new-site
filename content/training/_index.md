@@ -11,44 +11,68 @@ description: "We offer a wide range of Data Science courses. If we don't have ex
 		<div class="row">
 			<div class="col-md-12 text-center" >
                 <!-- <div class="quote"><i class="fa fa-quote-left fa-4x"></i></div> -->
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="padding-left: 4%; padding-right: 4%;">
-					<div class="carousel-inner">
+                <div id="carouselExampleIndicators" class="carousel carousel-fade px-5" data-ride="carousel">
+					<div class="carousel-inner px-5">
+						<div class="carousel-item">
+							<div class="d-flex h-100 align-items-center">
+								<div class="w-100">
+					    			<blockquote>
+					    				I really enjoyed the interactive training: concepts introduced and then made to practice. The fact that I can review/redo my exercises in my own time makes it a very useful experience. The references to outside help and add-ons are also very useful. It was also great to learn from other participants.
+	                        		</blockquote>
+	                        		<p style="text-align: right;">— Brenda, International Analyst, Prudential</p>
+	                    		</div>
+	                        </div>
+						</div>
 						<div class="carousel-item active">
-					    	<blockquote>
-					    		<p>I really enjoyed the interactive training: concepts introduced and then made to practice. The fact that I can review/redo my exercises in my own time makes it a very useful experience. The references to outside help and add-ons are also very useful. It was also great to learn from other participants.</p>
-	                        </blockquote>
-	                        <p style="text-align: right;">— Brenda, International Analyst, Prudential</p>
+							<div class="d-flex h-100 align-items-center">
+								<div class="w-100">
+					    			<blockquote>
+					    				It was so applied, diverse and well presented. I really enjoyed this course.
+	                        		</blockquote>
+	                        		<p style="text-align: right;">— Lucy, Research Officer, University of Cape Town</p>
+	                        	</div>
+	                        </div>
+						</div>
+<!-- 						<div class="carousel-item">
+							<div class="d-flex h-100 align-items-center">
+								<div>
+					    			<blockquote>
+										Both Megan and Andrew are wonderful trainers. Andrew's excitement in explaining concepts was much appreciated - he's very good at conveying what the code means and what it achieves, so it was quick to grasp some of the concepts. Also, nothing appeared too difficult, but all achievable with practice/help function.
+	                        		</blockquote>
+	                        		<p style="text-align: right;">— Lauren, Business Analyst, Woolworths</p>
+	                    		</div>
+	                        </div>
 						</div>
 						<div class="carousel-item">
-					    	<blockquote>
-					    		<p>It was so applied, diverse and well presented. I really enjoyed this course.</p>
-	                        </blockquote>
-	                        <p style="text-align: right;">— Lucy, Research Officer, University of Cape Town</p>
+							<div class="d-flex h-100 align-items-center">
+								<div>
+	    			    			<blockquote>
+					    				I really enjoyed the training and I’m looking forward to a more advanced course. It was a great introduction to R and Data Science.
+	                        		</blockquote>
+	                        		<p style="text-align: right;">— Deveshnie, Data Analyst, Derivco</p>
+	                    		</div>
+	                        </div>
 						</div>
 						<div class="carousel-item">
-					    	<blockquote>
-								<p>"Both Megan and Andrew are wonderful trainers. Andrew's excitement in explaining concepts was much appreciated - he's very good at conveying what the code means and what it achieves, so it was quick to grasp some of the concepts. Also, nothing appeared too difficult, but all achievable with practice/help function."</p>
-	                        </blockquote>
-	                        <p style="text-align: right;">— Lauren, Business Analyst, Woolworths</p>
+							<div class="d-flex h-100 align-items-center">
+								<div>
+	    			    			<blockquote>
+					    				My thesis-writing experience has completely turned around. It went from being this scary insecure experience to a really confident one because I feel so much more equipped to delve into my data. I really can't thank you guys enough!
+	                        		</blockquote>
+	                        		<p style="text-align: right;">— Astrid, PhD Student, University of Cape Town</p>
+	                    		</div>
+	                        </div>
 						</div>
 						<div class="carousel-item">
-	    			    	<blockquote>
-					    		<p>I really enjoyed the training and I’m looking forward to a more advanced course. It was a great introduction to R and Data Science.</p>
-	                        </blockquote>
-	                        <p style="text-align: right;">— Deveshnie, Data Analyst, Derivco</p>
-						</div>
-						<div class="carousel-item">
-	    			    	<blockquote>
-					    		<p>My thesis-writing experience has completely turned around. It went from being this scary insecure experience to a really confident one because I feel so much more equipped to delve into my data. I really can't thank you guys enough!</p>
-	                        </blockquote>
-	                        <p style="text-align: right;">— Astrid, PhD Student, University of Cape Town</p>
-						</div>
-						<div class="carousel-item">
-	    			    	<blockquote>
-					    		<p>Introduction to data science with R was the best training course I have attended thus far in my career. Andrew and Megan are exceptional speakers and patient teachers. Despite the large volume of content, the training was continually interactive. This ensured that each attendee received individual attention, and were able to keep up with the pace.</p>
-	                        </blockquote>
-	                        <p style="text-align: right;">— Sulona, Mathematician, Derivco</p>
-						</div>
+							<div class="d-flex h-100 align-items-center">
+								<div>
+	    			    			<blockquote>
+					    				Introduction to data science with R was the best training course I have attended thus far in my career. Andrew and Megan are exceptional speakers and patient teachers. Despite the large volume of content, the training was continually interactive. This ensured that each attendee received individual attention, and were able to keep up with the pace.
+	                        		</blockquote>
+	                        		<p style="text-align: right;">— Sulona, Mathematician, Derivco</p>
+	                    		</div>
+	                        </div>
+						</div> -->
 					</div>
             	</div>
 				<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
