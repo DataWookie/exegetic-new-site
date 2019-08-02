@@ -94,13 +94,23 @@ a .collapsed {
 }
 /*Adjusted in Media Queries*/
 
+.carousel-inner {
+	padding-left: 2.5rem!important;
+	padding-right: 2.5rem!important;
+}
+
+#testimonialCarousel {
+	padding-left: 2.5rem!important;
+	padding-right: 2.5rem!important;
+}
+
 #testimonialCarousel > div > div > div > div > .blockquote {
 	font-style: italic;
-	font-size: 1.125rem;
+	font-size: 1rem;
 }
 #testimonialCarousel > div > div > div > div > p {
 	margin-bottom: 0;
-	/*font-style: italic;*/
+	font-size: 1rem;
 }
 
 .carousel-control-prev-icon {
@@ -273,23 +283,40 @@ button.subject {
 @media only screen and (max-width : 990px) {
 	.carousel-item {
 		text-align: left;
-		height: 320px;
+		height: 280px;
+	}
+
+	.carousel-inner {
+		padding-left: 2rem!important;
+		padding-right: 2rem!important;
+	}
+	
+	#testimonialCarousel {
+		padding-left: 2rem!important;
+		padding-right: 2rem!important;
 	}
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
-	.carousel-item {
-		text-align: left;
-		height: 350px;
+
+	.carousel-inner {
+		padding-left: 1.8rem!important;
+		padding-right: 1.8rem!important;
+	}
+	
+	#testimonialCarousel {
+		padding-left: 1.8rem!important;
+		padding-right: 1.8rem!important;
 	}
 }
 
 /* Custom */
 @media only screen and (max-width : 575px) {
 
-	#carouselOutter {
-		display: none;
+	.carousel-item {
+		text-align: left;
+		height: 270px;
 	}
 
 	#services{
@@ -306,10 +333,55 @@ button.subject {
 }
 
 /* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {}
+@media only screen and (max-width : 480px) {
+
+	.carousel-inner {
+		padding-left: 1.6rem!important;
+		padding-right: 1.6rem!important;
+	}
+	
+	#testimonialCarousel {
+		padding-left: 1.6rem!important;
+		padding-right: 1.6rem!important;
+	}
+
+	#testimonialCarousel > div > div > div > div > .blockquote {
+		font-style: italic;
+		font-size: 0.95rem;
+	}
+	#testimonialCarousel > div > div > div > div > p {
+		margin-bottom: 0;
+		font-size: 0.95rem;
+	}
+}
 
 /* Custom, iPhone Retina */
-@media only screen and (max-width : 320px) {}
+@media only screen and (max-width : 320px) {
+
+	.carousel-item {
+		text-align: left;
+		height: 270px;
+	}
+
+	.carousel-inner {
+		padding-left: 0.7rem!important;
+		padding-right: 0.7rem!important;
+	}
+	
+	#testimonialCarousel {
+		padding-left: 0.7rem!important;
+		padding-right: 0.7rem!important;
+	}
+
+	#testimonialCarousel > div > div > div > div > .blockquote {
+		font-style: italic;
+		font-size: 0.79rem;
+	}
+	#testimonialCarousel > div > div > div > div > p {
+		margin-bottom: 0;
+		font-size: 0.79rem;
+	}
+}
 
 /* --------------------------------------------------------------------------------------------- */
 /* Custom styles for images in blog posts */

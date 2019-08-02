@@ -6,12 +6,12 @@ tags: []
 description: "We offer a wide range of Data Science courses. If we don't have exactly what you're after we'll tailor make something just for you!"
 ---
 
-<div class="container mt-5 mb-5" id="carouselOutter" >
+<div class="container mt-4 mb-5" id="carouselOutter" >
 	<div class="row">
 		<div class="col-md-10 offset-md-1 text-center" id="testimonial">
             <!-- <div class="quote"><i class="fa fa-quote-left fa-4x"></i></div> -->
-            <div id="testimonialCarousel" class="carousel carousel-fade px-5" data-ride="carousel">
-				<div class="carousel-inner px-5">
+            <div id="testimonialCarousel" class="carousel carousel-fade" data-ride="carousel">
+				<div class="carousel-inner">
 					<div class="carousel-item active">
 						<div class="d-flex h-100 align-items-center">
 							<div class="w-100">
@@ -36,7 +36,7 @@ description: "We offer a wide range of Data Science courses. If we don't have ex
 						<div class="d-flex h-100 align-items-center">
 							<div class="w-100">
 				    			<blockquote class="blockquote">
-									Both Megan and Andrew are wonderful trainers. Andrew's excitement in explaining concepts was much appreciated - he's very good at conveying what the code means and what it achieves, so it was quick to grasp some of the concepts. Also, nothing appeared too difficult, but all achievable with practice/help function.
+									Both Megan and Andrew are wonderful trainers. Andrew's excitement in explaining concepts was much appreciated - he's very good at conveying what the code means and what it achieves, so it was easy to grasp some of the concepts. Nothing appeared too difficult, all achievable with practice.
                         		</blockquote>
                         		<p style="text-align: right;">— Lauren, Business Analyst, Woolworths</p>
                     		</div>
@@ -66,7 +66,7 @@ description: "We offer a wide range of Data Science courses. If we don't have ex
 						<div class="d-flex h-100 align-items-center">
 							<div class="w-100">
     			    			<blockquote class="blockquote">
-				    				Introduction to data science with R was the best training course I have attended. Andrew and Megan are exceptional speakers and patient teachers. Despite the large volume of content, the training was continually interactive. This ensured that each attendee received individual attention, and were able to keep up with the pace.
+				    				That was the best training course I have attended. Andrew and Megan are exceptional speakers and patient teachers. Despite the large volume of content, the training was interactive. This ensured that we each received individual attention, and were able to keep up with the pace.
                         		</blockquote>
                         		<p style="text-align: right;">— Sulona, Mathematician, Derivco</p>
                     		</div>
