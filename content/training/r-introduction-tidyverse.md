@@ -8,7 +8,7 @@ intro: |
   The Tidyverse is a collection of integrated packages for performing Data Science by applying "tidy" data principles. The packages are all based on a common design philoshophy and implement consistent grammar and data structures. They form a broad basis for a wide range of analyses in R.
 
   This course is an excellent entry point to working with data in R.
-duration: 1 day
+duration: 2 days
 who: This course is suitable for anybody who uses a spreadsheet to work with data. No prior programming knowledge required.
 objectives: Learn to use the Tidyverse for basic data analysis and visualisation.
 outcomes: |
@@ -29,7 +29,7 @@ setup: A laptop with recent versions of R and RStudio.
 - `{dplyr}` --- Wrangling Data
 	- Working with columns: `select()`, `rename()` and `mutate()`
 	- Working with rows: `filter()` and `arrange()`
-	- Aggregation
+	- Aggregation: `group_by()` and `summarise()`
 - `{ggplot2}` --- Plotting Data
 	- Components of a visualisation (geoms)
 	- Mapping data to components (aesthetics)
