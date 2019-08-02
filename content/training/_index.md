@@ -13,7 +13,7 @@ description: "We offer a wide range of Data Science courses. If we don't have ex
                 <!-- <div class="quote"><i class="fa fa-quote-left fa-4x"></i></div> -->
                 <div id="carouselExampleIndicators" class="carousel carousel-fade px-5" data-ride="carousel">
 					<div class="carousel-inner px-5">
-						<div class="carousel-item">
+						<div class="carousel-item active">
 							<div class="d-flex h-100 align-items-center">
 								<div class="w-100">
 					    			<blockquote>
@@ -23,7 +23,7 @@ description: "We offer a wide range of Data Science courses. If we don't have ex
 	                    		</div>
 	                        </div>
 						</div>
-						<div class="carousel-item active">
+						<div class="carousel-item">
 							<div class="d-flex h-100 align-items-center">
 								<div class="w-100">
 					    			<blockquote>
@@ -33,7 +33,7 @@ description: "We offer a wide range of Data Science courses. If we don't have ex
 	                        	</div>
 	                        </div>
 						</div>
-<!-- 						<div class="carousel-item">
+						<div class="carousel-item">
 							<div class="d-flex h-100 align-items-center">
 								<div>
 					    			<blockquote>
@@ -72,15 +72,15 @@ description: "We offer a wide range of Data Science courses. If we don't have ex
 	                        		<p style="text-align: right;">— Sulona, Mathematician, Derivco</p>
 	                    		</div>
 	                        </div>
-						</div> -->
+						</div>
 					</div>
             	</div>
 				<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-					<span class="carousel-control-prev-icon" aria-hidden="true" style="margin-right: 80%;"></span>
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 					<span class="sr-only">Previous</span>
 				</a>
 				<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-					<span class="carousel-control-next-icon" aria-hidden="true" style="margin-left: 80%;"></span>
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
 					<span class="sr-only">Next</span>
 				</a>
             </div>							

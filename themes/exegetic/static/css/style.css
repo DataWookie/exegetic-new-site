@@ -107,6 +107,14 @@ a .collapsed {
 
 #carouselExampleIndicators > div > div > div > div > p {
 	margin-bottom: 0;
+	font-style: italic;
+}
+
+.carousel-control-prev-icon {
+	margin-right: 20%;
+}
+.carousel-control-next-icon {
+	margin-left: 20%;
 }
 
 /* TRAINING PROPOSAL --------------------------------------------------------------------------- */
