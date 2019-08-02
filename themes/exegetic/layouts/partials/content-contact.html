@@ -2,7 +2,7 @@
     <section class="section contact" id="contact">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
+          <div>
             <h2 class="subheading">Contact</h2>
           {{- with .image }}
             <img src="{{ .path }}" alt="{{ .alt }}">
@@ -12,7 +12,7 @@
             <p>Get in touch on info@exegetic.biz or +27 (0)83 381 3655.</p>
             <p>Or fill in the form and we'll get back to you!</p>
           </div>
-          <div class="col-md-6">
+          <div>
             <div class="content mt-100">
               <!-- Using form submission service on Netlify. -->
               <form name="contact" method="POST" netlify-honeypot="bot-field" netlify>

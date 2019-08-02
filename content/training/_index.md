@@ -6,7 +6,7 @@ tags: []
 description: "We offer a wide range of Data Science courses. If we don't have exactly what you're after we'll tailor make something just for you!"
 ---
 
-<div class="container mt-5 mb-5">
+<div class="container mt-5 mb-5" id="carouselOutter" >
 	<div class="row">
 		<div class="col-md-10 offset-md-1 text-center" id="testimonial">
             <!-- <div class="quote"><i class="fa fa-quote-left fa-4x"></i></div> -->
