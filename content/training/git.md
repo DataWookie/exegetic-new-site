@@ -47,6 +47,7 @@ outcomes: |
 - Git as a Tool for Collaboration
 - Remote Repository
 	- What's the deal with remotes?
+	- Using GitHub, GitLab or BitBucket
 	- `git clone` --- cloning a Remote Repository
 	- Clone versus fork?
 	- `git remote` --- adding and removing a remote
