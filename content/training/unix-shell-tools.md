@@ -1,6 +1,6 @@
 ---
-title: "UNIX Shell Tools"
-subjects: ['UNIX']
+title: "Unix Shell Tools"
+subjects: ['Unix']
 subjects_weight: 1
 draft: true
 ---
@@ -12,3 +12,11 @@ draft: true
 - File System
 	- `du`
 	- `df`
+
+
+- Text Processing
+	- `uniq`
+	- `grep`
+	- Applications
+		- Removing empty lines
+		- Removing repeated lines

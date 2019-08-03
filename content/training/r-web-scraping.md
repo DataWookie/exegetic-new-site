@@ -1,5 +1,5 @@
 ---
-title: "Web Scraping"
+title: "Web Scraping with R"
 topic: true
 subjects: ['R', 'Web Scraping']
 subjects_weight: 130

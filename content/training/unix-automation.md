@@ -1,7 +1,7 @@
 ---
 title: "Scheduling & Automation"
 topic: true
-subjects: ['Data Science', 'UNIX']
+subjects: ['Data Science', 'Unix']
 subjects_weight: 4
 draft: true
 ---

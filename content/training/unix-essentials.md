@@ -1,7 +1,7 @@
 ---
-title: "UNIX Essentials"
+title: "Unix Essentials"
 topic: true
-subjects: ['UNIX']
+subjects: ['Unix']
 subjects_weight: 1
 draft: false
 intro: |
@@ -10,7 +10,7 @@ duration: 1 day
 ---
 
 - Introduction
-	- How is UNIX different from Windows?
+	- How is Unix different from Windows?
 	- Users and groups
 - Hello World
 	- `echo` — printing text

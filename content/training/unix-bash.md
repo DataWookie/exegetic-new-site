@@ -1,7 +1,7 @@
 ---
 title: "BASH"
 topic: true
-subjects: ['UNIX']
+subjects: ['Unix']
 subjects_weight: 2
 draft: true
 ---

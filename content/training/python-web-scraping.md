@@ -1,5 +1,5 @@
 ---
-title: "Web Scraping in Python"
+title: "Web Scraping with Python"
 topic: true
 subjects: ['Python', 'Web Scraping']
 subjects_weight: 130
