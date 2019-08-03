@@ -20,6 +20,8 @@ outcomes: |
 setup: A laptop with recent versions of R and RStudio.
 ---
 
+### Day 1
+
 - Introduction
 - `{tibble}` --- An alternative to the `data.frame`
 - `{magrittr}` --- Pipes!
@@ -35,6 +37,9 @@ setup: A laptop with recent versions of R and RStudio.
 	- Mapping data to components (aesthetics)
 	- Faceting
 	- Themes
+
+### Day 2
+
 - `{tidyr}` --- Pivoting Data
 	- What is "tidy data"?
 	- Pivoting data with `gather()` and `spread()`
