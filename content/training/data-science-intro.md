@@ -11,6 +11,13 @@ duration: 1/2 day
 
 - What is Data Science?
 - Big Data: Is it all just hype?
+- Principles
+	- Raw data are worthless
+	- Data are 100% latent potential
+	- Don't trust your intuition
+	- Never underestimate the (data) mashup
+	- Build *effective* models
+	- Automate everything
 - Data Science lexicon
 - Tools of the trade
 - What makes a good Data Scientist?
