@@ -4,7 +4,10 @@ topic: true
 subjects: ['R']
 subjects_weight: 120
 draft: true
-intro: A Recommender System, or Recommendation Engine, predicts the rating that a user would give to unseen items, and uses these ratings to recommend items. These systems form the backbone of sites like [Amazon](https://www.amazon.com/), [LinkedIn](https://www.linkedin.com/) and [Netflix](https://www.netflix.com/).
+intro: |
+  A Recommender System, or Recommendation Engine, predicts the rating that a user would give to unseen items, and uses these ratings to recommend items. Predictions are made based on data relating to the user, the items and interactions between the user and the items.
+
+  Recommender Systems form the backbone of sites like [Amazon](https://www.amazon.com/), [LinkedIn](https://www.linkedin.com/) and [Netflix](https://www.netflix.com/).
 duration: 1 day
 # who: 
 # objectives: 
@@ -13,6 +16,7 @@ duration: 1 day
 ---
 
 - What is a Recommender System?
+	- Personalised versus non-personalised
 	- Case Study: Amazon
 	- Case Study: Netflix
 - Gathering Suitable Data
