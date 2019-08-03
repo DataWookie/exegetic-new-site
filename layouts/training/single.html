@@ -54,43 +54,43 @@
           {{ if .Params.duration }}
           <tr>
             <th>Duration</th>
-            <td>{{ .Params.duration | markdownify }}</td>
+            <td width="100%">{{ .Params.duration | markdownify }}</td>
           </tr>
           {{ end }}
           {{ if .Params.why }}
           <tr>
-            <th>Why attend?</th>
-            <td>{{ .Params.why | markdownify }}</td>
+            <th style="white-space: nowrap;">Why attend?</th>
+            <td width="100%">{{ .Params.why | markdownify }}</td>
           </tr>
           {{ end }}          
           {{ if .Params.who }}
           <tr>
-            <th>Who should attend?</th>
-            <td>{{ .Params.who | markdownify }}</td>
+            <th style="white-space: nowrap;">Who should attend?</th>
+            <td width="100%">{{ .Params.who | markdownify }}</td>
           </tr>
           {{ end }}
           {{ if .Params.objectives }}
           <tr>
             <th>Objectives</th>
-            <td>{{ .Params.objectives | markdownify }}</td>
+            <td width="100%">{{ .Params.objectives | markdownify }}</td>
           </tr>
           {{ end }}
           {{ if .Params.outcomes }}
           <tr>
             <th>Outcomes</th>
-            <td>{{ .Params.outcomes | markdownify }}</td>
+            <td width="100%">{{ .Params.outcomes | markdownify }}</td>
           </tr>
           {{ end }}
           {{ if .Params.requirements }}
           <tr>
             <th>Requirements</th>
-            <td>{{ .Params.requirements | markdownify }}</td>
+            <td width="100%">{{ .Params.requirements | markdownify }}</td>
           </tr>
           {{ end }}
           {{ if .Params.setup }}
           <tr>
             <th>Setup</th>
-            <td>{{ .Params.setup | markdownify }}</td>
+            <td width="100%">{{ .Params.setup | markdownify }}</td>
           </tr>
           {{ end }}
         </table>
