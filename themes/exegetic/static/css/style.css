@@ -120,6 +120,13 @@ a .collapsed {
 	margin-left: 40%;
 }
 
+/* TRAINING CONTENT ---------------------------------------------------------------------------- */
+
+#course-content > ul {
+	list-style-position: inside;
+	padding-left: 0;
+}
+
 /* TRAINING PROPOSAL --------------------------------------------------------------------------- */
 
 .proposal-only {
