@@ -20,7 +20,7 @@ setup: |
   1. Install [Git](https://git-scm.com/downloads).
   2. Install the [Putty](https://www.putty.org/) SSH client (only Windows users).
   3. Create an account on [GitHub](https://github.com/).
-  4. Watch this: https://www.youtube.com/embed/SWYqp7iY_Tc
+  4. Watch [Git & GitHub Crash Course For Beginners](https://www.youtube.com/watch?v=SWYqp7iY_Tc). Don't worry about the details. This is just to get a flavour of what Git is about.
   5. Read the paper "<a href="/pdf/10.1080-00031305.2017.1399928.pdf">Excuse me, do you have a moment to talk about version control?</a>" by Jennifer Bryan.
         - Why is version control important, and how does Git manage version control?
         - Why is Git particularly useful for developers working with R?
