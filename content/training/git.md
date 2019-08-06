@@ -16,6 +16,15 @@ intro: |
 duration: 1 day
 outcomes: |
   After this course you'll be familiar with how Git works and primed to start using it on your own projects.
+setup: |
+  1. Install [Git](https://git-scm.com/downloads).
+  2. Install the [Putty](https://www.putty.org/) SSH client (only Windows users).
+  3. Create an account on [GitHub](https://github.com/).
+  4. Watch this: https://www.youtube.com/embed/SWYqp7iY_Tc
+  5. Read the paper "<a href="/pdf/10.1080-00031305.2017.1399928.pdf">Excuse me, do you have a moment to talk about version control?</a>" by Jennifer Bryan.
+        - Why is version control important, and how does Git manage version control?
+        - Why is Git particularly useful for developers working with R?
+        - What is one of the biggest problems with using Git and GitHub for collaboration?
 ---
 
 - Why Version Control?
@@ -29,6 +38,7 @@ outcomes: |
 - Committing to the Repository
 	- `git add` --- adding files to the staging area
 	- `git commit` --- moving files from the staging area to the repository
+	- Writing a good commit message
 	- `git status`
 	- Ignoring files with `.gitignore`
 - Tracking Changes
