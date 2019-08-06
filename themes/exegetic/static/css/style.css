@@ -127,6 +127,12 @@ a .collapsed {
 	padding-left: 0;
 }
 
+/* Don't indent setup list. */
+#setup > td > ol {
+	list-style-position: inside;
+	padding-left: 0;
+}
+
 /* TRAINING PROPOSAL --------------------------------------------------------------------------- */
 
 .proposal-only {
