@@ -7,6 +7,7 @@ draft: true
 
 ## Course Description
 
+<!--
 Unit 1: List manipulation
 
 Simple values and expressions
@@ -48,3 +49,4 @@ Pandas
 Data Structure
 Data Manipulation
 Grouping and Aggregation
+-->
