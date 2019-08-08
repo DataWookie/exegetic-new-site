@@ -15,6 +15,57 @@ requirements: |
   Participants are assumed to have prior exposure to R, or at least to programming of some variety. Ideally participants should have completed the [Data Wrangling]({{< ref "r-data-wrangling.md" >}}) and [Visualisation]({{< ref "r-visualisation.md" >}}) modules.
 ---
 
+<!--
+Unit 1: Foundations of Statistics and Simple Linear Regression
+
+Understand your data
+Statistical inference
+Introduction to machine learning
+Simple linear regression
+Diagnostics and transformations
+The coefficient of determination
+Unit 2: Multiple Linear Regression and Generalized Linear Model
+
+Multiple linear regression
+Assumptions and diagnostics
+Extending model flexibility
+Generalized linear models
+Logistic regression
+Maximum likelihood estimation
+Model interpretation
+Assessing model fit
+Unit 3: kNN and Naive Bayes, the Curse of Dimensionality
+
+The K-Nearest Neighbors Algorithm
+The choice of K and distance measure
+Conditional probability: Bayes’ Theorem
+The Naive Bayes’ Algorithm
+The Laplace estimator
+Dimension reduction
+The PCA procedure
+Ridge and Lasso regression
+Cross-validation
+Unit 4: Tree Models and SVMs
+
+Decision trees
+Bagging
+Random forests
+Boosting
+Variable Importance
+Hyperplanes and maximal margin classifier
+Sort margin and support vector classifier
+Kernels and support vector machines
+Unit 5: Cluster Analysis and Neural Networks
+
+Cluster analysis
+K-means clustering
+Hierarchical clustering
+Neural networks and perceptrons
+Sigmoid neurons
+Network topology and hidden features
+Back propagation learning with gradient descent
+-->
+
 ### Day 1: Classification
 
 - Introduction
