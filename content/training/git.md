@@ -14,8 +14,15 @@ intro: |
 
   Git is the most pervasive Version Control system today. It works well on all projects, from a few files and a single developer to thousands of files and hundreds of developers.
 duration: 1 day
+objectives: |
+  This course will give you a solid understanding of the principles and practices of applying Version Control with Git. You'll learn to
+
+  - setup Git on your computer and create a repository;
+  - perform everyday Version Control operations (checking in, checking out, diffing, branching, merging);
+  - create a remote repository on GitHub and synchronise it with your local repository; and
+  - how to use Git as an effective collaboration tool.
 outcomes: |
-  After this course you'll be familiar with how Git works and primed to start using it on your own projects.
+  After the course you'll be familiar with how Git works and primed to start using it on your own projects.
 setup: |
   1. Install [Git](https://git-scm.com/downloads).
   2. Install the [Putty](https://www.putty.org/) SSH client (only Windows users).
@@ -47,12 +54,13 @@ setup: |
 - Retrieving from the Repository
 	- `git checkout`
 	- Referencing commit using a hash
+	- What's a "detached HEAD"?
 - Branches
 	- Creating a branch
 	- Switching between branches
 	- `git log --graph` --- visualising branches
 	- Merging a branch
-	- Merge conflicts
+	- Managing merge conflicts
 	- Deleting a branch
 - Git as a Tool for Collaboration
 - Remote Repository
