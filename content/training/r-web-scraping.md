@@ -35,7 +35,7 @@ setup: |
 
 ### Day 1
 
-- Motivating Example <!-- Private Property -->
+- Motivating Example
 - Review of the Tidyverse
 	- Highlights from [Data Wrangling]({{< ref "r-data-wrangling.md" >}})
 - Website screenshots
