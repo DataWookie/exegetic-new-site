@@ -23,11 +23,11 @@ requirements: |
 setup: |
   - Get a recent version of [Google Chrome](https://www.google.com/chrome/b/) or [Firefox](https://www.mozilla.org/en-US/firefox/).
     - Install the [SelectorGadget extension](http://selectorgadget.com/).
-  - Get a recent version of R (3.6.0 or newer) and RStudio.
+  - Get a recent version of [R](https://cran.r-project.org/) (3.6.0 or newer) and [RStudio Desktop](https://www.rstudio.com/products/rstudio/download/).
     - Install the following R packages: `rvest`, `RSelenium`, `splashr` and `tidyverse`.
   - Install a VNC client. 
      - [VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/) (Windows, MacOS and Linux)
-     - vinagre (Linux) or xtightvncviewer (Linux)
+     - [vinagre](https://wiki.gnome.org/Apps/Vinagre) or xtightvncviewer (Linux)
   - Install [Docker](https://www.docker.com/) and pull the following images:
     - `selenium/standalone-firefox:3.14`
     - `selenium/standalone-chrome-debug:3.14`
