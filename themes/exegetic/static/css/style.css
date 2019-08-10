@@ -128,7 +128,7 @@ a .collapsed {
 }
 
 /* Don't indent setup list. */
-#setup > td > ol {
+#setup > td > ol, #setup > td > ul {
 	list-style-position: inside;
 	padding-left: 0;
 }
