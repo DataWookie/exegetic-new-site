@@ -13,13 +13,12 @@ objectives: |
 
   During this course we'll scrape data from a number of sites including:
 
-  - postal codes from [GeoNames](http://www.geonames.org/);
   - browser market share from [StatCounter](http://gs.statcounter.com/browser-market-share);
   - weather data from [Weather Underground](https://www.wunderground.com/).
 outcomes: |
   Participants will be able to isolate the relevant portions of a website and write scripts to automatically extract the required information. Furthermore they'll know how to apply these techniques to both static and dynamic websites.
 requirements: |
-  Participants are assumed to have prior exposure to R, or at least to programming of some variety. Some familiarity with HTML and CSS will be an advantage but not mandatory.
+  Participants are assumed to have prior exposure to R and the `{dplyr}`, `{purrr}` and `{stringr}` packages. Some familiarity with HTML and CSS will be an advantage but not mandatory.
 setup: |
   - Get a recent version of [Google Chrome](https://www.google.com/chrome/b/) or [Firefox](https://www.mozilla.org/en-US/firefox/).
     - Install the [SelectorGadget extension](http://selectorgadget.com/).
