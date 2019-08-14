@@ -45,9 +45,8 @@ setup: |
 - HTTP
 	- How HTTP works
 	- Diagnosing requests with `curl` and <https://httpbin.org/>
-- Introduction to Scraping
-	- The components of an HTML document
-	- Building a simple HTML document
+- Deconstructing a Website
+	- Structure of an HTML document
 	- DOM
 	- CSS (summary of [CSS]({{< ref "web-css.md" >}}))
 	- XPath (summary of [XPath]({{< ref "web-xpath.md" >}}))
