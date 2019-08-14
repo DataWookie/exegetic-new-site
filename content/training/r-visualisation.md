@@ -58,18 +58,27 @@ This course will introduce the basic components of ggplot2 and show how they can
 
 - Fundamentals
 	- ggplot to plotly with `ggplotly()`
+	- Online and offline plotting
 - Plot types
 	- Scatter and Line plots
 	- Box plots
 	- Histogram and Bar plots
 	- Heat maps and Contour plots
 	- Polar plots
+- Interactivity
+	- Hover information (tooltips)
+	- Custom controls (buttons, selectors and sliders)
+- Style
+	- Markers
+	- Colour scales
+	- Fonts
+	- Legends
+	- Axes
 - Maps
 - Combining plots
 	- Sub-plots
 	- Inset plots
 	- Multiple axes
-- Custom controls
 - Dashboards
 - Animation
 - Exporting static images
