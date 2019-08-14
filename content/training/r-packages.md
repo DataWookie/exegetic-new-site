@@ -23,8 +23,6 @@ outcomes: |
 requirements: Participants should be familiar with R and comfortable writing their own functions.
 ---
 
-## Course Outline
-
 - Why Write R Packages?
     - Listing `installed.packages()`
     - Loading a package: `library()` versus `require()`
