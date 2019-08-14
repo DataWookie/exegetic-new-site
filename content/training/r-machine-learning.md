@@ -158,11 +158,11 @@ Back propagation learning with gradient descent
 	- Bootstrap
 	- Model Tuning / Parameter Selection
 - Using [`{caret}`](http://topepo.github.io/caret/index.html)
-	* Pre-processing;
-	* Train/test splitting;
-	* Feature importance and feature selection;
-	* Model evaluation (using cross validation and bootstrapping);
-	* Model tuning.
+	* Pre-processing
+	* Train/test splitting
+	* Feature importance and feature selection
+	* Model evaluation (using cross validation and bootstrapping)
+	* Model tuning
 - Ensembles
 	- The Idea: "Wisdom of the Crowd"
 	- Homogeneous and Heterogeneous Ensembles
