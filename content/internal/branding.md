@@ -38,6 +38,10 @@ documents: ['Sundry']
 			<td>#8b9196</td>
 		</tr>
 		<tr>
+			<td style="background-color: #edeeee;"></td>
+			<td>#edeeee</td>
+		</tr>
+		<tr>
 			<td style="background-color: #6c757d;"></td>
 			<td>#6c757d</td>
 		</tr>
