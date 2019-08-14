@@ -12,8 +12,11 @@ draft: true
 - File System
 	- `du`
 	- `df`
-
-
+- Working with Files
+    - `ls`
+    - `chmod`
+    - `chown`
+    - `find` and `locate`
 - Text Processing
 	- `uniq`
 	- `grep`
