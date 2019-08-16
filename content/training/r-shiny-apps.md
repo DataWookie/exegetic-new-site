@@ -45,8 +45,6 @@ https://shiny.rstudio.com/articles/debugging.html
 
 ### Day 1
 
-### Day 1
-
 - What is Shiny?
   - Samples from App Gallery
 - Components of a Shiny app
