@@ -9,7 +9,6 @@ description: "We offer a wide range of Data Science courses. If we don't have ex
 <div class="container mt-4 mb-5" id="carouselOutter" >
 	<div class="row">
 		<div class="col-md-10 offset-md-1 text-center" id="testimonial">
-            <!-- <div class="quote"><i class="fa fa-quote-left fa-4x"></i></div> -->
             <div id="testimonialCarousel" class="carousel carousel-fade" data-ride="carousel">
 				<div class="carousel-inner">
 					<div class="carousel-item active">
@@ -86,7 +85,9 @@ description: "We offer a wide range of Data Science courses. If we don't have ex
 	</div>
 </div>
 
-These are the training courses we currently offer. If none of them meets your needs, then we'll build one to meet your precise requirements. Alternatively, we can mix and match components from existing courses.
+These are the training courses we currently offer. If none of them meet your needs, then we'll build one to suit your precise requirements. Alternatively, we can mix and match components from existing courses.
+
+Have a look at our scheduled, upcoming courses <a href="https://training.exegetic.biz/">here</a>. 
 
 <i class="fas fa-tag"></i> &mdash; a focused topic<br>
 <i class="fas fa-list"></i> &mdash; a course consisting of multiple topics
