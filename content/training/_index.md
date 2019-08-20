@@ -84,13 +84,13 @@ description: "We offer a wide range of Data Science courses. If we don't have ex
         </div>							
 	</div>
 </div>
-
+<hr>
 These are the training courses we currently offer. If none of them meet your needs, then we'll build one to suit your precise requirements. Alternatively, we can mix and match components from existing courses.
 
 Have a look at our scheduled, upcoming courses <a href="https://training.exegetic.biz/">here</a>. 
 
 <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-<div id="mc_embed_signup" style="margin-bottom:2.5rem;">
+<div id="mc_embed_signup">
 <form action="https://exegetic.us17.list-manage.com/subscribe/post?u=8735494352499d0ae3512a0e6&amp;id=46ce953016" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
 	<p for="mce-EMAIL">Sign up for our mailer to be notified of when and where we schedule our next courses.</p>
@@ -101,7 +101,7 @@ Have a look at our scheduled, upcoming courses <a href="https://training.exegeti
     </div>
 </form>
 </div>
-
+<hr style="margin-top: 1.3rem!important;">
 
 <i class="fas fa-tag"></i> &mdash; a focused topic<br>
 <i class="fas fa-list"></i> &mdash; a course consisting of multiple topics
