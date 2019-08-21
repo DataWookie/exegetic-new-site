@@ -34,12 +34,16 @@ documents: ['Sundry']
 			<td>#3498db</td>
 		</tr>
 		<tr>
-			<td style="background-color: #8b9196;"></td>
-			<td>#8b9196</td>
+			<td style="background-color: #ffa330;"></td>
+			<td>#ffa330</td>
 		</tr>
 		<tr>
 			<td style="background-color: #edeeee;"></td>
 			<td>#edeeee</td>
+		</tr>
+		<tr>
+			<td style="background-color: #8b9196;"></td>
+			<td>#8b9196</td>
 		</tr>
 		<tr>
 			<td style="background-color: #6c757d;"></td>
