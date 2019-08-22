@@ -7,6 +7,8 @@ draft: false
 intro: |
   If you want to build a successful career in Data Science, you'll need to learn the basics of SQL.
 duration: 1 day
+setup: |
+  - Install [DBeaver](https://dbeaver.io/download/).
 ---
 
 <!--
