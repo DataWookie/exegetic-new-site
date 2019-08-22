@@ -20,7 +20,7 @@ outcomes: |
 requirements: |
   Participants are assumed to have prior exposure to R and the `{dplyr}`, `{purrr}` and `{stringr}` packages. Some familiarity with HTML and CSS will be an advantage but not mandatory.
 setup: |
-  - Get a recent version of [Google Chrome](https://www.google.com/chrome/b/) or [Firefox](https://www.mozilla.org/en-US/firefox/).
+  - Get a recent version of [Google Chrome](https://www.google.com/chrome/browser/) or [Firefox](https://www.mozilla.org/en-US/firefox/).
     - Install the [SelectorGadget extension](http://selectorgadget.com/).
   - Get a recent version of [R](https://cran.r-project.org/) (3.6.0 or newer) and [RStudio Desktop](https://www.rstudio.com/products/rstudio/download/).
     - Install the following R packages: `rvest`, `RSelenium`, `splashr` and `tidyverse`.
@@ -30,6 +30,7 @@ setup: |
   - Install [Docker](https://www.docker.com/) and pull the following images:
     - `selenium/standalone-firefox:3.14`
     - `selenium/standalone-chrome-debug:3.14`
+  - Go through this [fun CSS tutorial](http://flukeout.github.io/).
 ---
 
 ### Day 1
