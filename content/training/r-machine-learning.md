@@ -18,13 +18,8 @@ requirements: |
 ### Day 1: Classification
 
 - Introduction
-	- Model Optimisation
-		- Underfitting and Overfitting
-	- Data Preparation
-		- Transformations
-			- `log()` and `sqrt()`
-			- Box-Cox
-		- [`{recipes}`](https://github.com/tidymodels/recipes)
+	- What is Machine Learning?
+	- Model Optimisation (Underfitting and Overfitting)
 - Classification
 	- k-Nearest Neighbours (kNN)
 		- How it works
@@ -46,11 +41,15 @@ requirements: |
 		* F Measure
 		* ROC and AUC
 	- Costs of Errors
+	- Data Preparation
+		- Transformations (`log()`, `sqrt()` and Box-Cox)
+		- [`{recipes}`](https://github.com/tidymodels/recipes)
 	- Decision Trees
 		- Recursive Partitioning algorithm
 		- Pruning
 		- Model parameters (preventing underfitting and overfitting)
 		- A variation: Conditional Inference Trees
+	- Linear Discriminant Analysis
 	- Support Vector Machine
 		- Maximum Margin Classifiers
 		- Support Vector Classifiers
@@ -63,7 +62,7 @@ requirements: |
 		* Undersampling
 		* Synthetic Data Generation
 
-### Day 2: Linear Models
+### Day 2: Linear Models & Dimension Reduction
 
 - Linear Models
 	- Motivating Example
@@ -75,7 +74,9 @@ requirements: |
 		* Assumptions 
 		* Multiple regression
 		* Model evaluation (RMSE, [MAE](https://en.wikipedia.org/wiki/Mean_absolute_error) and [MPE](https://en.wikipedia.org/wiki/Mean_percentage_error))
-		* Categorical and dummy variables
+		* Categorical variables
+			* One-Hot Encoding (low-cardinality variables)
+			* Target Encoding (high-cardinality variables)
 		* Formulae
 			* Simple Formulae
 			* Interactions
@@ -96,6 +97,8 @@ requirements: |
 	- Feature Importance
 	- Feature Selection
 	  	* Stepwise (forward selection and backward elimination)
+- Dimension Reduction
+	- PCA
 
 ### Day 3: Caret, Validation & Ensembles
 
