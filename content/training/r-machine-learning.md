@@ -19,6 +19,10 @@ requirements: |
 
 - Introduction
 	- What is Machine Learning?
+	- Regression and Classification
+		- Concepts of Accuracy
+		- Residuals
+		- Best fit and least squares
 	- Model Optimisation (Underfitting and Overfitting)
 - Classification
 	- k-Nearest Neighbours (kNN)
@@ -67,9 +71,6 @@ requirements: |
 - Linear Models
 	- Motivating Example
 	- k-Nearest Neighbours
-	- Background
-		- Residuals
-		- Best fit and least squares
 	- Linear Regression
 		* Assumptions 
 		* Multiple regression
