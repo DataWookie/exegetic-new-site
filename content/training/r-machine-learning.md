@@ -47,13 +47,17 @@ requirements: |
 	- Costs of Errors
 	- Data Preparation
 		- Transformations (`log()`, `sqrt()` and Box-Cox)
+		- Missing Data
+		- Unbalanced Data
+			* Oversampling
+			* Undersampling
+			* Synthetic Data Generation
 		- [`{recipes}`](https://github.com/tidymodels/recipes)
 	- Decision Trees
 		- Recursive Partitioning algorithm
 		- Pruning
 		- Model parameters (preventing underfitting and overfitting)
 		- A variation: Conditional Inference Trees
-	- Linear Discriminant Analysis
 	- Support Vector Machine
 		- Maximum Margin Classifiers
 		- Support Vector Classifiers
@@ -61,10 +65,6 @@ requirements: |
 		- Non-Linear Boundaries
 			* Polynomial Kernel
 			* Radial Kernel
-	- Unbalanced Data
-		* Oversampling
-		* Undersampling
-		* Synthetic Data Generation
 
 ### Day 2: Linear Models & Dimension Reduction
 
@@ -100,6 +100,7 @@ requirements: |
 	  	* Stepwise (forward selection and backward elimination)
 - Dimension Reduction
 	- PCA
+	- Linear Discriminant Analysis
 
 ### Day 3: Caret, Validation & Ensembles
 
@@ -123,3 +124,7 @@ requirements: |
 		* Random Forests
 - Machine Learning at Scale
 	- Building many models (automation)
+
+<!--
+### Day 4: H2O
+-->
