@@ -7,6 +7,11 @@ draft: false
 intro: |
   If you want to build a successful career in Data Science, you'll need to learn the basics of SQL.
 duration: 1 day
+who: The course is suitable for anybody who needs to work with data in a relational database.
+objectives: In this course you'll learn how to perform CRUD (Create, Read, Update and Delete) operations on a relational database.
+outcomes: Participants will be able to create and populate tables, perform moderately complex queries, update and delete records on a relational database.
+requirements: |
+  Familiarity with spreadsheets will be helpful but not essential.
 setup: |
   - Install [DBeaver](https://dbeaver.io/download/).
 ---
