@@ -12,7 +12,7 @@ objectives: |
 outcomes: |
   Participants will be able to build Classification and Regression models on real world data. They will understand how the models work and how to interpret model predictions.
 requirements: |
-  Participants are assumed to have prior exposure to R, or at least to programming of some variety. Ideally participants should have completed the [Data Wrangling]({{< ref "r-data-wrangling.md" >}}) and [Visualisation]({{< ref "r-visualisation.md" >}}) modules.
+  Participants are assumed to have prior exposure to R, or at least to programming of some variety. Ideally participants should have completed the [Data Wrangling](https://www.exegetic.biz/training/r-data-wrangling/) and [Visualisation](https://www.exegetic.biz/training/r-visualisation/) modules.
 ---
 
 ### Day 1: Classification
