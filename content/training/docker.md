@@ -13,7 +13,7 @@ requirements: |
   - Create accounts on the following services:
     - [AWS](http://aws.amazon.com/) and
     - [Docker Hub](https://hub.docker.com/).
-  - The [UNIX Essentials]({{< ref "unix-essentials.md" >}}) course is useful for understanding some of the details of a Dockerfile.
+  - The [UNIX Essentials](https://www.exegetic.biz/training/unix-essentials/) course is useful for understanding some of the details of a Dockerfile.
 ---
 
 <!--
