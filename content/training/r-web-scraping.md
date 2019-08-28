@@ -37,7 +37,7 @@ setup: |
 
 - Motivating Example
 - Review of the Tidyverse
-	- Highlights from [Data Wrangling]({{< ref "r-data-wrangling.md" >}})
+	- Highlights from [Data Wrangling](https://www.exegetic.biz/training/r-data-wrangling/)
 - Website screenshots
 - Navigating the Internet with URLs
 	- Anatomy of an URL
