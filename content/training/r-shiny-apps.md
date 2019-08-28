@@ -19,7 +19,7 @@ outcomes: |
   - understand reactivity and how the UI and server communicate with each other; and
   - know how to deploy a Shiny application.
 requirements: |
-  Participants are assumed to have prior exposure to R, or at least to programming of some variety. Ideally participants should have completed the [Data Wrangling]({{< ref "r-data-wrangling.md" >}}) and [Visualisation]({{< ref "r-visualisation.md" >}}) modules.
+  Participants are assumed to have prior exposure to R, or at least to programming of some variety. Ideally participants should have completed the [Data Wrangling](https://www.exegetic.biz/training/r-data-wrangling/) and [Visualisation](https://www.exegetic.biz/training/r-visualisation/) modules.
 setup: |
   ```r
   install.packages(
