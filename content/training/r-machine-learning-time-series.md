@@ -32,7 +32,7 @@ objectives: |
 outcomes: |
 
 requirements: |
-  We assume that participants have prior experience with R, ideally having completed both the the [Introduction to R]({{< ref "r-introduction.md" >}}) and [Data Wrangling]({{< ref "r-data-wrangling.md" >}}) courses.
+  We assume that participants have prior experience with R, ideally having completed both the the [Introduction to R](https://www.exegetic.biz/training/r-introduction/) and [Data Wrangling](https://www.exegetic.biz/training/r-data-wrangling/) courses.
 ---
 
 ### Day 1
