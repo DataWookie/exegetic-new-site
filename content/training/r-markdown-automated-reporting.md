@@ -13,7 +13,7 @@ who: The course is aimed at students, academics and professionals who need to ge
 objectives: Reports are an important artefact of research and analysis. Often these reports need to be frequently generated or updated. Ideally this should be done in a reproducible manner. It's is an ideal opportunity for automation! In this course you'll learn how to use R and Markdown to efficiently generate sophisticated and visually appealing reports.
 outcomes: Participants will be able to generate reports which include text, tables, figures, code and analytical results. They will also be able to flexibly style the reports.
 setup: |
-  - Participants are assumed to have prior exposure to R, or at least to programming of some variety. Ideally participants should have completed the [Data Wrangling]({{< ref "r-data-wrangling.md" >}}) and [Visualisation]({{< ref "r-visualisation.md" >}}) modules.
+  - Participants are assumed to have prior exposure to R, or at least to programming of some variety. Ideally participants should have completed the [Data Wrangling](https://www.exegetic.biz/training/r-data-wrangling/) and [Visualisation](https://www.exegetic.biz/training/r-visualisation/) modules.
   - Install a Markdown editor. These are some options:
 
     - [Remarkable](https://remarkableapp.github.io/index.html)
