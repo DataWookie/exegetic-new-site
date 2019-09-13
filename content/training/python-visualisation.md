@@ -1,5 +1,6 @@
 ---
 title: "Visualisation with Python"
+topic: true
 subjects: ['Python']
 subjects_weight: 1
 draft: true

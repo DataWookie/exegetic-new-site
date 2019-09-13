@@ -1,5 +1,6 @@
 ---
 title: "Introduction to Deep Learning"
+topic: true
 subjects: ['Python']
 subjects_weight: 1
 draft: true
@@ -28,6 +29,11 @@ setup: |
   - [Notebook Basics](https://nbviewer.jupyter.org/github/jupyter/notebook/blob/master/docs/source/examples/Notebook/Notebook%20Basics.ipynb)
   - [Running Code](https://nbviewer.jupyter.org/github/jupyter/notebook/blob/master/docs/source/examples/Notebook/Running%20Code.ipynb) and
   - [Markdown Cells](https://nbviewer.jupyter.org/github/jupyter/notebook/blob/master/docs/source/examples/Notebook/Working%20With%20Markdown%20Cells.ipynb).
+
+  Watch the following videos for some context:
+
+  - [Gradient](https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/gradient-and-directional-derivatives/v/gradient)
+  - [Gradient and graphs](https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/gradient-and-directional-derivatives/v/gradient-and-graphs)
 ---
 
 <!--
