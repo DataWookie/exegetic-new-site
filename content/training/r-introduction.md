@@ -19,6 +19,67 @@ outcomes: |
 setup: Bring a laptop.
 ---
 
+<!--
+Unit 1: Basic Programming with R
+
+Introduction to R
+What is R?
+Why R?
+How to learn R
+RStudio, packages, and the workspace
+Basic R language elements
+Data object types
+Local data import/export
+Introducing functions and control statements
+In-depth study of data objects
+Functions
+Functional Programming
+Unit 2: Basic Data Elements
+
+Data transformation
+Reshape
+Split
+Combine
+Character manipulation
+String manipulation
+Dates and timestamps
+Web data capture
+API data sources
+Connecting to an external database
+Unit 3: Manipulating Data with “dplyr”
+
+Subset, transform, and reorder datasets
+Join datasets
+Groupwise operations on datasets
+Unit 4: Data Graphics and Data Visualization
+
+Core ideas of data graphics and data visualization
+R graphics engines
+Base
+Grid
+Lattice
+ggplot2
+Big data graphics with ggplot2
+Unit 5: Advanced Visualization
+
+Customized graphics with ggplot2
+Titles
+Coordinate systems
+Scales
+Themes
+Axis labels
+Legends
+Other plotting cases
+Violin Plots
+Pie charts
+Mosaic plots
+Hierarchical tree diagrams
+scatter plots with multidimensional data
+Time-series visualizations
+Maps
+R and interactive visualizations
+-->
+
 - Introduction
 	* Background: Why use R rather than Excel?
 	* Features of R
