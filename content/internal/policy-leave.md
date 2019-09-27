@@ -13,8 +13,8 @@ documents: ['Policy']
 
 ### General
 
-1. Exegetic is closed on public holidays and no staff are required to report for duty.
-2. Exegetic will have an annual shutdown period from COB 24 December until 2 January during which time all employees are expected to take annual leave. 
+1. All employees are expected to take leave during Exegetic's annual shutdown period from COB 24 December until 2 January.
+2. Exegetic is closed on public holidays and no staff are required to report for duty. 
 3. For procedural information please refer to the <a href="https://www.exegetic.biz/internal/procedure-leave/">Leave Procedure</a> document.
 4. To check your leave balance please refer to your last payslip. 
 5. Employees may not take leave before it has accrued.
