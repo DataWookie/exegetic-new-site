@@ -241,11 +241,6 @@ ul ul, ol ul, ol ol {
 	border: none;
 }
 
-#services > div > div.card-deck {
-	margin-left: 0;
-	margin-right: 0;
-}
-
 #services > div > div > div > div {
 	box-shadow: 10px 10px 18px rgba(0, 0, 0, 0.4);
 	border-radius: 10px;
@@ -256,6 +251,23 @@ ul ul, ol ul, ol ol {
 	text-align: center;
 }
 
+#services {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#box {
+	display: flex;
+	margin: 0 -5px;
+  }
+
+.item {
+	background: gray;
+	margin: 0 5px;
+  }
+  
 
 /* --------------------------------------------------------------------------------------------- */
 
@@ -342,10 +354,6 @@ button.subject {
 	.carousel-item {
 		text-align: left;
 		height: 270px;
-	}
-
-	#services{
-		display: none;
 	}
 
 	#about{
