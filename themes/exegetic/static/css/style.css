@@ -322,7 +322,7 @@ button.subject {
 
 @media only screen and (max-width : 2560px) {
 	#service {
-		height: 45vh;
+		height: 54vh;
 	}
 }
 
@@ -340,7 +340,7 @@ button.subject {
 /*Custom* Laptop Large*/
 @media only screen and (max-width : 1024px) {
 	#service {
-		height: 75vh;
+		height: 45vh;
 	}
 }
 
@@ -359,6 +359,13 @@ button.subject {
 	#testimonialCarousel {
 		padding-left: 2rem!important;
 		padding-right: 2rem!important;
+	}
+}
+
+/*Custom* Between */
+@media only screen and (max-width : 768px) {
+	#service {
+		height: 60vh;
 	}
 }
 
@@ -436,9 +443,23 @@ button.subject {
 }
 
 /*Custom* Between */
+@media only screen and (max-width : 414px) {
+	#service {
+		height: 80vh;
+	}
+}
+
+/*Custom* Between */
 @media only screen and (max-width : 400px) {
 	#service {
 		height: 73vh;
+	}
+}
+
+/*Custom* Between */
+@media only screen and (max-width : 375px) {
+	#service {
+		height: 90vh;
 	}
 }
 
@@ -481,6 +502,10 @@ button.subject {
 	#testimonialCarousel > div > div > div > div > p {
 		margin-bottom: 0;
 		font-size: 0.79rem;
+	}
+
+	#service {
+		height: 90vh;
 	}
 }
 
