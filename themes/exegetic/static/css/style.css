@@ -224,62 +224,55 @@ ul ul, ol ul, ol ol {
 
 /* SERVICES ------------------------------------------------------------------------------------ */
 
-#services > div > div > div > div {
-	padding: 1.5% 0.8% 1.5% 0.8%;
+.MultiCarousel { 
+	float: left; 
+	overflow: hidden; 
+	padding: 15px; 
+	width: 100%; 
+	position:relative; 
 }
 
-#services > div > div > div > div > div > div > div {
-	background-color: #8B9196;
-	margin-bottom: 30px;
-	padding: 20px;
+.MultiCarousel .MultiCarousel-inner { 
+	transition: 1s ease all; 
+	float: left; 
+}
+.MultiCarousel .MultiCarousel-inner .item { 
+	float: left;
+}
+
+.MultiCarousel .MultiCarousel-inner .item > div {  
+	text-align: center;
+	padding:6%; 
+	margin:2%; 
+	background:#8B9196;
 	box-shadow: 10px 10px 18px rgba(0, 0, 0, 0.4);
 	border-radius: 10px;
-	height: 100%;
-	margin-left: 0.5%;
-	margin-right: 0.5%;
 }
 
-#services h3, #services h4 {
-	margin-top: 0.5rem;
-	text-align: center;
+.MultiCarousel .MultiCarousel-inner .item > div p { 
+	text-align: left; 
 }
 
-#services {
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	justify-content: space-between;
+
+.MultiCarousel .leftLst, .MultiCarousel .rightLst { 
+	position:absolute; 
+	border-radius:50%;
+	top:calc(50% - 20px); 
 }
 
-#box {
-	display: flex;
-	margin: 0 -5px;
-  }
-
-/* .item {
-	background: gray;
-	margin: 0 5px;
-  } */
-  
-.carousel-control-prev {
-	justify-content: flex-start;
-	margin: 0;
-  	position: absolute;
-  	top: 50%;
-  	-ms-transform: translateY(-50%);
-  	transform: translateY(-50%);
-
+.MultiCarousel .leftLst { 
+	left:0; 
+	margin-right: 2%;
 }
 
-.carousel-control-next {
-	justify-content: flex-end;
-	margin: 0;
-  	position: absolute;
-  	top: 50%;
-  	-ms-transform: translateY(-50%);
-  	transform: translateY(-50%);
+.MultiCarousel .rightLst { 
+	right:0; 
 }
 
+.MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { 
+	pointer-events: none; 
+	background:#ccc; 
+}
 
 /* --------------------------------------------------------------------------------------------- */
 
@@ -325,11 +318,30 @@ button.subject {
 
 /*==========  Non-Mobile First  ==========*/
 
+/* *Custom* Super large Screens*/
+
+@media only screen and (max-width : 2560px) {
+	#service {
+		height: 45vh;
+	}
+}
+
 /* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {}
+@media only screen and (max-width : 1200px) {
+}
 
-/*Custom* 'Laptop'/ {
-
+/*Custom* Laptop Large*/
+@media only screen and (max-width : 1440px) {
+	#service {
+		height: 70vh;
+	}
+}
+	
+/*Custom* Laptop Large*/
+@media only screen and (max-width : 1024px) {
+	#service {
+		height: 75vh;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -362,9 +374,20 @@ button.subject {
 		padding-left: 1.8rem!important;
 		padding-right: 1.8rem!important;
 	}
+
+	#service {
+		height: 60vh;
+	}
 }
 
-/* Custom */
+/*Custom* Between */
+@media only screen and (max-width : 710px) {
+	#service {
+		height: 65vh;
+	}
+}
+
+/* Custom Between*/
 @media only screen and (max-width : 575px) {
 
 	.carousel-item {
@@ -380,6 +403,7 @@ button.subject {
 		padding-top: 0;
 	}
 }
+
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
@@ -401,6 +425,34 @@ button.subject {
 	#testimonialCarousel > div > div > div > div > p {
 		margin-bottom: 0;
 		font-size: 0.95rem;
+	}
+}
+
+/*Custom* Between */
+@media only screen and (max-width : 430px) {
+	#service {
+		height: 68vh;
+	}
+}
+
+/*Custom* Between */
+@media only screen and (max-width : 400px) {
+	#service {
+		height: 73vh;
+	}
+}
+
+/*Custom* Between */
+@media only screen and (max-width : 370px) {
+	#service {
+		height: 75vh;
+	}
+}
+
+/*Custom* Between */
+@media only screen and (max-width : 340px) {
+	#service {
+		height: 78vh;
 	}
 }
 
@@ -434,33 +486,3 @@ button.subject {
 
 /* --------------------------------------------------------------------------------------------- */
 /* Custom styles for images in blog posts */
-
-img[src$='#center']
-{
-    display: block;
-    margin: 0.7rem auto;
-}
-
-img[src$='#floatleft']
-{
-    float:left;
-    margin: 0.7rem;   
-}
-
-img[src$='#floatright']
-{
-    float:right;
-    margin: 0.7rem;
-}
-
-
-
-.MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; }
-    .MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
-        .MultiCarousel .MultiCarousel-inner .item { float: left;}
-        .MultiCarousel .MultiCarousel-inner .item > div { text-align: center; padding:10px; margin:10px; background:#f1f1f1; color:#666;}
-    .MultiCarousel .leftLst, .MultiCarousel .rightLst { position:absolute; border-radius:50%;top:calc(50% - 20px); }
-    .MultiCarousel .leftLst { left:0; }
-    .MultiCarousel .rightLst { right:0; }
-    
-        .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }
