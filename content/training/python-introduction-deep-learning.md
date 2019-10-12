@@ -1,7 +1,7 @@
 ---
 title: "Introduction to Deep Learning"
 topic: true
-subjects: ['Python']
+subjects: ['Python', 'Data Science']
 subjects_weight: 1
 draft: false
 intro: |
