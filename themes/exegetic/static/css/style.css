@@ -44,8 +44,8 @@ h3 {
 }
 
 .section {
-	padding-top: 75px;
-	padding-bottom: 75px;
+	padding-top: 4%;
+	padding-bottom: 4%;
 }
 
 .contact {
@@ -247,6 +247,7 @@ ul ul, ol ul, ol ol {
 	background:#8B9196;
 	box-shadow: 10px 10px 18px rgba(0, 0, 0, 0.4);
 	border-radius: 10px;
+	/*Something to standardise item heights!*/
 }
 
 .MultiCarousel .MultiCarousel-inner .item > div p { 
@@ -318,34 +319,48 @@ button.subject {
 
 /*==========  Non-Mobile First  ==========*/
 
+/* *Custom* Crazy Large Screens*/
+
 /* *Custom* Super large Screens*/
 
 @media only screen and (max-width : 2560px) {
+
 	#service {
-		height: 54vh;
+		min-height: 542px;
+	}
+}
+
+/*Custom* Laptop Large*/
+@media only screen and (max-width : 1440px) {
+
+	#service {
+		min-height: 592px;
 	}
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-}
 
-/*Custom* Laptop Large*/
-@media only screen and (max-width : 1440px) {
 	#service {
-		height: 70vh;
+		min-height: 567px;
 	}
 }
 	
 /*Custom* Laptop Large*/
 @media only screen and (max-width : 1024px) {
+
 	#service {
-		height: 45vh;
+		min-height: 623px;
 	}
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 990px) {
+
+	#service {
+		min-height: 534px;
+	}
+
 	.carousel-item {
 		text-align: left;
 		height: 280px;
@@ -364,13 +379,18 @@ button.subject {
 
 /*Custom* Between */
 @media only screen and (max-width : 768px) {
+
 	#service {
-		height: 60vh;
+		min-height: 593px;
 	}
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
+
+	#service {
+		min-height: 533px;
+	}
 
 	.carousel-inner {
 		padding-left: 1.8rem!important;
@@ -382,20 +402,14 @@ button.subject {
 		padding-right: 1.8rem!important;
 	}
 
-	#service {
-		height: 60vh;
-	}
-}
-
-/*Custom* Between */
-@media only screen and (max-width : 710px) {
-	#service {
-		height: 65vh;
-	}
 }
 
 /* Custom Between*/
 @media only screen and (max-width : 575px) {
+
+	#service {
+		min-height: 540px;
+	}
 
 	.carousel-item {
 		text-align: left;
@@ -415,6 +429,10 @@ button.subject {
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 
+	#service {
+		min-height: 553px;
+	}
+
 	.carousel-inner {
 		padding-left: 1.6rem!important;
 		padding-right: 1.6rem!important;
@@ -435,50 +453,28 @@ button.subject {
 	}
 }
 
-/*Custom* Between */
-@media only screen and (max-width : 430px) {
+/* Mobile L */
+@media only screen and (max-width : 425px) {
+
 	#service {
-		height: 68vh;
+		min-height: 594px;
 	}
 }
 
-/*Custom* Between */
-@media only screen and (max-width : 414px) {
-	#service {
-		height: 80vh;
-	}
-}
-
-/*Custom* Between */
-@media only screen and (max-width : 400px) {
-	#service {
-		height: 73vh;
-	}
-}
-
-/*Custom* Between */
+/* Mobile M */
 @media only screen and (max-width : 375px) {
+
 	#service {
-		height: 90vh;
+		min-height: 622px;
 	}
 }
 
-/*Custom* Between */
-@media only screen and (max-width : 370px) {
-	#service {
-		height: 75vh;
-	}
-}
-
-/*Custom* Between */
-@media only screen and (max-width : 340px) {
-	#service {
-		height: 78vh;
-	}
-}
-
-/* Custom, iPhone Retina */
+/* Mobile S */
 @media only screen and (max-width : 320px) {
+
+	#service {
+		min-height: 664px;
+	}
 
 	.carousel-item {
 		text-align: left;
@@ -502,10 +498,6 @@ button.subject {
 	#testimonialCarousel > div > div > div > div > p {
 		margin-bottom: 0;
 		font-size: 0.79rem;
-	}
-
-	#service {
-		height: 90vh;
 	}
 }
 
