@@ -1,8 +1,10 @@
 ---
-title: "Policy – Promotion to Data Scientist"
+title: "Policy – Promotion"
 draft: false
 documents: ['Policy']
 ---
+
+## Data Scientist 
 
 In order to advance from *Junior Data Scientist* to *Data Scientist* you’ll need to tick the following boxes:
 
