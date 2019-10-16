@@ -1,33 +1,19 @@
     {{ with .Site.Params.about }}
     <section class="section" id="about">
+
       <div class="container">
         <div class="row">
-          <div class="text-center">
-          {{- with .image }}
+          <div class="col-sm-4 my-auto">
+            {{- with .image }}
             <img style="max-width: 80%" src="{{ .path }}" alt="{{ .alt }}">
           {{- end }}
           </div>
-          <div>
-            <div class="content mt-100">
-              <h2 class="subheading">What is Exegetic?</h2>
+          <div class="col-sm-8">
+            <h2 class="subheading">What is Exegetic?</h2>
 
-              <p>The biggest challenge to initiating and maintaining a Data Science capability is finding the right people.</p>
+              <p style="text-align: justify;">At Exegetic we recognise that there are many challenges to adopting and maintaining a small and nimble Data Science team. That's why we offer a flexible and economical solution: Data Science on Demand.</p>
 
-              <p>Large enterprises are able to sustain an in-house Data Science team.</p>
-
-              <p>Smaller businesses find it more challenging. They understand that data-driven processes are essential to modern business. But where to find skilled Data Scientists, Data Engineers, Statisticians and Report Designers to execute their analytics projects?</p>
-
-              <p>That's where Exegetic comes into the picture.</p>
-
-              <p>We recognise that there are many challenges to adopting and maintaining a small and nimble Data Science team. That's why we offer a flexible and economical solution: Data Science on Demand.</p>
-
-              <h2>Data Science on Demand</h2>
-
-              <p>Many companies have Data Science projects they’d like to start, but lack the necessary expertise to get them off the ground. Recruiting can be a slow and expensive process.</p>
-
-              <p>With Exegetic you can get up and running with your Data Science project immediately.</p>
-
-              <p>Our Data Science On Demand service has numerous benefits:</p></p>
+              <p>Our Data Science On Demand service has numerous benefits:</p>
 
               <ul>
               <li> Incrementally develop your Data Science capability
@@ -38,10 +24,11 @@
               <li> Ongoing support
               </ul>
 
-              <p>Launch your project immediately with an experienced Data Scientist on your team.</p>
-            </div>
+              <p>Get your Data Science project up and running immediately with the help of one of our experienced Data Scientists.</p>
+
           </div>
         </div>
+
       </div>
     </section>
     {{ end }}
