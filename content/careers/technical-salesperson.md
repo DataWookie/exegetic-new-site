@@ -20,15 +20,15 @@ requirements_other: [
 	]
 responsibilities: [
 	"Identify potential new business and establish contact",
-	"Evaluate requirements of potential clients",
+	"Evaluate the requirements of potential clients",
 	"Interpret requirements and develop appropriate solutions",
 	"Deliver presentations demonstrating the solutions and providing product education",
 	"Liaise with the Data Science team and prepare a proposal",
 	"Organise sales and follow-up meetings",
-	"Provide pre-sales and post-sales support such as answering queries, leading price negotiations, providing techinical advice and closing sales",
+	"Provide pre-sales and post-sales support such as answering queries, leading price negotiations, providing technical advice and closing sales",
 	"Maintain regular contact with clients to obtain feedback",
-	"Nuture relationships with clients by advising them of suitable updates and new technologies they might find beneficial",
-	"Assist in market research to modify and extend offering to adapt to the evolving environment",
+	"Nurture relationships with clients by advising them of suitable updates and new technologies they might find beneficial",
+	"Assist in market research to modify and extend Exegetic's offering to adapt to the evolving environment",
 	"Write reports and sales literature",
 	"Ensuring that sales targets are met"
 	]
