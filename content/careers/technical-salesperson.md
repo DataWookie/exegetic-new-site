@@ -8,7 +8,7 @@ requirements_technical: [
 	]
 requirements_other: [
 	"Strong interpersonal skills",
-	"Concrete technical knowledge"
+	"Concrete technical knowledge",
 	"Sound organisational expertise",
 	"Ability to work under pressure",
 	"Solid time management skills",
@@ -22,7 +22,7 @@ responsibilities: [
 	"Identify potential new business and establish contact",
 	"Evaluate requirements of potential clients",
 	"Interpret requirements and develop appropriate solutions",
-	"Deliver presentaions demonstrating the solutions and providing product education",
+	"Deliver presentations demonstrating the solutions and providing product education",
 	"Liaise with the Data Science team and prepare a proposal",
 	"Organise sales and follow-up meetings",
 	"Provide pre-sales and post-sales support such as answering queries, leading price negotiations, providing techinical advice and closing sales",
