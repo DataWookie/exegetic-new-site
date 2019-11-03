@@ -47,17 +47,7 @@ requirements: |
         - Data quality, outliers and missing data
     * Other Representations
         - `xts`
-- Decomposition
-    * Stationarity
-    * Moving averages and smoothing
-    * Additive and Multiplicative Decomposition
-    * Trend
-    * Seasonality
-    * STL Decomposition
-    * Decomposition and Forecasting
-- White Noise and Random Walk
-    - Stationarity
-    - Differencing
+        - `zoo`
 - Correlation
     - Covariance and correlation
     - Cross-Correlation
@@ -65,6 +55,17 @@ requirements: |
         * Significance
     - Autocorrelation (ACF)
     - Partial autocorrelation (PACF)
+- Basic Models
+    * White Noise
+    * Random Walk
+    * Stationarity
+- Decomposition
+    * Moving averages and smoothing
+    * Additive and Multiplicative Decomposition
+    * Trend
+    * Seasonality
+    * STL Decomposition
+    * Decomposition and Forecasting
 - Model Principles
     * Accuracy and Precision
     * Training and Testing
