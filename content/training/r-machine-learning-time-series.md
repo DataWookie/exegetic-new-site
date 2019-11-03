@@ -75,17 +75,16 @@ requirements: |
     - Simulation
     - Model estimation and forecasting
     - Adding trend and seasonality: Holt and Holt-Winters methods
+- Autoregressive (AR) Models
+    - Simulation
+    - PACF and autoregression
+    - Model estimation and forecasting
 - Moving Average (MA) Models
     - Simulation
     - ACF and moving average
     - Model estimation and forecasting
 
 ### Day 2
-
-- Autoregressive (AR) Models
-    - Simulation
-    - PACF and autoregression
-    - Model estimation and forecasting
 - ARIMA Models
     - Simulation
     - Integrating for non-stationarity
