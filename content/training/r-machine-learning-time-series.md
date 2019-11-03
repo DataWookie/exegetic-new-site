@@ -97,8 +97,11 @@ requirements: |
     * Predicting with Exogenous Variables
 - Prophet
     - Non-linear and changing trends
+    - Uncertainties and MCMC
     - Multiple seasonalities
+    - Holidays
     - Non-uniform sampling and missing data
+    - Exogenous Variables
 - Hierarchical Models
     - Bottom-up approach
     - Top-down approach
