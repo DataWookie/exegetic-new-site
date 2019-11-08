@@ -1,5 +1,5 @@
 ---
-title: "Data Science with Python"
+title: "Working with Data: NumPy & Pandas"
 subjects: ['Python', 'Data Science']
 subjects_weight: 1
 draft: true
@@ -8,6 +8,18 @@ draft: true
 ## Course Description
 
 <!--
+What is Data Science?
+Grabbing data from various sources
+Working with Series and DataFrame objects
+Dealing with funky data (missing data and outliers)
+Overview of Machine Learning
+Keeping it simple using Nearest Neighbours
+Capturing a trend: LinearRegression
+Predicting categories: DecisionTreeClassifier
+Binary outcomes: LogisticRegression
+Using Pipeline to streamline your workflow
+Cross Validation
+
 Unit 1: Introduction to Python
 
 Python is a high-level programming language. You will learn the basic syntax and data structures in Python. We demonstrate and run codes within Ipython notebook, which is a great tool providing a robust and productive environment for interactive and exploratory computing.
