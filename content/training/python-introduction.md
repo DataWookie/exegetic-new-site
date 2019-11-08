@@ -1,8 +1,24 @@
 ---
 title: "Introduction to Python"
 subjects: ['Python', 'Data Science']
-subjects_weight: 1
+topic: true
 draft: true
+subjects_weight: 1
+duration: 1 day
+who: |
+  The course is suitable for somebody with little or no prior programming experience.
+objectives: |
+  In this course you'll learn the fundamentals of writing code with Python.
+outcomes: |
+  You'll be familiar with
+  
+  - data types and variables;
+  - compound data structures (lists and tuples);
+  - flow control (conditionals and loops);
+  - writing functions;
+  - exception handling;
+  - object-oriented features; and
+  - selected items from the Python standard library.
 ---
 
 ## Course Description
