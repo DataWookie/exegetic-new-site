@@ -1,5 +1,5 @@
 ---
-title: "Data Science with Python"
+title: "Working with Data: NumPy & Pandas"
 subjects: ['Python', 'Data Science']
 subjects_weight: 1
 draft: true
