@@ -2,67 +2,68 @@
 title: "Introduction to Python"
 subjects: ['Python', 'Data Science']
 topic: true
-draft: true
-subjects_weight: 1
+draft: false
+subjects_weight: 5
 duration: 1 day
 who: |
-  The course is suitable for somebody with little or no prior programming experience.
+  The course is suitable for somebody who is interested in learning how to code but has little or no prior experience.
+
+  It's *not* suitable for experienced Python programmers.
 objectives: |
   In this course you'll learn the fundamentals of writing code with Python.
 outcomes: |
   You'll be familiar with
   
   - data types and variables;
-  - compound data structures (lists and tuples);
-  - flow control (conditionals and loops);
+  - compound data structures;
+  - flow control;
   - writing functions;
   - exception handling;
   - object-oriented features; and
   - selected items from the Python standard library.
 ---
 
-## Course Description
+{{% comment %}}
+https://www.udemy.com/course/python-for-absolute-beginners-u/
+https://www.udemy.com/course/complete-python-bootcamp/
+https://www.udemy.com/course/python-the-complete-python-developer-course/
+{{% /comment %}}
 
-<!--
-Unit 1: List manipulation
-
-Simple values and expressions
-Defining functions, using ordinary syntax and lambda syntax
-Lists
-Built-in functions and subscripting
-Nested lists
-Functional operators: map and filter
-List Comprehensions
-Multiple-list operations: map and zip
-Functional operators: reduce
-Unit 2: Strings and simple I/O
-
-Characters
-Strings as lists of characters
-Built-in string operations
-Input files as lists of strings
-Print statement
-Reading data from the web
-Using the requests package
-String-based web scraping (e.g. handling csv files)
-Unit 3: Control structures
-
-Statements vs. expressions
-For loops
-Variables in for loops
-if statements
-Simple and nested if statements
-Conditional expressions in lambda functions
-While loops
-break and continue
-Unit 4: Data Analysis Packages
-
-NumPy
-Ndarray
-Subscripting and slicing
-Operations
-Pandas
-Data Structure
-Data Manipulation
-Grouping and Aggregation
--->
+- Introduction
+  - Starting Python
+  - Running code in Python
+  - Indentation
+  - Comments
+- Variables
+- Data Types
+  - Numbers
+  - Strings
+      - Formatting and Interpolation
+  - Boolean
+- Compound Data Types
+  - Tuples
+  - Lists
+  - Sets
+  - Dictionaries
+  - Iterables and Iterators
+      - `zip()`
+- Extending Pytho with Modules
+  - Installation
+  - Importing: `import` and `import from`
+- Flow Control
+  - Conditionals: `if`, `else` and `elif`
+  - Loops: `for` and `while`
+      - Changing the flow with `continue` and `break`
+- File I/O
+  - Text Files
+  - Pickle and Shelf
+- Functions
+  - Anonymous functions with `lambda`
+  - Operations: `map()` and `filter()`
+- List Comprehensions
+  - Conditionals
+- Errors and Exception Handling
+- Classes
+  - Attributes
+  - Methods
+  - Inheritance
