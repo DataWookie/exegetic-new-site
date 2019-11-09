@@ -1,5 +1,5 @@
 ---
-title: "Web Scraping with R"
+title: "Web Scraping"
 topic: true
 subjects: ['R', 'Web Scraping']
 subjects_weight: 130
@@ -9,7 +9,7 @@ duration: 2 days
 who: |
   The course is aimed at students, academics and professionals who need to harvest data from the internet.
 objectives: |
-  In this course you'll learn how to use R to selectively scrape content from websites.
+  In this course you'll learn how to use R to selectively, systematically and automatically scrape data from websites.
 
   During this course we'll scrape data from a number of sites including:
 
@@ -23,7 +23,7 @@ setup: |
   - Get a recent version of [Google Chrome](https://www.google.com/chrome/browser/) or [Firefox](https://www.mozilla.org/en-US/firefox/).
     - Install the [SelectorGadget extension](http://selectorgadget.com/).
   - Get a recent version of [R](https://cran.r-project.org/) (3.6.0 or newer) and [RStudio Desktop](https://www.rstudio.com/products/rstudio/download/).
-    - Install the following R packages: `rvest`, `RSelenium`, `splashr` and `tidyverse`.
+    - Install the following packages: `rvest`, `RSelenium`, `splashr` and `tidyverse`.
   - Install a VNC client. 
      - [VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/) (Windows, MacOS and Linux)
      - [vinagre](https://wiki.gnome.org/Apps/Vinagre) or xtightvncviewer (Linux)
@@ -83,6 +83,8 @@ setup: |
 	- Useful JavaScript tools
 	- Going headless
 	- Case Study
+- Dealing with CAPTCHAs
+	- Services
 - Building Robust Scrapers
 	- Handling errors using `tryCatch()`
 	- Functional tools from purrr: mapping, walking, `insistently()` and `slowly()`

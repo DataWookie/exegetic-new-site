@@ -90,15 +90,11 @@ https://medium.freecodecamp.org/a-beginner-friendly-introduction-to-containers-v
     - Compose file syntax
     - Ports, volumes and links
     - Commands and flags
-- Swarm
-    - Distributing containers
-    - Setup
-    - Deploying application on a cluster
+- Orchestration
+    - Swarm
+    - Kubernetes
 
 {{< comment >}}
-- Kubernetes
-    - Introduction
-
 - Projects
     - Django/MySQL application using Docker Compose
 {{< /comment >}}

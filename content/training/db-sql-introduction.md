@@ -5,7 +5,7 @@ subjects: ['Database']
 subjects_weight: 10
 draft: false
 intro: |
-  If you want to build a successful career in Data Science, you'll need to learn the basics of SQL.
+  If you want to build a successful career in Data Science, you'll need to learn the basics of SQL. Writing an SQL query is very often the first step in an analysis. If you can write a solid SQL query then you're already well on your way.
 duration: 1 day
 who: The course is suitable for anybody who needs to work with data in a relational database.
 objectives: In this course you'll learn how to perform CRUD (Create, Read, Update and Delete) operations on a relational database.

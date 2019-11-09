@@ -164,6 +164,8 @@ Back propagation learning with gradient descent
 	- Model Tuning / Parameter Selection
 - Using [`{caret}`](http://topepo.github.io/caret/index.html)
 	* Pre-processing
+		- Dealing with missing data
+		- Handling unbalanced data
 	* Train/test splitting
 	* Feature importance and feature selection
 	* Model evaluation (using cross validation and bootstrapping)

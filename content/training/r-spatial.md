@@ -23,9 +23,13 @@ requirements: Participants should have a solid understanding and experience in R
 
 - Spatial Concepts
 - Packages for spatial data
-- Spatial Data
+- Spatial Data Types
 	- Raster data
 	- Vector data
+- Spatial Data Formats
+	- Shapefile
+	- GeoJSON
+	- GeoTIFF
 	- KML
 - Coordinate Reference Systems
 	- PROJ4
@@ -36,8 +40,6 @@ requirements: Participants should have a solid understanding and experience in R
 	- Multi-band
 	- Calculations
 - Working with Vector Data
-	- Shapefiles
-	- GeoJSON
 	- `{sf}`
 	- Geometry types
 	- Manipulating spatial data using `dplyr`
@@ -53,8 +55,8 @@ requirements: Participants should have a solid understanding and experience in R
 - Geocoding
 - Routing with Open Source Routing Machine (OSRM)
 - Other useful packages:
-  - `{countrycode}` - for dealing with country names and codes
+  	- `{countrycode}` - for dealing with country names and codes
 - Showcase of applications
-  - Transportation
-  - Geomarketing
-  - Ecology
+  	- Transportation
+  	- Geomarketing
+  	- Ecology

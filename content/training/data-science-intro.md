@@ -9,6 +9,10 @@ intro: |
 duration: 1/2 day
 ---
 
+<!--
+	https://www.freecodecamp.org/news/aspiring-data-scientist-master-these-fundamentals-be7c54350868/amp/
+-->
+
 - What is Data Science?
 - Big Data: Is it all just hype?
 - Principles

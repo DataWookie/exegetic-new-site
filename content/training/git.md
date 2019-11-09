@@ -22,7 +22,7 @@ objectives: |
   - create a remote repository on GitHub and synchronise it with your local repository; and
   - how to use Git as an effective collaboration tool.
 outcomes: |
-  After the course you'll be familiar with how Git works and primed to start using it on your own projects.
+  After the course you'll be familiar with how Git works and primed to start using it on your own projects. You'll also know about some of the new, cutting edge features recently added to Git.
 setup: |
   1. Install [Git](https://git-scm.com/downloads).
   2. Install the [Putty](https://www.putty.org/) SSH client (only Windows users).
@@ -61,6 +61,7 @@ setup: |
 	- `git log --graph` --- visualising branches
 	- Merging a branch
 	- Managing merge conflicts
+	- Cherry picking for your health (and sanity)
 	- Deleting a branch
 - Git as a Tool for Collaboration
 - Remote Repository
@@ -72,6 +73,9 @@ setup: |
 	- `git pull`
 	- `git fetch`
 	- `git push`
+- New Features
+	- `git switch`
+	- `git restore`
 - UIs
 	- Command Line versus UI
 	- [GitKraken](https://www.gitkraken.com/)

@@ -1,5 +1,5 @@
 ---
-title: "Shiny in Production"
+title: "Shiny — Production & Deployment"
 topic: true
 subjects: ['R']
 subjects_weight: 120

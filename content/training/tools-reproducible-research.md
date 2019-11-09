@@ -7,6 +7,7 @@ draft: true
 
 <!--
 	https://mrslaviniag.github.io/xaringan_presentations/rladies_presentation_22_May_2019.html#1
+	https://github.com/joachim-gassen/sposm
 -->
 
 ### Day 1: Version Control
@@ -44,3 +45,6 @@ draft: true
 		- Chairing a session
 		- Volunteering
 		- Networking
+- Sharing your Code
+	- Blog
+	- Binder
