@@ -1,11 +1,10 @@
 ---
-title: "Machine Learning: scikit-learn"
+title: "Machine Learning"
 subjects: ['Python', 'Data Science']
-subjects_weight: 1
+subjects_weight: 20
 draft: true
+topic: true
 ---
-
-## Course Description
 
 <!--
 What is Data Science?

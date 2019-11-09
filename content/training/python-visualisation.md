@@ -1,17 +1,17 @@
 ---
-title: "Visualisation with Python"
+title: "Visualisation"
 topic: true
 subjects: ['Python']
-subjects_weight: 1
+subjects_weight: 15
 draft: true
 ---
 
-## Matplotlib
+### Matplotlib
 
-## Bokeh
+### Bokeh
 
-## Seaborn
+### Seaborn
 
 <!-- https://www.kaggle.com/learn/data-visualization-from-non-coder-to-coder -->
 
-## Plotly
+### Plotly

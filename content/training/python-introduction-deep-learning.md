@@ -1,8 +1,8 @@
 ---
-title: "Introduction to Deep Learning"
+title: "Deep Learning — An Introduction"
 topic: true
 subjects: ['Python', 'Data Science']
-subjects_weight: 1
+subjects_weight: 50
 draft: false
 intro: |
   Deep Learning is a vast and convoluted topic. It’s hard to know where to start. This workshop will help you take your first steps.
@@ -31,7 +31,7 @@ setup: |
   - [Running Code](https://nbviewer.jupyter.org/github/jupyter/notebook/blob/master/docs/source/examples/Notebook/Running%20Code.ipynb) and
   - [Markdown Cells](https://nbviewer.jupyter.org/github/jupyter/notebook/blob/master/docs/source/examples/Notebook/Working%20With%20Markdown%20Cells.ipynb).
 
-  Take a look at the resources below for some useful background information:
+  Take a look at these resources for some useful background information:
 
   - [Gradient](https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/gradient-and-directional-derivatives/v/gradient)
   - [Gradient and graphs](https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/gradient-and-directional-derivatives/v/gradient-and-graphs) and

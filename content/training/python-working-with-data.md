@@ -1,11 +1,16 @@
 ---
-title: "Working with Data: NumPy & Pandas"
+title: "Working with Data"
 subjects: ['Python', 'Data Science']
-subjects_weight: 1
+subjects_weight: 10
 draft: true
+topic: true
 ---
 
-## Course Description
+### NumPy
+
+### Pandas
+
+- Grouping and Aggregation
 
 <!--
 What is Data Science?

@@ -1,8 +1,8 @@
 ---
-title: "Web Scraping with Python"
+title: "Web Scraping"
 topic: true
 subjects: ['Python', 'Web Scraping']
-subjects_weight: 130
+subjects_weight: 80
 draft: false
 intro: |
   There's a wealth of data available on the internet which can be used for data augmentation or to create entirely new datasets.
