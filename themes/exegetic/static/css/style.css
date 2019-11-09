@@ -134,8 +134,9 @@ s
 	padding-left: 0;
 }
 
-/* Don't indent setup list. */
-#setup > td > ol, #setup > td > ul {
+/* Don't indent list. */
+#setup > td > ol, #setup > td > ul,
+#outcomes > td > ol, #outcomes > td > ul {
 	list-style-position: inside;
 	padding-left: 0;
 }
