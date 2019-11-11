@@ -1,10 +1,10 @@
 ---
-title: "Introduction to Python"
+title: "Programming Python"
 subjects: ['Python', 'Data Science']
 topic: true
 draft: false
 subjects_weight: 5
-duration: 1 day
+duration: 2 days
 who: |
   The course is suitable for somebody who is interested in learning how to code but has little or no prior experience.
 
@@ -27,7 +27,10 @@ outcomes: |
 https://www.udemy.com/course/python-for-absolute-beginners-u/
 https://www.udemy.com/course/complete-python-bootcamp/
 https://www.udemy.com/course/python-the-complete-python-developer-course/
+https://towardsdatascience.com/reduce-memory-usage-and-make-your-python-code-faster-using-generators-bd79dbfeb4c
 {{% /comment %}}
+
+### Day 1: Introduction
 
 - Introduction
   - Starting Python
@@ -47,13 +50,16 @@ https://www.udemy.com/course/python-the-complete-python-developer-course/
   - Dictionaries
   - Iterables and Iterators
       - `zip()`
-- Extending Pytho with Modules
+- Extending Python with Modules
   - Installation
   - Importing: `import` and `import from`
 - Flow Control
   - Conditionals: `if`, `else` and `elif`
   - Loops: `for` and `while`
       - Changing the flow with `continue` and `break`
+
+### Day 2: Intermediate
+
 - File I/O
   - Text Files
   - Pickle and Shelf
@@ -67,3 +73,5 @@ https://www.udemy.com/course/python-the-complete-python-developer-course/
   - Attributes
   - Methods
   - Inheritance
+- Generators
+- Function Decorators
