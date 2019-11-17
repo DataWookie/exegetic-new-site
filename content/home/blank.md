@@ -8,9 +8,10 @@ weight = 15
   columns = "1"
 
 [design.background]
+  color = "black"
   image = "exegetic-home-background.svg"
   image_darken = 0
-  image_size = "cover"
+  image_size = "contain"
   image_position = "center"
   image_parallax = false
 
