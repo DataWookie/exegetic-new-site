@@ -6,7 +6,6 @@
 [[main]]
   name = "Service"
   identifier = "service"
-  url = "/contact"
   weight = 20
 
 [[main]]
