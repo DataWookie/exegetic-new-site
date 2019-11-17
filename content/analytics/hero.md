@@ -3,8 +3,7 @@ widget = "hero"
 headless = true
 active = true
 weight = 10
-title = "Analytics"
-hero_media = "hero-academic.png"
+title = "Exegetic / Analytics"
 
 [design.background]
   color = "#3498db"

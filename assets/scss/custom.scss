@@ -12,6 +12,15 @@ blockquote {
 	border-left: none;
 }
 
+table > tbody > tr:nth-child(odd) > td,
+table > tbody > tr:nth-child(odd) > th {
+    background-color: inherit;
+}
+table > tbody > tr > td,
+table > tbody > tr > th {
+    border-top: none;
+}
+
 /* TRAINING ------------------------------------------------------------------------------------ */
 
 #testimonial {
@@ -20,10 +29,9 @@ blockquote {
 	border-radius: 8px;
 }
 
-/*.training-feedback {
-	text-align: center;
-}*/
-
+.carousel-item {
+	min-height: 400px;
+}
 /*Adjusted in Media Queries*/
 .carousel-item {
 	text-align: left;
@@ -48,4 +56,83 @@ blockquote {
 #testimonialCarousel > div > div > div > div > p {
 	margin-bottom: 0;
 	font-size: 1rem;
+}
+
+
+.carousel-inner {
+}
+
+.carousel-indicators li {
+	background-color: #7a7a7a;
+}
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+
+/* TRAINING PROPOSAL --------------------------------------------------------------------------- */
+
+.proposal-only {
+	display: none;
+}
+
+.detail {
+	padding-left: 0%;
+}
+
+@media print {
+
+	.web-only {
+		display: none;
+	}
+
+	.proposal-only {
+		display: block;
+		text-align: justify;
+	}
+
+	.proposal-title-page {
+		display: block;
+		text-align: justify; 
+		padding-top: 50%;
+		page-break-after: always;
+	}
+
+	img, nav, header, footer, a.btn, .boilerplate {
+		display: none;
+	}
+
+	.section {
+		padding-top: 0%;
+		padding-bottom: 0%;
+	}
+
+	li {
+		break-inside: avoid;
+		page-break-inside: avoid;
+	  }
+
+	body {
+		font-size: 20px;
+		line-height: 24px;
+	}
+
+	@page {
+		size: auto;
+		margin-top: 1.3cm;
+		margin-left: 1.5cm;
+		margin-right: 1.5cm;
+	}
+
+}
+
+#description {
+	width: 100%;
+}
+#description th, #description td {
+	vertical-align: top;
+}
+#description th {
+	padding-right: 15px;
 }

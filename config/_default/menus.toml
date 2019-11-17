@@ -1,12 +1,22 @@
-[[main]]
+[[main_right]]
   name = "Contact"
-  url = "/contact"
+  url = "/#contact"
   weight = 10
+
+[[main]]
+  name = "Home"
+  url = "/"
+  weight = 10
+
+[[main]]
+  name = "Blog"
+  url = "/post"
+  weight = 20
 
 [[main]]
   name = "Service"
   identifier = "service"
-  weight = 20
+  weight = 30
 
 [[main]]
   name = "Analytics"

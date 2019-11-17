@@ -77,43 +77,6 @@ a .collapsed {
 
 /* TRAINING LIST ------------------------------------------------------------------------------- */
   
-#testimonial {
-	background-color: #8b919699 !important;
-	box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
-	border-radius: 8px;
-}
-
-/*.training-feedback {
-	text-align: center;
-}*/
-
-/*Adjusted in Media Queries*/
-.carousel-item {
-	text-align: left;
-	height: 200px;
-}
-/*Adjusted in Media Queries*/
-
-.carousel-inner {
-	padding-left: 2.5rem!important;
-	padding-right: 2.5rem!important;
-}
-
-#testimonialCarousel {
-	padding-left: 2.5rem!important;
-	padding-right: 2.5rem!important;
-}
-
-#testimonialCarousel > div > div > div > div > .blockquote {
-	font-style: italic;
-	font-size: 1rem;
-}
-#testimonialCarousel > div > div > div > div > p {
-	margin-bottom: 0;
-	font-size: 1rem;
-}
-
-s
 
 .mc-field-group {
 	padding-bottom: 0%!important;
@@ -139,72 +102,6 @@ s
 #outcomes > td > ol, #outcomes > td > ul {
 	list-style-position: inside;
 	padding-left: 0;
-}
-
-/* TRAINING PROPOSAL --------------------------------------------------------------------------- */
-
-.proposal-only {
-	display: none;
-}
-
-.detail {
-	padding-left: 0%;
-}
-
-@media print {
-
-	.web-only {
-		display: none;
-	}
-
-	.proposal-only {
-		display: block;
-		text-align: justify;
-	}
-
-	.proposal-title-page {
-		display: block;
-		text-align: justify; 
-		padding-top: 50%;
-		page-break-after: always;
-	}
-
-	img, nav, header, footer, a.btn, .boilerplate {
-		display: none;
-	}
-
-	.section {
-		padding-top: 0%;
-		padding-bottom: 0%;
-	}
-
-	li {
-		break-inside: avoid;
-		page-break-inside: avoid;
-	  }
-
-	body {
-		font-size: 20px;
-		line-height: 24px;
-	}
-
-	@page {
-		size: auto;
-		margin-top: 1.3cm;
-		margin-left: 1.5cm;
-		margin-right: 1.5cm;
-	}
-
-}
-
-#description {
-	width: 100%;
-}
-#description th, #description td {
-	vertical-align: top;
-}
-#description th {
-	padding-right: 15px;
 }
 
 /* --------------------------------------------------------------------------------------------- */
