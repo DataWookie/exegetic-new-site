@@ -31,13 +31,19 @@
   weight = 20
 
 [[main]]
-  name = "Train"
+  name = "Cloud"
   parent = "service"
-  url = "/train"
-  weight = 30
+  url = "/cloud"
+  weight = 20
 
 [[main]]
   name = "Scrape"
   parent = "service"
   url = "/scrape"
   weight = 40
+
+[[main]]
+  name = "Train"
+  parent = "service"
+  url = "/train"
+  weight = 50
