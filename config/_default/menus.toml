@@ -1,0 +1,34 @@
+[[main]]
+  name = "Contact"
+  url = "/contact"
+  weight = 10
+
+[[main]]
+  name = "Service"
+  identifier = "service"
+  url = "/contact"
+  weight = 20
+
+[[main]]
+  name = "Analytics"
+  parent = "service"
+  url = "/analytics"
+  weight = 10
+
+[[main]]
+  name = "AI"
+  parent = "service"
+  url = "/ai"
+  weight = 20
+
+[[main]]
+  name = "Train"
+  parent = "service"
+  url = "/train"
+  weight = 30
+
+[[main]]
+  name = "Scrape"
+  parent = "service"
+  url = "/scrape"
+  weight = 40
