@@ -40,13 +40,13 @@ table > tbody > tr > th {
 /*Adjusted in Media Queries*/
 
 .carousel-inner {
-	padding-left: 2.5rem!important;
-	padding-right: 2.5rem!important;
+	padding-left: 2.5rem !important;
+	padding-right: 2.5rem !important;
 }
 
 #testimonialCarousel {
-	padding-left: 2.5rem!important;
-	padding-right: 2.5rem!important;
+	padding-left: 2.5rem !important;
+	padding-right: 2.5rem !important;
 }
 
 #testimonialCarousel > div > div > div > div > .blockquote {
@@ -58,7 +58,6 @@ table > tbody > tr > th {
 	font-size: 1rem;
 }
 
-
 .carousel-inner {
 }
 
@@ -68,6 +67,13 @@ table > tbody > tr > th {
 .carousel-control-next,
 .carousel-control-prev {
     filter: invert(100%);
+}
+
+.subject .boilerplate {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	/* padding: 4rem 2rem 4rem 2rem; */
+	/* background-color: #e9ecef; */
 }
 
 
