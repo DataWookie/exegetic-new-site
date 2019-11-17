@@ -1,0 +1,36 @@
+{{- define "main" -}}
+<section class="section" id="{{ .Title | urlize | lower }}">
+  <div class="container">
+    <!-- Pick up content from the category _index.md. -->
+    <h1>{{.Title}}</h1>
+    <article>
+    {{.Content}}
+    </article>
+
+    {{ range $name, $taxonomy := .Site.Taxonomies.subjects }}
+    <h3 id="{{ $name }}">{{ $name | humanize | title }}</h3>
+    <ul>
+    {{ range $taxonomy }}
+      <li>
+        {{ if .Draft }}
+        <button type="button" class="btn btn-danger btn-sm disabled subject">Draft</button>
+        {{ end }}
+        {{ if .Params.topic }}
+        <i class="fas fa-tag"></i>
+        {{ else }}
+        <i class="fas fa-list"></i>
+        {{ end }}
+        <a href="{{ .URL }}">{{ .Title }}</a>
+        <!-- Only include tags for other subjects. -->
+        {{ range .Params.subjects }}
+        {{ if ne . ($name | humanize | title) }}
+        {{ partial "subject-tag.html" . }}
+        {{ end }}
+        {{ end }}
+      </li>
+    {{ end }}
+    </ul>
+    {{ end }}
+  </div>
+</section>
+{{- end -}}
