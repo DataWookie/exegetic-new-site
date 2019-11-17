@@ -9,5 +9,3 @@ title = "Exegetic / AI"
   color = "#3498db"
   text_color_light = true
 +++
-
-The Best Way to Create the Website You Want from Markdown (or Jupyter/RStudio)

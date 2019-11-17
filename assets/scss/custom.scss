@@ -12,10 +12,12 @@ blockquote {
 	border-left: none;
 }
 
+/* TABLE: Don't stripe. */
 table > tbody > tr:nth-child(odd) > td,
 table > tbody > tr:nth-child(odd) > th {
     background-color: inherit;
 }
+/* TABLE: No border. */
 table > tbody > tr > td,
 table > tbody > tr > th {
     border-top: none;
@@ -76,6 +78,17 @@ table > tbody > tr > th {
 	/* background-color: #e9ecef; */
 }
 
+#course-content > ul {
+	list-style-position: inside;
+	padding-left: 0;
+}
+
+/* Don't indent list. */
+#setup > td > ol, #setup > td > ul,
+#outcomes > td > ol, #outcomes > td > ul {
+	list-style-position: inside;
+	padding-left: 0;
+}
 
 /* TRAINING PROPOSAL --------------------------------------------------------------------------- */
 

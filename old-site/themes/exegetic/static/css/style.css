@@ -90,20 +90,6 @@ a .collapsed {
 	background-color: #007bff!important;
 }
 
-/* TRAINING CONTENT ---------------------------------------------------------------------------- */
-
-#course-content > ul {
-	list-style-position: inside;
-	padding-left: 0;
-}
-
-/* Don't indent list. */
-#setup > td > ol, #setup > td > ul,
-#outcomes > td > ol, #outcomes > td > ul {
-	list-style-position: inside;
-	padding-left: 0;
-}
-
 /* --------------------------------------------------------------------------------------------- */
 
 #content > section > div > h1 {
@@ -208,18 +194,7 @@ button.subject {
 	padding-bottom: 0.125rem;
 }
 
-.subject .boilerplate {
-	margin-top: 1rem;
-	margin-bottom: 1rem;
-	padding: 4rem 2rem 4rem 2rem;
-	background-color: #e9ecef;
-}
-
 /*==========  Non-Mobile First  ==========*/
-
-/* *Custom* Crazy Large Screens*/
-
-/* *Custom* Super large Screens*/
 
 @media only screen and (max-width : 2560px) {
 
