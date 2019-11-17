@@ -7,3 +7,45 @@
 	-o-background-size: cover;
 	background-size: cover;
 }
+
+blockquote {
+	border-left: none;
+}
+
+/* TRAINING ------------------------------------------------------------------------------------ */
+
+#testimonial {
+	background-color: #8b919699 !important;
+	box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
+	border-radius: 8px;
+}
+
+/*.training-feedback {
+	text-align: center;
+}*/
+
+/*Adjusted in Media Queries*/
+.carousel-item {
+	text-align: left;
+	height: 200px;
+}
+/*Adjusted in Media Queries*/
+
+.carousel-inner {
+	padding-left: 2.5rem!important;
+	padding-right: 2.5rem!important;
+}
+
+#testimonialCarousel {
+	padding-left: 2.5rem!important;
+	padding-right: 2.5rem!important;
+}
+
+#testimonialCarousel > div > div > div > div > .blockquote {
+	font-style: italic;
+	font-size: 1rem;
+}
+#testimonialCarousel > div > div > div > div > p {
+	margin-bottom: 0;
+	font-size: 1rem;
+}
