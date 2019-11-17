@@ -1,16 +1,57 @@
 ---
 title: "Working with Data"
+topic: true
 subjects: ['Python', 'Data Science']
 subjects_weight: 10
 draft: true
-topic: true
+# duration: 1 day
+# who: |
+#  The course is aimed at students, academics and professionals who conduct data analysis using other tools like Excel. It's assumed that participants already have some familiarity with Python.
+#objectives: |
+#  Python is a effective tool for working with data. Being able to lay out the steps in an analysis as a script means that the analysis is repeatable and can also be version controlled.  One of the first steps in any analysis is the preparation of the data. The package Pandas has a wide range of functionality to aid in the data preparation process.
+#outcomes: |
+#  Participants will be able to utilize a core set of functions from Pandas to process data.
 ---
 
 ### NumPy
+<!--
+- Array fundamentals
+	- Array creation with `np.array()`, `np.arange()` & `np.random()`
+	- Special arrays `np.eye()`, `np.diag()` & `np.zeros()`
+	- Data types
+	- Indexing and shapes
+- Manipulation
+	- Reshaping with `np.reshape()` & `np.resize()` 
+  - Concatenation with `np.hstack()` & `np.vstack()`
+- Common matrix operations
+  - Dot product with `np.dot()`
+-->
 
 ### Pandas
 
 - Grouping and Aggregation
+
+<!--
+- Loading data from files
+	- CSV, XLSX and JSON using base and [pandas.read_csv](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html)
+- Manipulating Data Frames 
+	- Selecting columns with `df[], df.loc() & df.iloc()`
+	- Filtering rows with `df.query()`
+	- Sorting with `df.sort_values()`
+	- Adding and changing columns with `df.assign()` and `df.column`
+	- Aggregation with `df.groupby()`,`df.describe()` & `df.aggregate()`
+- Pivoting 
+	- Long versus wide data formats
+	- Going wide with `df.melt()`
+	- Getting long with `pandas.wide_to_long()`
+	- Splitting compound columns using string methods `df.column.str.split()`
+	- Explicit missing values with `df.fillna()` & `df.replace()`
+- Functional programming
+	- Mapping functions of a single variable with `df.apply()`
+	- Mapping to a specific data type with `df.astype` 
+	- Mapping functions of many variables with annonymous functions, `lambda`, and `df.apply()`
+	- Handling errors and exceptions with `try` & `except`
+-->
 
 <!--
 What is Data Science?
