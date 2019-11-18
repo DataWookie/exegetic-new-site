@@ -1,6 +1,6 @@
 public/
 resources/
-themes/
+# themes/
 *sublime-project
 *sublime-workspace
 INSPIRATION/
