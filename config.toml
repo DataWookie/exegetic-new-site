@@ -2,7 +2,7 @@ baseURL = "https://www.exegetic.biz/"
 languageCode = "en-us"
 title = "Exegetic"
 
-googleAnalytics = "UA-40073522-2"
+googleAnalytics = "UA-40073522-1"
 
 theme = "exegetic"
 
