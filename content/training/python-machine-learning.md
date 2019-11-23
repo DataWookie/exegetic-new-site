@@ -6,6 +6,9 @@ draft: true
 topic: true
 ---
 
+- Regression
+	- Transformed target with `TransformedTargetRegressor`
+
 <!--
 What is Data Science?
 Grabbing data from various sources
