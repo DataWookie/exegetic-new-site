@@ -76,6 +76,7 @@ setup: |
       - Extracting and storing data
       - Following links and recursion
   - Spider patterns
+      - Using `sitemap.xml`
 {{< comment >}}
 - [Mechanize](https://github.com/python-mechanize/mechanize)
   - TBA

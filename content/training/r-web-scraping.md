@@ -36,24 +36,22 @@ setup: |
 ### Day 1
 
 - Motivating Example
-- Review of the Tidyverse
-	- Highlights from [Data Wrangling](https://www.exegetic.biz/training/r-data-wrangling/)
-- Website screenshots
-- Navigating the Internet with URLs
-	- Anatomy of an URL
-	- Building URLs with `{urltools}`
-	- Encoding and decoding parameters
 - HTTP
 	- How HTTP works
 	- Diagnosing requests with `curl` and <https://httpbin.org/>
 - Deconstructing a Website
 	- Structure of an HTML document
 	- DOM
-	- CSS (summary of [CSS]({{< ref "web-css.md" >}}))
-	- XPath (summary of [XPath]({{< ref "web-xpath.md" >}}))
 	- Developer Tools
+		- CSS (summary of [CSS]({{< ref "web-css.md" >}}))
+		- XPath (summary of [XPath]({{< ref "web-xpath.md" >}}))
 	- Important files: `robots.txt` and `sitemap.xml`
-	- Ethics
+- Ethics
+- Navigating the Internet with URLs
+	- Anatomy of a URL
+	- Building URLs with `{urltools}`
+	- Encoding and decoding parameters
+- Website screenshots
 - Manual Scraping
 	- Using [RCurl](https://cran.r-project.org/web/packages/RCurl/index.html) and [XML](https://cran.r-project.org/web/packages/XML/index.html).
 - Scraping a Static Website using [rvest](https://github.com/hadley/rvest)
