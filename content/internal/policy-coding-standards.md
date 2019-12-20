@@ -160,6 +160,8 @@ Markdown's code policy section was compiled by taking liberally from loopback's 
 
 ## R <a name="r"></a>
 
+<!-- https://rpahl.github.io/r-some-blog/my-r-style-guide/ -->
+
 R's code policy section was compiled by taking liberally from Hadley's [Advanced R style guide](http://adv-r.had.co.nz/Style.html), the [tidyverse style guide](https://style.tidyverse.org/), and
 Google's [R style guide](https://google.github.io/styleguide/Rguide.xml). Please visit the links for more guidelines and to further clarify the guidelines below.
 

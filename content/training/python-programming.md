@@ -1,6 +1,6 @@
 ---
 title: "Programming Python"
-subjects: ['Python', 'Data Science']
+subjects: ['Python']
 topic: true
 draft: false
 subjects_weight: 5
@@ -30,44 +30,42 @@ https://www.udemy.com/course/python-the-complete-python-developer-course/
 https://towardsdatascience.com/reduce-memory-usage-and-make-your-python-code-faster-using-generators-bd79dbfeb4c
 {{% /comment %}}
 
-### Day 1: Introduction
+### Day 1:
 
 - Introduction
+  - Python Philosophy ("Batteries included")
   - Starting Python
-  - Running code in Python
-  - Indentation
-  - Comments
+  - Code layout
 - Variables
-- Data Types
-  - Numbers
-  - Strings
-      - Formatting and Interpolation
-  - Boolean
-- Compound Data Types
-  - Tuples
-  - Lists
-  - Sets
-  - Dictionaries
-  - Iterables and Iterators
-      - `zip()`
-- Extending Python with Modules
-  - Installation
-  - Importing: `import` and `import from`
+  - Atomic Data Types
+  - Compound Data Types
+      - Tuples
+      - Lists
+      - Sets
+      - Dictionaries
 - Flow Control
-  - Conditionals: `if`, `else` and `elif`
-  - Loops: `for` and `while`
-      - Changing the flow with `continue` and `break`
-
-### Day 2: Intermediate
-
-- File I/O
-  - Text Files
-  - Pickle and Shelf
-- Functions
-  - Anonymous functions with `lambda`
-  - Operations: `map()` and `filter()`
-- List Comprehensions
   - Conditionals
+  - Loops
+- Files
+  - Text Files
+  - Pickle (storing Python objects)
+- Strings
+  - Interpolation
+  - Regular expressions
+
+### Day 2:
+
+- Functions
+- Extending Python with Packages
+  - Modules and Packages
+  - Installation
+  - Importing
+  - Creating
+- Functional Programming
+  - Iterables and Iterators <!-- zip() -->
+  - Anonymous functions
+  - Operations: `map()`, `filter()` and `reduce()`
+  - List Comprehensions
 - Errors and Exception Handling
 - Classes
   - Attributes

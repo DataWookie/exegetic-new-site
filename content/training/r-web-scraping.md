@@ -81,6 +81,8 @@ setup: |
 	- Useful JavaScript tools
 	- Going headless
 	- Case Study
+	- Cookies
+		- Example: LinkedIn login <!-- See linkedin.py from HOF Capital project. -->
 - Dealing with CAPTCHAs
 	- Services
 - Building Robust Scrapers

@@ -48,6 +48,7 @@ setup: |
 	- Writing a good commit message
 	- `git status`
 	- Ignoring files with `.gitignore`
+	- Tags
 - Tracking Changes
 	- `git log` --- browse commit messages
 	- `git diff`

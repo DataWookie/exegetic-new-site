@@ -1,6 +1,6 @@
 ---
 title: "Data Science Bootcamp"
-subjects: ['R', 'Data Science']
+subjects: ['R']
 subjects_weight: 1
 draft: false
 intro: |
@@ -12,6 +12,8 @@ duration: 5 days
 
 <!--
 https://datasciencedojo.com/bootcamp/curriculum/
+https://twitter.com/_brohrer_/status/1198212720186793985?s=03
+
 -->
 
 ### Day 1

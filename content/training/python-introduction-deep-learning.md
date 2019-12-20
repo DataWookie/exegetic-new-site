@@ -1,7 +1,7 @@
 ---
 title: "Deep Learning — An Introduction"
 topic: true
-subjects: ['Python', 'Data Science']
+subjects: ['Python']
 subjects_weight: 50
 draft: false
 intro: |

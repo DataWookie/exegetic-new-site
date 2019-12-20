@@ -146,12 +146,6 @@ Back propagation learning with gradient descent
 		* Multicollinearity
 		* Example: Myopia Data
 		* Beyond binary: One-versus-rest models
-	- Feature Importance
-	- Feature Selection
-	  	* Stepwise (forward selection and backward elimination)
-- Dimension Reduction
-	- PCA
-	- Linear Discriminant Analysis
 
 ### Day 3: Caret, Validation & Ensembles
 
@@ -177,6 +171,22 @@ Back propagation learning with gradient descent
 		* Random Forests
 - Machine Learning at Scale
 	- Building many models (automation)
+
+### Feature Selection & Penalised Regression
+
+- Feature Importance
+- Feature Selection
+  	* Stepwise (forward selection and backward elimination)
+- Penalised Regression
+	- Lasso
+	- Ridge Regresion
+
+### Day 5: Unsupervised Learning
+
+- Clustering
+- Dimension Reduction
+	- PCA
+	- Linear Discriminant Analysis
 
 <!--
 ### Day 4: H2O
