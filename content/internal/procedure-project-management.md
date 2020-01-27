@@ -60,5 +60,28 @@ At the top level a project should contain the following:
 ├── python
 ├── R
 ├── reports
+└── scripts
 └── src
 ```
+
+This is what should go into each of those folders:
+
+- `data/` — raw data files
+- `doc/` — background documentation (static)
+- `notebooks/` — analyses
+- `python/` — Python code
+- `R/` — R code (normally the contents of a package)
+- `reports/` — generated reports
+- `scripts/` — R or Python scripts
+- `src/` — Python code (normally the contents of a module)
+
+### Notebooks
+
+The notebooks should be named according to the following convention: `<initials>_<YYYYMMDD>_<title>`.
+
+### Data
+
+There are alternative layouts for data. It can be stored either
+
+- in the top level `data/` as described above or
+- within sub-folders under `reports/`.
