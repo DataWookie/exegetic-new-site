@@ -44,4 +44,21 @@ Where necessary, include the following information on the Asana card for a task 
 
 - Individual tasks need a timeframe that supports the overall progress of the project or work for the client. 
 - Set a best estimate for a deadline for the task on the Asana card.
-- If the deadline is approaching and the work is still far from complete, the individuals involved must communicate (ie. Junior and Lead), explaining the reasons, identifying any issues and setting a new expected deadline. Do not let the deadline fly by and then only bring any issues to attention. 
+- If the deadline is approaching and the work is still far from complete, the individuals involved must communicate (ie. Junior and Lead), explaining the reasons, identifying any issues and setting a new expected deadline. Do not let the deadline fly by and then only bring any issues to attention.
+
+## Folder Structure
+
+Every project is different. However, to help you get your orientation as rapidly as possible, we strive to have a consistent folder structure within every project.
+
+At the top level a project should contain the following:
+
+```
+.
+├── data
+├── doc
+├── notebooks
+├── python
+├── R
+├── reports
+└── src
+```
