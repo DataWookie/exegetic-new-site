@@ -85,3 +85,5 @@ There are alternative layouts for data. It can be stored either
 
 - in the top level `data/` as described above or
 - within sub-folders under `reports/`.
+
+These two options are not mutually exclusive and it's allowed to have both a top-level `data/` as well as multiple `data/` under `reports/`.
