@@ -46,6 +46,34 @@ Where necessary, include the following information on the Asana card for a task 
 - Set a best estimate for a deadline for the task on the Asana card.
 - If the deadline is approaching and the work is still far from complete, the individuals involved must communicate (ie. Junior and Lead), explaining the reasons, identifying any issues and setting a new expected deadline. Do not let the deadline fly by and then only bring any issues to attention.
 
+## Analytics Workflow
+
+### Objectives
+
+- Align expectations
+- Exhaust possible avenues to actionable insights from available data
+- Get feedback from business, product and marketing teams early and often, so that we can iterate
+
+### Stages
+
+1. Obtain a well-defined brief with expected outcomes and the due date
+2. EDA and planning
+    - If the task is a large one, break down into logical steps
+    - Identify data sources
+    - Identify analyses to perform
+3. Analysis
+4. Submission of Draft Report
+5. Feedback & revisions
+6. Submission of Final report
+7. Discussion of the report (what is actionable and why)
+
+### Report Format
+
+- Always send report with Exegetic letterhead on first page. Maybe we should rather have a “cover page”?
+- Report should start with “Executive Summary”.
+- Report should end with “Conclusions”.
+- We should indicate the type of report. Is this a “work in progress” or “final” report? Do we want feedback from the reader?
+
 ## Folder Structure
 
 Every project is different. However, to help you get your orientation as rapidly as possible, we strive to have a consistent folder structure within every project.
@@ -57,10 +85,8 @@ At the top level a project should contain the following:
 ├── data
 ├── doc
 ├── notebooks
-├── python
 ├── R
 ├── reports
-└── scripts
 └── src
 ```
 
@@ -68,16 +94,15 @@ This is what should go into each of those folders:
 
 - `data/` — raw data files
 - `doc/` — background documentation (static)
-- `notebooks/` — analyses
-- `python/` — Python code
+- `notebooks/` — experimental analyses
 - `R/` — R code (normally the contents of a package)
-- `reports/` — generated reports
-- `scripts/` — R or Python scripts
+- `reports/` — `.R` or  `.py` files used to generate analyses for reports 
 - `src/` — Python code (normally the contents of a module)
 
 ### Notebooks
 
-The notebooks should be named according to the following convention: `<initials>_<YYYYMMDD>_<title>`.
+- Notebooks are an experimental area, and are the domain of the individual who creates them. These documents should be named according to the following convention: `<initials>_<YYYYMMDD>_<title>`.
+- Scripts in `reports/` are the responsibility of the team to mantain.
 
 ### Data
 
