@@ -101,8 +101,8 @@ This is what should go into each of those folders:
 
 ### Notebooks
 
-- Notebooks are an experimental area, and are the domain of the individual who creates them. These documents should be named according to the following convention: `<initials>_<YYYYMMDD>_<title>`
-- Scripts in `reports/` are the responsibility of the team to mantain
+- Notebooks are an experimental area, and are the domain of the individual who creates them. These documents should be named according to the following convention: `<initials>_<YYYYMMDD>_<title>`.
+- Scripts in `reports/` are the responsibility of the team to mantain.
 
 ### Data
 
