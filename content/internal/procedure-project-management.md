@@ -94,7 +94,7 @@ This is what should go into each of those folders:
 
 - `data/` — raw data files
 - `doc/` — background documentation (static)
-- `notebooks/` — experimental analysis
+- `notebooks/` — experimental analyses
 - `R/` — R code (normally the contents of a package)
 - `reports/` — `.R` or  `.py` files used to generate analyses for reports 
 - `src/` — Python code (normally the contents of a module)
