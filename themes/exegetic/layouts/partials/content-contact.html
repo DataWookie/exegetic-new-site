@@ -1,5 +1,8 @@
     {{ with .Site.Params.contact }}
     <section class="section contact" id="contact">
+      <head>
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+      </head>
       <div class="container">
         <div class="row">
           <div style="margin-right: 2%;">
@@ -31,7 +34,9 @@
                   <label for="exampleFormControlTextarea1">Message</label>
                   <textarea class="form-control" name="message" id="message" rows="4" placeholder="How can we help you?"></textarea>
                 </div>
-                <!-- <div class="g-recaptcha" data-sitekey="6LcIK-IUAAAAAF3Kxd4P2uN2pCAtZTYSVhcMBB3O"></div> -->
+                <div>
+                  <div style="padding-bottom: 1%;" class="g-recaptcha" data-sitekey="6LcIK-IUAAAAAF3Kxd4P2uN2pCAtZTYSVhcMBB3O"></div>
+                </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
               </form>
             </div>
