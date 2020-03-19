@@ -6,7 +6,7 @@ documents: ['Procedure']
 
 ### General
 
-1. To apply for leave, submit a <a href="https://drive.google.com/drive/folders/1lroTJfm2tlAuVhsQQpuS-fb3a6s1ZLQH?usp=sharing">leave application</a> to Exegetic's <a href="mailto:admin@exegetic.biz?subject=Annual Leave Application Status">admin</a>.
+1. To apply for leave, submit a <a href="https://drive.google.com/drive/folders/1lroTJfm2tlAuVhsQQpuS-fb3a6s1ZLQH">leave application</a> to Exegetic's <a href="mailto:admin@exegetic.biz?subject=Annual Leave Application Status">admin</a>.
 2. A leave application must be received by Exegetic no later than 72 hours <strong>before</strong> your leave is scheduled to commence.
 3. In the unlikely event that you have not received a response after 24 hours of submitting your application please <a href="mailto:admin@exegetic.biz?subject=Annual Leave Application Status">query</a> it.
 
