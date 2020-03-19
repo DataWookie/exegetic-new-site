@@ -4,7 +4,7 @@ topic: true
 subjects: ['Python']
 subjects_weight: 10
 draft: false
-duration: 1 day
+duration: 2 days
 who: |
   The course is aimed at students, academics and professionals who conduct data analysis using other tools like Excel. It's assumed that participants already have some familiarity with Python.
 objectives: |
