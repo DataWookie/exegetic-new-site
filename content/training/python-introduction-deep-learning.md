@@ -123,3 +123,9 @@ setup: |
 	- Lab — Time Series prediction
 	- Lab — Text prediction
 	- Lab — Music generation
+- Autoencoders
+	- What is an Autoencoder? What is it used for?
+		- Dimensionality reduction
+		- Denoising
+		- Anomaly and outlier detection
+	- Lab
