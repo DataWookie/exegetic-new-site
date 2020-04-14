@@ -16,46 +16,46 @@ This policy applies to all employees (including contractors).
 
 #### Knowledge transfer
 
-- To ensure that your projects can continue to run after your departure please schedule a handover meeting with whomever is taking over your projects. Points to include in this meeting:
-    - A brief background on your history with the client
-    - Work you have completed for them
-    - Status report on all ongoing projects (due dates, deliverables etc)
-    - Necessary contacts
-    - All documentation required for the project
-    - Any other relevant information
-    - links to the up-to-date repos
-- Schedule a meeting with your client(s) to introduce them to their new POC at Exegetic and make sure they are included in all correspondence thereafter
+- To ensure that your projects can continue after your departure please schedule a [handover-meeting](#handover-meeting) with the coworker(s) taking over your projects.
+- Ensure that all of your work has been pushed to the relevant repos.
+- Transfer all **relevant** content into the appropriate [shared folders](https://drive.google.com/drive/folders/1aEcAcSELH-lKx8AF3bpY9GLd9LMiTSFH?usp=sharing).
 
-*The above should ideally be complete as soon as possible to ensure a smooth transition
-
-#### Within the two weeks of your notice period: 
-
-- Fill in a copy of the Exit interview questionnaire
-- Settle any cash advances
-- Ensure your manager has your up to date contact information in case they need to get hold of you once you leave
-- Start transferring all your work files across to the relevant "<a href="https://drive.google.com/drive/folders/1aEcAcSELH-lKx8AF3bpY9GLd9LMiTSFH?usp=sharing">work-content</a>" folder. This should include subfolders for each client you have dealt with and a copy of all of the information from your handover meeting(s)
-- Ensure that all of your work has been pushed to the relevant repos
+#### Two weeks prior to your departure
+- Schedule a meeting with your client(s) to introduce them to their new POC at Exegetic. The new POC should be included in all correspondence thereafter.
+- Share your personal contact information with management in case they need to get in touch with you after you have left.
+- Complete an Exit Interview questionnaire
 
 #### Withing the last week of your notice period
-- Obtain email forwarding address from your manager
 - Return any company property such as:
     - petrol card
     - internet dongle
     - laptop
     - cellphone
-- Attend your exit interview
+- Settle any cash advances.
+- Attend your Exit interview.
+- Set up email forwarding.
+
+#### What to include in a handover-meeting {#handover-meeting}:
+
+- Status report on all ongoing projects (due dates, deliverables etc).
+- Links to the up-to-date repos and shared folders.
+- A brief background on your history with the client.
+- All documentation required for the project.
+- Relevant contacts details.
+
+If no one has been assigned your projects all of the above information must be included in the relevant shared folder.
 
 ## Exegetic's Responsibilities
 
 #### General 
 
-- Make sure you are available to answer any of your departing colleague's questions
-- Set time aside to review your colleague's answers before scheduling their exit interview
-- Communicate openly and honestly with remaining employees to mitigate speculation and other issues that invariably arise when an employee leaves the company or layoffs occur.
+- Communicate openly with remaining employees to mitigate any speculation that might arise when an employee leaves the company or a layoff occurs.
+- Set time aside to review your colleague's feedback before scheduling their Exit interview.
+- Make sure you are available to answer any of your departing colleague's questions.
 
 #### Prepare Paperwork
-- Ensure that the employee's official letter of resignation is appropriately filed
-- Non-disclosure and non-compete agreements
+- Ensure that the employee's official letter of resignation is appropriately filed.
+- Non-disclosure and non-compete agreements.
 
 #### Exit interview questions
 
@@ -76,13 +76,14 @@ This policy applies to all employees (including contractors).
 - Non-compete and non-disclosure reminders (if relevant).
 
 #### Asset recovery (where relevant)
-- petrol card
 - internet dongle
-- laptops
+- petrol card
 - cellphones
+- laptops
 
 #### Final Housekeeping
-- Remove employee from payroll
+- Ensure all work content has been appropriately shared.
+- Remove employee from payroll.
 - Revoke system access such as:
     - Toggl
     - AWS
