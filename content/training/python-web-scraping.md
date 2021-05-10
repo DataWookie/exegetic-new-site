@@ -65,22 +65,6 @@ setup: |
       - `select()` and `select_one()`
       - Parents, siblings, descendants and children
       - Various forms of `find()`
-- [Scrapy](https://scrapy.org/) &mdash; Creating a Spider
-  - What is a spider?
-  - Scrapy shell
-  - Project
-  - Writing spiders
-      - `Spider` class
-      - Navigation
-      - Gathering links
-      - Extracting and storing data
-      - Following links and recursion
-  - Spider patterns
-      - Using `sitemap.xml`
-{{< comment >}}
-- [Mechanize](https://github.com/python-mechanize/mechanize)
-  - TBA
-{{< /comment >}}
 - [Selenium](https://selenium-python.readthedocs.io/) &mdash; Scraping dynamic sites
   - Selenium on Docker
       - Chrome
@@ -91,3 +75,21 @@ setup: |
   - Waiting (explicit and implicit waits)
   - Screenshots
   - Cookies
+- [Scrapy](https://scrapy.org/) &mdash; Creating a Spider
+  - What is a spider?
+  - Scrapy shell
+  - Project
+  - Writing spiders
+      - `Spider` class
+      - Selectors
+      - Navigation
+      - Gathering links
+      - Extracting and storing data
+      - Following links and recursion
+  - Spider patterns
+      - Using `sitemap.xml`
+  - Using Selenium
+{{< comment >}}
+- [Mechanize](https://github.com/python-mechanize/mechanize)
+  - TBA
+{{< /comment >}}
